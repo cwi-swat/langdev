@@ -1,3 +1,5 @@
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 ## LangDev Meetup at CWI 8-9 March 2018
 
 Tijs van der Storm: **Bridging Rascal and EMF**
