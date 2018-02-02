@@ -76,11 +76,63 @@ Modeling software systems as component & connector architectures with applicatio
 
 Vadim Zaytsev: **How Do You Test Your Compiler? Here's How I Test Mine**
 
-_ABSTRACT MISSING_
 
-Wim Bast: _TITLE MISSING_
+At Raincode Labs, we need test suites for our compilers for three
+different reasons: (1) to demonstrate the progress of language
+development to the customer, since we tend to have customers from day
+one who are very impatient and demanding; (2) to measure regression
+regularly and know well how the development is going in general; (3)
+to debug certain known or almost-known problems in the compiler, or to
+prep future features TDD-style.
 
-Dclare is a declarative programming language. It is a multipurpose specification language that describes the world in with classes, properties, functions (without side-effects) and constraints. The constraints are automatically evaluated without any explicit specification of threads, observer-patterns, nor function composition. JDclare is a Java library to make declarative programs in Java, and to connect existing (imperative) Java libraries to be used declarative. We (the Modeling Value Group) are building a language-workbench using JDclare. DClare will also be the standard target language to reduce any declarative DSL to (like the 'base-language' in MPS or Xbase for Xtext). The Modeling Value Group has extensive experience in using different language-workbenches like Xtext, MPS and alike. We always need to develop our own libraries to build the different aspects of DSLs. (With aspects of DLSs we mean: syntax, scoping, type-checking, transformations, validation, debugging, explorers, tables, diagrams, etc.. This is because: * The workbenches for the build DSLs are not (out of the box) usable by non-technical users. * Most of the workbenches do not (or very poorly) support for immediate-feedback for typing, compiling, transforming, validations and alike.  * The different meta-DSLs to define the different aspects of a DSL are not well (semantically) integrated (e.g. typing and scoping). * The  meta-DSLs are not understandable without knowledge of the underlying imperative process. * You have to define a lot of extra (mostly redundant) code to make a workbench really usable. * The base-languages (like Xbase) are imperative languages, so that you have to reinvent the declarative aspect over and over again. Using DClare we solved many of the above issues. In fact, we use a DClare and EMF integration to solve several DSL aspects in our customer projects. However, we like to develop all aspects of the DSLs in DCLare (or meta DLSs on top of it) to have a better integrated solution. That is why we develop a new language workbench fully in DClare. The advantages of DClare are: * No monolithic elements (No threads, nor explicit function composition) * Common language concepts (Classes, Properties, Function, Constraints, Inheritance, Generics, Lambdas) * Instant consistency (No violation of any constraint guaranteed, exceptions if conflicting constraints exists) * Automatic and generic integration of all aspects. * Abstracts away from threads, events, observer-patterns, etc (essay to understand and maintain). * Instant immediate-feedback functionality We would like to share our experiences with building the language-workbench with you. We will talk about the different aspects of DSLs and the way they where specified using DClare. Some aspects became very essay to specify (typing, validation, gui, transformations), others are more challenging (like syntax parsing). The semantics of DClare will become clear based on the presented examples.
+Lacking the giant shoulders to stand on, we are coming up with our own
+solutions, which might be a good or a bad thing, and is commonly a mix
+of both. In one of the projects I am current working on, we ended up
+having more than a dozen of different kinds of tests: R-tests for
+testing if the parser can recognise a program text, P-tests that
+compare the tree structure produced by the parser, with an expected
+baseline, N-tests to see that normalisation, canonisation and
+desugaring works as expected, E-tests for seeing that erroneous
+situations get resolved in the desired way, T-tests to check that the
+symbol table contains expected identifiers with the right scopes and
+all properly typed, S-tests for something that can be parsed,
+normalised, typed, compiled, verified and executed to produce an a
+priori known outcome, X-tests that throw exceptions in response to
+unrecoverable errors, D-tests that access the runtime library
+functions directly... Each kind has between dozens and thousands of
+test cases. Of course, at certain maturity milestones larger
+integration-like tests start to become an option as well: compiling an
+entire MLOC-long portfolio; generating bind files for the database to
+connect to; even relying on human testers to see if the GUI elements
+are in the right places, if their colours look well and if clicking on
+buttons produces an expected response. I will bring a framework built
+from experience and desperation, and hope to collect buckets of
+valuable feedback on how to make the world a better place by properly
+testing our compilers.
+
+Wim Bast: JDclare
+
+Dclare is a declarative programming language. It is a multipurpose specification language that describes the world in with classes, properties, functions (without side-effects) and constraints. The constraints are automatically evaluated without any explicit specification of threads, observer-patterns, nor function composition. JDclare is a Java library to make declarative programs in Java, and to connect existing (imperative) Java libraries to be used declarative. We (the Modeling Value Group) are building a language-workbench using JDclare. DClare will also be the standard target language to reduce any declarative DSL to (like the 'base-language' in MPS or Xbase for Xtext). The Modeling Value Group has extensive experience in using different language-workbenches like Xtext, MPS and alike. We always need to develop our own libraries to build the different aspects of DSLs. (With aspects of DLSs we mean: syntax, scoping, type-checking, transformations, validation, debugging, explorers, tables, diagrams, etc.. This is because:
+
+- The workbenches for the build DSLs are not (out of the box) usable by non-technical users.
+
+- Most of the workbenches do not (or very poorly) support for immediate-feedback for typing, compiling, transforming, validations and alike.
+
+- The different meta-DSLs to define the different aspects of a DSL are not well (semantically) integrated (e.g. typing and scoping). * The  meta-DSLs are not understandable without knowledge of the underlying imperative process.
+
+- You have to define a lot of extra (mostly redundant) code to make a workbench really usable.
+
+- The base-languages (like Xbase) are imperative languages, so that you have to reinvent the declarative aspect over and over again. Using DClare we solved many of the above issues. In fact, we use a DClare and EMF integration to solve several DSL aspects in our customer projects. However, we like to develop all aspects of the DSLs in DCLare (or meta DLSs on top of it) to have a better integrated solution. That is why we develop a new language workbench fully in DClare. The advantages of DClare are:
+
+- No monolithic elements (No threads, nor explicit function composition)
+
+- Common language concepts (Classes, Properties, Function, Constraints, Inheritance, Generics, Lambdas)
+
+- Instant consistency (No violation of any constraint guaranteed, exceptions if conflicting constraints exists) * Automatic and generic integration of all aspects.
+
+- Abstracts away from threads, events, observer-patterns, etc (essay to understand and maintain).
+
+- Instant immediate-feedback functionality We would like to share our experiences with building the language-workbench with you. We will talk about the different aspects of DSLs and the way they where specified using DClare. Some aspects became very essay to specify (typing, validation, gui, transformations), others are more challenging (like syntax parsing). The semantics of DClare will become clear based on the presented examples.
 
 Guido Wachsmuth: **DSLs for Parallel Graph Analytics**
 
