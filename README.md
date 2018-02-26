@@ -2,6 +2,13 @@
 
 ## LangDev Meetup at CWI 8-9 March 2018
 
+### Schedule
+
+![LangDev'18 Schedule](langdev-schedule.png)
+
+
+### Talks and abstracts
+
 Tijs van der Storm: **Bridging Rascal and EMF**
 
 Rascal is based on functional programming, leveraging immutable tree structures described using algebraic data types. EMF on the other is based on class-oriented meta models, featuring bidirectional navigation and in-place update. In this demonstration we demonstrate how we have integrated both worlds, opening up the EMF eco system to Rascal, and vice versa. The interesting aspect is the explicit representation of change by abstract deltas, which allow synchronization of (modeling) artifacts across technical boundaries.
