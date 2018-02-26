@@ -2,6 +2,9 @@
 
 ## LangDev Meetup at CWI 8-9 March 2018
 
+
+LangDev is generously sponsored by ![Itemis Logo](itemis-logo.png)
+
 ### Schedule
 
 ![LangDev'18 Schedule](langdev-schedule.png)
