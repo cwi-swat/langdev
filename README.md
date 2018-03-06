@@ -72,7 +72,11 @@ An MPS language & development platform for application development. Language dev
 
 Arvid Butting: **Compositional Language Features for Extensible Language Product Lines**
 
-Modeling languages abstract from concrete problems and therefore reduce the gap between problem domain and solution. Different domains often encompass similar problems, which thereby share common modeling language concepts. To prevent re-engineering of these common concepts and to reduce the effort in creating, maintaining, and evolving these, language product lines capture common language concepts in language features. Language features enable reusing (parts of a) language in different contexts. We propose an approach for designing and implementing self-contained language features that can be developed independently by software language engineers. Further, our approach uses feature diagrams referencing language features for describing language product lines and includes a composition operator for language features that is used to automatically derive language variants. The mechanism produces language-processing tooling for each derived language variant on a push-button basis.
+Workday is an enterprise software company providing services to a variety of corporations, including Netflix, Visa, Sony, and Amazon. From its inception, Workday has relied on domain-specific languages (DSLs) to prototype and deliver accurate & comprehensive user experiences. Our developers build HR, Payroll, Finance and Student Services products using our XpressO language (XO). 
+
+XO is a functional reflective language that has served a decade as the foundation for a collection of interdependent domain-specific languages. These DSLs target specific problem spaces we encounter on a regular basis: custom UIs and & interaction, reporting, web services/APIs and business processes, to name a few. As we reach 7000 employees and beyond, problems have arisen due to the gradual design of these languages.
+
+The YP project, a new language and IDE for Workday developers, aims to solve these problems and prepare for a much broader scope of development. In this talk, I will discuss some of the specific problems we have faced with XpressO and the solutions we have included in our new YP IDE, along with how we will support internal and external development from the same environment.
 
 Sebastian Zarnekow, Holger Schill: **Machine Learning meets Code Formatting**
 
