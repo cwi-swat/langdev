@@ -11,6 +11,10 @@ LangDev is generously sponsored by [Itemis](https://www.itemis.com/ "itemis.com"
 
 ![LangDev'18 Schedule](langdev-schedule.png)
 
+<font color="red">Andreas Wortmann's talk moved to Friday, 14:30 into Gabriel's slot (he is sick).</a>.
+So we finish on Thursday at 18:00.
+ 
+
 
 ### Talks and abstracts
 
