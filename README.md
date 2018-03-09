@@ -32,6 +32,8 @@ Convecton is a language workbench we are currently building at itemis. It will r
 
 Eelco Visser: **Automating the Verification of Language Definitions**
 
+[slides](slides/langdev2018-ldwb.pdf "pdf")
+
 Language workbenches automate large parts of the implementation of software languages. The next challenge in language workbenches is to automate the verification of properties of language definitions. For example, type soundness verification ensures that programs that pass the type checker do not go wrong at run-time. In this talk I discuss the progress we have made towards this goal in the Language Designer's Workbench project. In particular, I will talk about the meta-languages we have developed for name and type analysis based on scope graphs and for dynamic semantics based on frames, and the  techniques we have developed for proving interpreters sound by construction.
 
 Niklas Fors: **Bloqqi: feature-based automation programming** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/LangDev-NiklasFors.pdf)
