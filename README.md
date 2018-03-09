@@ -36,7 +36,7 @@ Language workbenches automate large parts of the implementation of software lang
 
 Niklas Fors: **Bloqqi: feature-based automation programming**
 
-[slides](slides/LangDev-NiklasFors.pdf)
+[slides](https://github.com/cwi-swat/langdev/slides/LangDev-NiklasFors.pdf)
 
 
 Bloqqi is a data-flow language designed for automation programming with focus on variability. The language supports object-orientation with diagram inheritance and diagram specialization with block redeclaration and connection interception. These constructs are the basis for the feature-based mechanisms supported in Bloqqi, where a base diagram can have optional- and alternative features. When a diagram with features is instantiated, an automatically derived wizard is shown where features can be selected. Feature libraries can be created and extended modularly. The compiler and the graphical editor for Bloqqi have been implemented using reference attribute grammar.
