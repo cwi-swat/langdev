@@ -100,8 +100,7 @@ Andreas Wortmann: **Language composition through the lens of ADLs**
 
 Modeling software systems as component & connector architectures with application-specific behavior modeling languages enables domain experts to describe each component behavior with the most appropriate language. Realizing the semantics of systems corresponding to such language aggregates requires composing the semantic mapping of the participating languages. We investigate how black-box code generator composition can facilitate deploying application-specific modeling language aggregates. Current work on code generator composition either focuses on white-box integration based on code generator internals or requires extensive handcrafting of integration code. We discuss an approach to black-box generator composition in the context of architecture description languages that relies on explicit generator interfaces and exploits the encapsulation of components. This approach is implemented for the architecture modeling infrastructure MontiArc and has been evaluated in various contexts. We present its details and discuss its generalizability towards other language aggregates.  Highlights include the introduction to composition of concrete syntax, abstract syntax, and well-formedness rules with MontiCore, a demonstration that black-box generator composition works when restricting to various language kinds and an application to robotics
 
-Vadim Zaytsev: **How Do You Test Your Compiler? Here's How I Test Mine**
-
+Vadim Zaytsev: **How Do You Test Your Compiler? Here's How I Test Mine** [slides](http://grammarware.net/talks/#LangDev-2017)
 
 At Raincode Labs, we need test suites for our compilers for three
 different reasons: (1) to demonstrate the progress of language
