@@ -24,7 +24,10 @@ Code: [https://github.com/cwi-swat/rascal-ecore](https://github.com/cwi-swat/ras
 
 Rascal is based on functional programming, leveraging immutable tree structures described using algebraic data types. EMF on the other is based on class-oriented meta models, featuring bidirectional navigation and in-place update. In this demonstration we demonstrate how we have integrated both worlds, opening up the EMF eco system to Rascal, and vice versa. The interesting aspect is the explicit representation of change by abstract deltas, which allow synchronization of (modeling) artifacts across technical boundaries.
 
-Markus Voelter: **Convecton, a web-based language workbench - architectural decisions**
+Markus Voelter: **Convecton, a web-based language workbench - architectural decisions** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/Convecton@LangDev.pdf)
+
+
+
 
 Convecton is a language workbench we are currently building at itemis. It will run in the browser/cloud, and focus on domain experts as opposed to programmers. In this talk, I will illustrate how the requirements to be suitable for end users drove product design and software architecture. I will also introduce some aspects of our meta languages.
 
