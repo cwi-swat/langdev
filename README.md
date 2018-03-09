@@ -17,9 +17,7 @@ LangDev is generously sponsored by [Itemis](https://www.itemis.com/ "itemis.com"
 
 ### Talks and abstracts
 
-Tijs van der Storm: **Bridging Rascal and EMF**
-
-[slides](slides/RascalEcore.pdf "pdf")
+Tijs van der Storm: **Bridging Rascal and EMF** [slides](slides/RascalEcore.pdf "pdf")
 
 Code: [https://github.com/cwi-swat/rascal-ecore](https://github.com/cwi-swat/rascal-ecore "CWI SWAT Github")
 
@@ -34,9 +32,7 @@ Eelco Visser: **Automating the Verification of Language Definitions**
 
 Language workbenches automate large parts of the implementation of software languages. The next challenge in language workbenches is to automate the verification of properties of language definitions. For example, type soundness verification ensures that programs that pass the type checker do not go wrong at run-time. In this talk I discuss the progress we have made towards this goal in the Language Designer's Workbench project. In particular, I will talk about the meta-languages we have developed for name and type analysis based on scope graphs and for dynamic semantics based on frames, and the  techniques we have developed for proving interpreters sound by construction.
 
-Niklas Fors: **Bloqqi: feature-based automation programming**
-
-[slides](https://github.com/cwi-swat/langdev/slides/LangDev-NiklasFors.pdf)
+Niklas Fors: **Bloqqi: feature-based automation programming** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/LangDev-NiklasFors.pdf)
 
 
 Bloqqi is a data-flow language designed for automation programming with focus on variability. The language supports object-orientation with diagram inheritance and diagram specialization with block redeclaration and connection interception. These constructs are the basis for the feature-based mechanisms supported in Bloqqi, where a base diagram can have optional- and alternative features. When a diagram with features is instantiated, an automatically derived wizard is shown where features can be selected. Feature libraries can be created and extended modularly. The compiler and the graphical editor for Bloqqi have been implemented using reference attribute grammar.
