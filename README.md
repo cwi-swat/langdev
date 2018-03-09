@@ -36,6 +36,9 @@ Language workbenches automate large parts of the implementation of software lang
 
 Niklas Fors: **Bloqqi: feature-based automation programming**
 
+[slides](slides/LangDev-NiklasFors.pdf)
+
+
 Bloqqi is a data-flow language designed for automation programming with focus on variability. The language supports object-orientation with diagram inheritance and diagram specialization with block redeclaration and connection interception. These constructs are the basis for the feature-based mechanisms supported in Bloqqi, where a base diagram can have optional- and alternative features. When a diagram with features is instantiated, an automatically derived wizard is shown where features can be selected. Feature libraries can be created and extended modularly. The compiler and the graphical editor for Bloqqi have been implemented using reference attribute grammar.
 
 Tamás Szabó: **IncA: A DSL for Incremental Program Analysis**
@@ -170,7 +173,7 @@ Walter Cazzola: **Language evolution to support dynamic software updating (DSU)*
 
 Today software systems play a critical role in society’s infrastructures and many are required to provide uninterrupted services in their constantly changing environments. As the problem domain and the operational context of such software changes, the software itself must be updated accordingly. In this talk/demo we propose to support dynamic software updating through language semantic adaptation; this is done through use of micro-languages that confine the effect of the introduced change to specific application features. Micro-languages provide a logical layer over a programming language and associate an application feature with the portion of the programming language used to implement it. Thus, they permit to update the application feature by updating the underlying programming constructs without affecting the behaviour of the other application features. Such a linguistic approach provides the benefit of easy addition/removal of application features (with a special focus on non-functional features) to/from a running application by separating the implementation of the new feature from the original application, allowing for the application to remain unaware of any extensions. The feasibility of this approach is demonstrated with two studies; its benefits and drawbacks are also analysed.»
 
-Benoit Combemale: **Execution Framework of the GEMOC Studio**
+Benoit Combemale: **Execution Framework of the GEMOC Studio** 
 
 [slides](https://www.slideshare.net/BenotCombemale/execution-framework-of-the-gemoc-studio "slideshare")
 
