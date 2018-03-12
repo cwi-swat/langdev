@@ -59,6 +59,9 @@ Constraint systems are an established approach to specifying and implementing ty
 
 Peter D. Mosses: **Funcons: reusable components of language specifications**
 
+[slides](slides/mosses.pdf "pdf")
+
+
 In our component-based framework for language specification, the semantics of each language construct is defined by translation to a collection of pre-defined fundamental programming constructs (so-called 'funcons'). This can be significantly easier than defining the semantics of language constructs directly, and might even encourage language developers to exploit formal semantics to document design decisions. We illustrate the approach and its tool support. </Abstract>
 
 Gert Veldhuijzen van Zanten: **Interpreting and debugging models**
@@ -137,6 +140,9 @@ valuable feedback on how to make the world a better place by properly
 testing our compilers.
 
 Wim Bast: **JDclare**
+
+[slides](slides/jdclare.pdf "pdf")
+
 
 Dclare is a declarative programming language. It is a multipurpose specification language that describes the world in with classes, properties, functions (without side-effects) and constraints. The constraints are automatically evaluated without any explicit specification of threads, observer-patterns, nor function composition. JDclare is a Java library to make declarative programs in Java, and to connect existing (imperative) Java libraries to be used declarative. We (the Modeling Value Group) are building a language-workbench using JDclare. DClare will also be the standard target language to reduce any declarative DSL to (like the 'base-language' in MPS or Xbase for Xtext). The Modeling Value Group has extensive experience in using different language-workbenches like Xtext, MPS and alike. We always need to develop our own libraries to build the different aspects of DSLs. (With aspects of DLSs we mean: syntax, scoping, type-checking, transformations, validation, debugging, explorers, tables, diagrams, etc.. This is because:
 
