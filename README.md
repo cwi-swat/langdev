@@ -41,7 +41,9 @@ Niklas Fors: **Bloqqi: feature-based automation programming** [slides](https://g
 
 Bloqqi is a data-flow language designed for automation programming with focus on variability. The language supports object-orientation with diagram inheritance and diagram specialization with block redeclaration and connection interception. These constructs are the basis for the feature-based mechanisms supported in Bloqqi, where a base diagram can have optional- and alternative features. When a diagram with features is instantiated, an automatically derived wizard is shown where features can be selected. Feature libraries can be created and extended modularly. The compiler and the graphical editor for Bloqqi have been implemented using reference attribute grammar.
 
-Tamás Szabó: **IncA: A DSL for Incremental Program Analysis**
+Tamás Szabó: **IncA: A DSL for Incremental Program Analysis** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/inca_tamas_szabo.pdf)
+
+
 
 Program analyses detect errors in code but have to trade off precision, recall, and performance. However, when code changes frequently as in an IDE, repeated re-analysis from-scratch is unnecessary and leads to poor performance. Incremental program analysis promises to deliver fast feedback after a code change by deriving a new analysis result from the previous one, and prior work has shown that order-of-magnitude performance improvements are possible. However, existing frameworks for incremental program analysis only support Datalog-style relational analysis, but not lattice-based analyses that derive and aggregate lattice values. To solve this problem, we present the IncAL incremental program analysis framework that supports relational analyses and lattice-based computations. IncAL is based on a novel algorithm that enables the incremental maintenance of recursive lattice-value aggregation, which occurs when analyzing looping code by fixpoint iteration. We realized strong-update points-to analysis and string analyses for Java in IncAL and present performance measurements that demonstrate incremental analysis updates within milliseconds.
 
