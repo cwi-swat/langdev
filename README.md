@@ -57,14 +57,14 @@ Hendrik van Antwerpen: **Writing Constraint-based Type Checkers in NaBL2**
 
 Constraint systems are an established approach to specifying and implementing type checkers. Many proposed constraint systems focus on supporting challenging type system features. However, one aspect that has not received much attention is dealing with name resolution. Many approaches stick to lexical scoping during constraint generation, or rely on auxiliary mechanisms outside of the constraint language. We have proposed a constraint language that has support for rich binding structures at its core. The semantics and resolution of name binding is based on scope graphs -- a language-independent theory of name resolution. Integrating name resolution in the constraint languages makes it possible to treat different binding patterns more uniformly. We can model lexical scoping, modules and imports, as well as type-dependent features such as record field access. NaBL2 is a meta-language, integrated in the Spoofax language workbench, that is based on this constraint language. NaBL2 allows the specification of type checkers by writing syntax-directed constraint generation rules. Specifications are turned into executable type checkers with the use of the accompanying constraint solver. In this demo, we want to show how different name binding and type system rules can be modeled in NaBL2, and pay special attention to cases where names and types interact. We hope to discuss possible applications, as well as future directions in constraint features and language design.
 
-Peter D. Mosses: **Funcons: reusable components of language specifications**
-
-[slides](slides/mosses.pdf "pdf")
+Peter D. Mosses: **Funcons: reusable components of language specifications** [slides](slides/mosses.pdf "pdf")
 
 
 In our component-based framework for language specification, the semantics of each language construct is defined by translation to a collection of pre-defined fundamental programming constructs (so-called 'funcons'). This can be significantly easier than defining the semantics of language constructs directly, and might even encourage language developers to exploit formal semantics to document design decisions. We illustrate the approach and its tool support. </Abstract>
 
-Gert Veldhuijzen van Zanten: **Interpreting and debugging models**
+Gert Veldhuijzen van Zanten: **Interpreting and debugging models** [slides](slides/LangDevGVvZ.pdf "pdf")
+
+
 
 The advantages of business-level DSLs are greatly enhanced if the IDE s help the user to understand of the meaning of the sentences in the model. Interpretation and debugging facilities in an IDE can provide the necessary feedback
 
@@ -170,7 +170,7 @@ Guido Wachsmuth: **DSLs for Parallel Graph Analytics**
 
 Demo of GreenMarl, a DSL to implement parallel graph algorithms, and PGQL, a SQL-like query language for graphs. Discuss integration into Oracle products, requiring different modi of language use
 
-Daco Harkes: **Incremental Computing DSL IceDust: a Language Engineering Case Study in Spoofax**
+Daco Harkes: **Incremental Computing DSL IceDust: a Language Engineering Case Study in Spoofax** [slides](slides/daco.pdf "pdf")
 
 IceDust is a domain-specific language for incremental computing of derived values in information systems. IceDust has been developed in the Spoofax language workbench over the last four years. In this talk we will highlight how some IceDust implementation details are expressed in Spoofax, how Spoofax' features helped or slowed IceDust development, and how Spoofax' evolution over the years shaped the IceDust implementation.
 
