@@ -11,8 +11,7 @@ LangDev is generously sponsored by [Itemis](https://www.itemis.com/ "itemis.com"
 ![LangDev'18 Schedule](langdev-schedule.png)
 
 <b>No Schedule change.</b>
- 
-
+s
 
 ### Talks and abstracts
 
@@ -74,7 +73,9 @@ Andrei Chis: **Granular presentation: a moldable development pattern**
 
 While developers express software using programming languages, they craft software exclusively by interacting with development tools. Unfortunately, all too often, when interacting with object-oriented applications developers rely on rigid development tools, focused only on object-oriented language constructs, unaware of the application domains under development. One approach for solving this is empowering developers to shape their development tools together with their domain models. Nonetheless, development tools are often hard to adapt or offer only shallow customisations. To investigate ways to reduce the effort for creating deep adaptations for development tools we propose the granular presentation pattern: allow objects to define presentations capturing domain-specific views and interactions using composable operators, and design development tools that leverage these presentations whenever interacting with an object. In this demo we will exemplify this pattern by lively introducing domain-specific adaptations into the inspector, the debugger and the editor to helps us better work with an existing application. The demo is based on the Glamorous Toolkit, the moldable IDE of the Pharo programming language.
 
-Riccardo Solmi: **Turning Swift into a visual, domain oriented language**
+Riccardo Solmi: **Turning Swift into a visual, domain oriented language** [slides](slides/Sol18_LangDev_Swift.pdf "pdf")
+
+
 
 Swift is a modern general purpose language with a grammar based textual notation. We propose a live experiment to make the Swift language as close as possible to the visual dsls available in the Whole Platform. Different flavors of the same language will help us discuss about some controversial choices in language design.
 
