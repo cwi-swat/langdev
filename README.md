@@ -11,7 +11,7 @@ LangDev is generously sponsored by [Itemis](https://www.itemis.com/ "itemis.com"
 ![LangDev'18 Schedule](langdev-schedule.png)
 
 <b>No Schedule change.</b>
-s
+
 
 ### Talks and abstracts
 
@@ -50,7 +50,9 @@ Görel Hedin: **Interactive tooling with reference attribute grammars** [slides]
 
 In past and ongoing projects, we are using reference attribute grammars to support interactive language tooling. The key advantage of this technique is to be able to program context-dependent editing and visualization in a modular and declarative way, and not having to worry about updating state. I will give an overview of the underlying technology, show example demos, and discuss prospectives for further development.
 
-Gabriel Konat: **PIE: A DSL and runtime for Pipelines in Interactive Environments (applied to Language Workbenches)**
+Gabriel Konat: **PIE: A DSL and runtime for Pipelines in Interactive Environments (applied to Language Workbenches)** [slides](slides/pie.pdf "pdf")
+
+
 
 Language workbenches are complex pieces of software that compose different tasks into an interactive pipeline. They compile language specifications written in high-level meta-languages into efficient language implementations; perform language processing tasks such as parsing, analysis, and transformation; and integrate with interactive editor services of IDEs and code editors. However, language workbenches pipelines are implemented in ad-hoc ways, causing several problems. Their implementation is spread over different formalisms, resulting in increased development and maintenance effort. They lack dependency tracking, resulting in language developers having to manually stage compilation tasks. Furthermore, they lack properties such as incrementality, concurrency, and persistence, resulting in higher latencies. Finally, these properties may be unsound, resulting in users distrusting the pipeline. We have developed a solution to these problem with PIE: a DSL and runtime for programming interactive software development pipelines. With PIE, a pipeline developer can program their pipeline in a single high-level language without having to consider the incrementality, concurrency, and persistence properties of their pipeline. The PIE runtime incrementally executes these pipelines, has support for concurrency, and persists the result of a pipeline for restartability, while guaranteeing that these executions are sound with respect to from-scratch batch executions. We have applied PIE to the Spoofax language workbench by re-writing part of its pipeline in PIE. This prototype supports incremental language development where changes to a language specification result in updated feedback in the IDE. We hope that PIE can be useful to other pipeline developers, and are open to discuss problems, opportunities, and applications.
 
