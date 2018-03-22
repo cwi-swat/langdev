@@ -82,7 +82,7 @@ Riccardo Solmi: **Turning Swift into a visual, domain oriented language** [slide
 Swift is a modern general purpose language with a grammar based textual notation. We propose a live experiment to make the Swift language as close as possible to the visual dsls available in the Whole Platform. Different flavors of the same language will help us discuss about some controversial choices in language design.
 
 
-Tyler Hodgkins: **The YP Language**
+Tyler Hodgkins: **The YP Language** [slides](slides/Workday.pdf "pdf")
 
 
 Workday is an enterprise software company providing services to a variety of corporations, including Netflix, Visa, Sony, and Amazon. From its inception, Workday has relied on domain-specific languages (DSLs) to prototype and deliver accurate & comprehensive user experiences. Our developers build HR, Payroll, Finance and Student Services products using our XpressO language (XO). 
