@@ -15,3 +15,9 @@ On *March 21/22, 2019* the second edition of LangDev will be held, at Amazon HQ 
 
 [LangDev](http://langdevcon.org/) is an event targeted at both practitioners and researchers. We value interactive presentations with actual demonstrations over slide decks. Novelty with respect to the state-of-the-art is not a requirement, but talks should be interesting for both academics and practitioners. 
 
+Talk proposals should be submitted to [Somehwere](somewhere). All proposals will undergo light reviewing by the program committee, consisting of:
+
+- Markus Voelter
+- Tijs van der Storm
+- ...
+
