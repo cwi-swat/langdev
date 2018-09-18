@@ -7,7 +7,7 @@ On *March 21/22, 2019* the second edition of LangDev will be held, at [Amazon HQ
 - Novel meta languages for language construction
 - Experience reports on using language workbenches (i.e., case studies)
 - Live programming support in language workbenches
-- Modularity and composition approches for language development
+- Modularity and composition approaches for language development
 - Language evolution and versioning, model migration
 - Deployment systems for languages developed using language workbenches
 - New kinds of IDE features, both at the meta level, and object level
