@@ -23,8 +23,8 @@ Talk proposals should be submitted by **November 30** to [this Google Form](http
 
 All proposals will undergo light reviewing by the program committee, consisting of:
 
-- Markus Voelter
-- Tijs van der Storm
-- Sebastian Erdweg
-- Tamas Szabo
+- Markus Voelter, indepedent/itemis, [voelter@acm.org](mailto:voelter@acm.org)
+- Tijs van der Storm, CWI Amsterdam, [storm@cwi.nl](mailto:storm@cwi.nl)
+- Sebastian Erdweg, TU Delft, [S.T.Erdweg@tudelft.nl](mailto:S.T.Erdweg@tudelft.nl)
+- Tamas Szabo, itemis/TU Delft, [szabta89@gmail.com](mailto:szabta89@gmail.com)
 
