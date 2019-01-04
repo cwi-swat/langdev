@@ -1,190 +1,97 @@
 
 
-## LangDev Meetup at CWI 8-9 March 2018
+## LangDev Meetup at Amazon Amsterdam 21-22 March 2019
 
-LangDev is generously sponsored by [Itemis](https://www.itemis.com/ "itemis.com")
-
-![Itemis Logo](itemis-logo.png)
 
 ### Schedule
 
-![LangDev'18 Schedule](langdev-schedule.png)
+TBD.
 
 <b>No Schedule change.</b>
 
 
 ### Talks and abstracts
 
-Tijs van der Storm: **Bridging Rascal and EMF** [slides](slides/RascalEcore.pdf "pdf")
+Wim Bast: **Reactive Rules for MPS Languages** 
 
-Code: [https://github.com/cwi-swat/rascal-ecore](https://github.com/cwi-swat/rascal-ecore "CWI SWAT Github")
+'Dclare for MPS' is an (opensource) MPS plugin that adds a 'rules' aspect to language definitions. By adding attributes, reactive-rules and structs to language definitions, we effectively support attribute-grammars in MPS. Rules (using base-language) and attributes can be defined on repositories, modules, models, nodes or structs. All rules behave incrementally and immediately. Wim Bast will demonstrate how much fun it is to define transformations and interpreters in MPS now. 
 
 
-Rascal is based on functional programming, leveraging immutable tree structures described using algebraic data types. EMF on the other is based on class-oriented meta models, featuring bidirectional navigation and in-place update. In this demonstration we demonstrate how we have integrated both worlds, opening up the EMF eco system to Rascal, and vice versa. The interesting aspect is the explicit representation of change by abstract deltas, which allow synchronization of (modeling) artifacts across technical boundaries.
+Jos Warmer: **ProjectIt ! – A Framework for building Projectional Web Editors**
 
-Markus Voelter: **Convecton, a web-based language workbench - architectural decisions** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/Convecton@LangDev.pdf)
+ProjectIt is a TypeScript/JavaScript framework to create and implement projectional editors for Domain-Specific Languages (DSLs). ProjectIt is mostly unopinionated with regards to the models that can be projected. Only a small interface to the DSL needs to be provided. The framework provides an internal DSL to specify projections and typical editor behaviour. It's the job of the developer of the projectional editor to map models to that projection DSL.  The framework provides out of the box functionality for: (1) Projections using text, horizontal and vertical grouping, SVG, grids/tables (2) Selections and aliases (3) Navigation in the editor (4) Model element collections including adding and deleting model elements (5) Editing expressions with associativity and precedence rules. The DSL implementor needs to provide callbacks for manipulating the state of the model based on actions defined in the editor. By design, ProjectIt is an editor only. It does not impose any specific way of defining a DSL, neither does it say anything about how and/or where a model is being stored or other typical DSL aspects. Having said this, some optional helper decorators are provided to support quickly defining a metamodel in TypeScript. ProjectIt is an open source project (see http://www.projectit.org) and will be available before LangDev.
 
 
+Bernd Kolb: **Convecton - an update**
 
+At last year's LangDev we presented the idea of Convecton. A lot has happened since. In this talk we want to provide an update to the community. We will primarily show a few demos of sample applications built with Convecton and how they use the Convecton workbench. We will explain the fundamental architectural building blocks as well as our lessons learned while developing them. As it turns out, building a web based, real-time collaborative, projectional editor supporting multiple notations, backed by a server side persistence, capable of advanced analyses is quite an endeavor. We will wrap up with an outlook of what are the next steps.
 
-Convecton is a language workbench we are currently building at itemis. It will run in the browser/cloud, and focus on domain experts as opposed to programmers. In this talk, I will illustrate how the requirements to be suitable for end users drove product design and software architecture. I will also introduce some aspects of our meta languages.
 
-Eelco Visser: **Automating the Verification of Language Definitions**
+m.verano.merino: **Bacatá: A Language Parametric Notebook Generator**
 
-[slides](slides/langdev2018-ldwb.pdf "pdf")
+Interactive notebooks enable people to communicate and transfer knowledge in a single rich document. This document is arranged as a collection of cells that allows users to interleave live code, multimedia, computed results, and documentation. Notebooks have become broadly adopted in various domains such as data science, data journalism, programming education, and machine learning. Currently, there are notebook interfaces for various programming languages (e.g., Python, Ruby, Scala, Go, JavaScript, Julia).  DSLs may also benefit from having a notebook interface. However, building a notebook interface for a new language is a cumbersome activity. To speed up the development process of a notebook interface, we present Bacatá. Bacatá is a language parametric notebook generator for domain-specific languages (DSLs) based on the Jupyter platform. One of the main goals of Bacatá is to enable language engineers to reuse existing language components (e.g., parsers, interpreters, type checkers, code generators) as much as possible.  We present the Bacatá architecture and how language engineers can generate notebooks interfaces for DSLs with a minimum effort in the context of the Rascal language workbench.
 
-Language workbenches automate large parts of the implementation of software languages. The next challenge in language workbenches is to automate the verification of properties of language definitions. For example, type soundness verification ensures that programs that pass the type checker do not go wrong at run-time. In this talk I discuss the progress we have made towards this goal in the Language Designer's Workbench project. In particular, I will talk about the meta-languages we have developed for name and type analysis based on scope graphs and for dynamic semantics based on frames, and the  techniques we have developed for proving interpreters sound by construction.
 
-Niklas Fors: **Bloqqi: feature-based automation programming** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/LangDev-NiklasFors.pdf)
+Stefan Naujokat: **Towards Programming-Free Programming**
 
+Programming language technology has reached a maturity level where *programming-free programming*, which directly enables application experts to express the intentions in an enactable fashion, is within reach. CINCO, our corresponding framework supports: *Domain specificity*: CINCO generates development environments for domain-specific graphical programming languages, which, in our case, typically enhance graphical notations used in the application domain. *Full Generation*: CINCO-generated development environments support full code generation, with the goal to bring the application experts' intention to use in a push button fashion. *Service-orientation*: CINCO's support of service-orientation allows one to easily integrate and use new functionality in terms of service calls, and even to integrate other DSLs in a service-oriented fashion. This allows one to keep the main language simple and to modularily treat tasks that are beyond the application experts' competence. Our experience with CINCO-generated development environments is very promising: We have successfully used them in numerous industrial projects and for teaching, both at the undergraduate and the graduate level. Moreover, even CINCO itself, which can be regarded as a domain-specific environment for generating development environments for domain-specific languages, is conceptually built according to the three features mentioned above, with the consequence that CINCO itself can be successfully used for teaching metamodel-based language design, also both at the undergraduate and the graduate level. CINCO is under development for more than six years and effectively in use for four years. A main problem for acceptance was always the distribution and installation of the Eclipse-based CINCO products. In order to overcome this bottleneck, we are currently developing Pyro, which generates development environments for the Web. This is a major project, as it requires to realize a lot of features for the browser which are taken as granted when using Eclipse. However, as CINCO itself is built along the three principles introduced above (but on the meta level), Pyro allows for taking the same CINCO tool definitions and provides the Web as an alternative target platform; you just hit a different button for generation. At LangDev, we intend to illustrate Pyro's state of the art, and to discuss shortcoming and ideas for improvement.
 
-Bloqqi is a data-flow language designed for automation programming with focus on variability. The language supports object-orientation with diagram inheritance and diagram specialization with block redeclaration and connection interception. These constructs are the basis for the feature-based mechanisms supported in Bloqqi, where a base diagram can have optional- and alternative features. When a diagram with features is instantiated, an automatically derived wizard is shown where features can be selected. Feature libraries can be created and extended modularly. The compiler and the graphical editor for Bloqqi have been implemented using reference attribute grammar.
 
-Tamás Szabó: **IncA: A DSL for Incremental Program Analysis** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/inca_tamas_szabo.pdf)
+Paul Klint: **TypePal: the programmable typechecker**
 
 
+Typecheckers form an essential part of compilers, analysis and transformation tools and IDEs.  Typecheckers have to handle many tangled concerns including scoping, name analysis, overloading, use-def analysis, type correctness and in some cases type inference. Most typecheckers are manually programmed with considerable effort.  With TypePal we try to reduce this effort by providing a programmable framework that mostly automates the above mentioned concerns while preserving flexibility, extensibility and programmability. A TypePal-based typechecker consists of two phases: collecting type constraints during a single traversal of the source program and a subsequent solver phase. I will sketch the architecture of TypePal and how it is integrated in the Rascal language workbench. Sample applications (including a Rascal typechecker) and a short demo conclude this presentation.
 
-Program analyses detect errors in code but have to trade off precision, recall, and performance. However, when code changes frequently as in an IDE, repeated re-analysis from-scratch is unnecessary and leads to poor performance. Incremental program analysis promises to deliver fast feedback after a code change by deriving a new analysis result from the previous one, and prior work has shown that order-of-magnitude performance improvements are possible. However, existing frameworks for incremental program analysis only support Datalog-style relational analysis, but not lattice-based analyses that derive and aggregate lattice values. To solve this problem, we present the IncAL incremental program analysis framework that supports relational analyses and lattice-based computations. IncAL is based on a novel algorithm that enables the incremental maintenance of recursive lattice-value aggregation, which occurs when analyzing looping code by fixpoint iteration. We realized strong-update points-to analysis and string analyses for Java in IncAL and present performance measurements that demonstrate incremental analysis updates within milliseconds.
 
-Görel Hedin: **Interactive tooling with reference attribute grammars** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/Hedin.pdf)
+Bernhard Rumpe: **Towards Variability in Domain Specific Languages**
 
-In past and ongoing projects, we are using reference attribute grammars to support interactive language tooling. The key advantage of this technique is to be able to program context-dependent editing and visualization in a modular and declarative way, and not having to worry about updating state. I will give an overview of the underlying technology, show example demos, and discuss prospectives for further development.
+We demonstrate an approach to add variability in a systematic way to given domain specific languages. The result is an extended DSL incorporating language mechanisms for featured variability plus a feature based selection tool. 
 
-Gabriel Konat: **PIE: A DSL and runtime for Pipelines in Interactive Environments (applied to Language Workbenches)** [slides](slides/pie.pdf "pdf")
 
+Benoit Combemale: **Breathe Life into Your IDE**
 
+Live modeling brings facilities to enhance modeling environments with immediate feedback (from changes on the model to the runtime state, and possibly the execution trace), and direct manipulation (from changes on the runtime state to the model). Such facilities are helpful in tuning specific solutions, exploring design spaces, or performing tradeoff analysis. Hence, live modeling have a growing appeal among very different stakeholders, ranging from software and systems engineers, to scientists, decision makers, artists or the general public.  After a brief introduction of several case studies illustrating the different scenarios expected by language users, I explore in this talk live modeling from the point of view of a language engineer. I describe a general approach to bring this new concern in the specification of domain-specific languages. Then I explore the underlying challenges, review the current initiatives, and propose a research roadmap. As take away messages, the audience will learn about live modeling and how to support it in the development of domain-specific languages. A description of the current initiatives, the open challenges and an associated research roadmap is given to help the community in future investigations. 
 
-Language workbenches are complex pieces of software that compose different tasks into an interactive pipeline. They compile language specifications written in high-level meta-languages into efficient language implementations; perform language processing tasks such as parsing, analysis, and transformation; and integrate with interactive editor services of IDEs and code editors. However, language workbenches pipelines are implemented in ad-hoc ways, causing several problems. Their implementation is spread over different formalisms, resulting in increased development and maintenance effort. They lack dependency tracking, resulting in language developers having to manually stage compilation tasks. Furthermore, they lack properties such as incrementality, concurrency, and persistence, resulting in higher latencies. Finally, these properties may be unsound, resulting in users distrusting the pipeline. We have developed a solution to these problem with PIE: a DSL and runtime for programming interactive software development pipelines. With PIE, a pipeline developer can program their pipeline in a single high-level language without having to consider the incrementality, concurrency, and persistence properties of their pipeline. The PIE runtime incrementally executes these pipelines, has support for concurrency, and persists the result of a pipeline for restartability, while guaranteeing that these executions are sound with respect to from-scratch batch executions. We have applied PIE to the Spoofax language workbench by re-writing part of its pipeline in PIE. This prototype supports incremental language development where changes to a language specification result in updated feedback in the IDE. We hope that PIE can be useful to other pipeline developers, and are open to discuss problems, opportunities, and applications.
 
-Hendrik van Antwerpen: **Writing Constraint-based Type Checkers in NaBL2**
+Andrej Chis: **Live example-driven development using Glamorous Toolkit**
 
-Constraint systems are an established approach to specifying and implementing type checkers. Many proposed constraint systems focus on supporting challenging type system features. However, one aspect that has not received much attention is dealing with name resolution. Many approaches stick to lexical scoping during constraint generation, or rely on auxiliary mechanisms outside of the constraint language. We have proposed a constraint language that has support for rich binding structures at its core. The semantics and resolution of name binding is based on scope graphs -- a language-independent theory of name resolution. Integrating name resolution in the constraint languages makes it possible to treat different binding patterns more uniformly. We can model lexical scoping, modules and imports, as well as type-dependent features such as record field access. NaBL2 is a meta-language, integrated in the Spoofax language workbench, that is based on this constraint language. NaBL2 allows the specification of type checkers by writing syntax-directed constraint generation rules. Specifications are turned into executable type checkers with the use of the accompanying constraint solver. In this demo, we want to show how different name binding and type system rules can be modeled in NaBL2, and pay special attention to cases where names and types interact. We hope to discuss possible applications, as well as future directions in constraint features and language design.
+When writing a unit test, we often start by creating and configuring an object capturing a business or a technical aspect, check if certain actions on that object have an expected outcome, and finish by throwing that object away. So after going through all the work to create an interesting object, we just throw it away. That's a waste. We could instead use it to improve our development experience. Examples are somewhat like tests that return objects. This apparent small change can have deep implications on development. First, through examples a developer can switch rapidly from the static code to a live environment and program in the presence of objects. Second, examples can serve as the basis for live documentation. Thus, we can reuse the testing effort to enable better stories about our systems, libraries and DSLs. This session will be a hands-on experience of developing driven by examples using the Glamorous Toolkit IDE (http://gtoolkit.org). 
 
-Peter D. Mosses: **Funcons: reusable components of language specifications** [slides](slides/mosses.pdf "pdf")
 
+Ulyana Tikhonova: **Live modeling for language workbenches**
 
-In our component-based framework for language specification, the semantics of each language construct is defined by translation to a collection of pre-defined fundamental programming constructs (so-called 'funcons'). This can be significantly easier than defining the semantics of language constructs directly, and might even encourage language developers to exploit formal semantics to document design decisions. We illustrate the approach and its tool support. </Abstract>
+Live modeling enables modelers to incrementally update models as they are running and get immediate feedback about the impact of their changes. Changes introduced in a model may trigger inconsistencies between the model and its run-time state (e.g., deleting the current state in a statemachine); effectively requiring to migrate the run-time state to comply with the updated model. In this talk, we demonstrate an approach that enables to automatically migrate such run-time state based on declarative constraints defined by the language designer. Our prototype meta-modeling language, Nextep, allows for defining invariants and migration constraints on run-time state models.  When a model changes, Nextep employs model finding techniques, backed by a solver, to automatically infer a new run-time model that satisfies the declared constraints.
 
-Gert Veldhuijzen van Zanten: **Interpreting and debugging models** [slides](slides/LangDevGVvZ.pdf "pdf")
 
+Markus Voelter: **What's missing?**
 
+In this talk I will present a number of issues that we run against in our work of building DSLs for and with customers, mostly on top of MPS. This is not an MPS wishlist, but rather the attempt at identifying general areas where tool support or even the conceptual approach are not yet as mature as for the basics of language engineering: syntax, type systems, generators and basic IDE support. An ideal outcome of this session would be the formation of groups of people who will work on some of these issues in the future. These issues include the construction of debuggers for various language paradigms, realtime incremental transformations of models, interactive guidance for end users (clippy for DSLs :-)), a practically-usable formalism for defining semantics from which interpreters and generators can be derived, as well as the more diffuse requirement for more "liveness" in DSLs of non-trivial complexity and model sizes.
 
-The advantages of business-level DSLs are greatly enhanced if the IDE s help the user to understand of the meaning of the sentences in the model. Interpretation and debugging facilities in an IDE can provide the necessary feedback
 
-Andrei Chis: **Granular presentation: a moldable development pattern**
+Lennart Kats: **Adopting the language service protocol**
 
-While developers express software using programming languages, they craft software exclusively by interacting with development tools. Unfortunately, all too often, when interacting with object-oriented applications developers rely on rigid development tools, focused only on object-oriented language constructs, unaware of the application domains under development. One approach for solving this is empowering developers to shape their development tools together with their domain models. Nonetheless, development tools are often hard to adapt or offer only shallow customisations. To investigate ways to reduce the effort for creating deep adaptations for development tools we propose the granular presentation pattern: allow objects to define presentations capturing domain-specific views and interactions using composable operators, and design development tools that leverage these presentations whenever interacting with an object. In this demo we will exemplify this pattern by lively introducing domain-specific adaptations into the inspector, the debugger and the editor to helps us better work with an existing application. The demo is based on the Glamorous Toolkit, the moldable IDE of the Pharo programming language.
+The Language Server protocol (LSP) standardizes integration of language implementations into editors and IDEs, supporting features such as code completion, go to definition, and find references. Over the past two years, many editors and IDEs adopted LSP, including Atom, Emacs, Eclipse, and Cloud9. With the wide acceptance of LSP, can we now “meta-program once, program anywhere?” In this talk I’ll report on my experiences with integrating and using LSP. I’ll talk about parts that work well, parts that could use some work, and future directions for this space.
 
-Riccardo Solmi: **Turning Swift into a visual, domain oriented language** [slides](slides/Sol18_LangDev_Swift.pdf "pdf")
 
+Mihail Buryakov: **Language evolution in MPS: formal modeling and generality issues**
 
+The talk is devoted to the concept of language evolution in MPS but may highlight some common problems applicable to any other language workbenches. We consider two different types of language migrations:  (1) atomic (elementary) language migrations, automatically created (recorded) by IDE as a result of standard language refactorings (2) custom language migrations, created manually by using scripting language. Such migrations may be used to update user models in accordance with significant, complex changes in language structure. The goal we are trying to reach is the possibility to freely combine these two different types of language modifications. We will describe a formal model of language evolution domain and our attempt to use it for determining reasonable subset of expressions language, which can be used for writing custom migrations. 
 
-Swift is a modern general purpose language with a grammar based textual notation. We propose a live experiment to make the Swift language as close as possible to the visual dsls available in the Whole Platform. Different flavors of the same language will help us discuss about some controversial choices in language design.
 
+Paul Klint: **The Rascal Tutor: towards interactive language documentation**
 
-Tyler Hodgkins: **The YP Language** [slides](slides/Workday.pdf "pdf")
+Creating good documentation is hard and requires simple and effective authoring tools with a low threshold. It also requires sound principles how to organize course material. Enabling a good learning experience is even harder and requires good formatting, search facilities, realistic executable code examples and interactive exercises. In this presentation we present the Rascal Tutor that provides authoring of courses inside an IDE using AsciiDoc; interactive textual questions in some classic formats; and interactive programming exercises in various new styles; Courses are processed instantaneously (including indexing and crossreferencing) for rapid feedback.  For users Rascal Tutor provides a documentation and learning system that is tightly integrated in the IDE. Rascal Tutor has been used to document Rascal itself as well as contributed libraries. The system can also be used to document domain-specific languages that have been built using Rascal. We will sketch the architecture of Rascal Tutor, discuss some technical hurdles and will show the system in action.
 
 
-Workday is an enterprise software company providing services to a variety of corporations, including Netflix, Visa, Sony, and Amazon. From its inception, Workday has relied on domain-specific languages (DSLs) to prototype and deliver accurate & comprehensive user experiences. Our developers build HR, Payroll, Finance and Student Services products using our XpressO language (XO). 
+EJH Pepels: **The value of language engineering**
 
-XO is a functional reflective language that has served a decade as the foundation for a collection of interdependent domain-specific languages. These DSLs target specific problem spaces we encounter on a regular basis: custom UIs and & interaction, reporting, web services/APIs and business processes, to name a few. As we reach 7000 employees and beyond, problems have arisen due to the gradual design of these languages 
+In our opinion, language engineering is about design and construction of software languages in which domain experts can capture their business knowledge, thus creating business value. Language workbenches should offer support and guidance to the process of capturing business knowledge. Support consists of rapid and adequate feedback to the activities of the domain experts. Proper guidance guarantees the quality of the process of capturing knowledge. If domain experts can create business value themselves, with little involvement of the IT department, adoption of language engineering and language workbenches will dramatically increase. Surprisingly enough, the opportunities offered by this perspective are almost neglected by the language engineering community. We argue that new and mostly interdisciplinary research is necessary. We highlight the challenges that arise for the language engineering research.
 
-The YP project, a new language and IDE for Workday developers, aims to solve these problems and prepare for a much broader scope of development. In this talk, I will discuss some of the specific problems we have faced with XpressO and the solutions we have included in our new YP IDE, along with how we will support internal and external development from the same environment.
 
-Arvid Butting: **Compositional Language Features for Extensible Language Product Lines**
+Peter Mosses: **Reuse and co-evolution in CBS language specifications**
 
-Modeling languages abstract from concrete problems and therefore reduce the gap between problem domain and solution. Different domains often encompass similar problems, which thereby share common modeling language concepts. To prevent re-engineering of these common concepts and to reduce the effort in creating, maintaining, and evolving these, language product lines capture common language concepts in language features. Language features enable reusing (parts of a) language in different contexts. We propose an approach for designing and implementing self-contained language features that can be developed independently by software language engineers. Further, our approach uses feature diagrams referencing language features for describing language product lines and includes a composition operator for language features that is used to automatically derive language variants. The mechanism produces language-processing tooling for each derived language variant on a push-button basis.
+It can be a huge effort to give a complete formal specification of a major programming language, and then to update it when the language evolves. This appears to discourage most language developers from exploiting formal specifications to document their language designs. One of the main aims of the CBS meta-language, designed by the PLanCompS project, is to significantly reduce the required effort. A unique feature of CBS is that it comes together with a substantial library of reusable components called funcons (fundamental programming constructs). The semantics of each funcon is pre-defined, so specifying a translation of a language to funcons defines the language semantics; this can be significantly less effort than direct specification. When a language evolves, the translation of unaffected language constructs does not change. Crucially, adding new funcons to the library does not require changes to the definition or use of the previous funcons. In this talk, we demonstrate how reuse and co-evolution in CBS work: we first specify a small pure functional programming language by translation to funcons, then extend the language with mutable variables and concurrent threads. CBS is supported by an IDE (implemented in Spoofax) and by a Haskell package for generating modular funcon interpreters from funcon definitions.
 
 
-Sebastian Zarnekow, Holger Schill: **Machine Learning meets Code Formatting** [slides](https://github.com/cwi-swat/langdev/blob/gh-pages/slides/LangDevConSchill.pdf)
 
-Automated code formatting is not a trivial problem. Formatting always has been a matter of taste, and it always will need a great deal of configuration switches to befriend all users. This is the reason why professional formatting tools, such as Eclipse or IDEA, offer a gazillion number of options. The downside is, that the formatter itself becomes increasingly more complex with each new available flag and in the end people still tend to format the code manually. Can't we do better than that? What if we could use machine learning techniques to detect the preferred code style that was use in a codebase so far? Turns out, we can. The Antlr Codebuff project (https://github.com/antlr/codebuff) offers a generic formatter for pretty much any given language. As long as a grammar file exists, existing source can be analyzed to learn about the rules that have been applied while writing the code. Those can than be used to pretty print newly written code. No configuration required. And existing sources will stay as nicely formatted as they are. In the end, the primary purpose of code formatting is not to re-arrange all the keywords, but to make the source layout consistent. In this talk, we will demonstrate the usage of the codebuff project and how it can be used to format the sources of your repo in a consistent way. We'll also show some other gems that have been revealed when toying around with the technology.
 
-Remy Willems: **Miksilo: a modularity first language construction workbench**
-
-We present Miksilo, a language construction workbench that places modularity first. Miksilo encapsulates language transformations to make them re-usable. Such transformations can both extend and contract a language, enabling transformations between arbitrary languages. We give a demo of a whole language transformation defined in Miksilo, and explore what makes this possible. Grammars in Miksilo are first class objects, allowing them to be easily manipulated. Parsed values are bound to fields early, enabling safely removing and adding parts of a grammar. Compiler phases are defined generically, allowing the AST’s structure to change without breaking the phase.
-
-
-Andreas Wortmann: **Language composition through the lens of ADLs**
-
-Modeling software systems as component & connector architectures with application-specific behavior modeling languages enables domain experts to describe each component behavior with the most appropriate language. Realizing the semantics of systems corresponding to such language aggregates requires composing the semantic mapping of the participating languages. We investigate how black-box code generator composition can facilitate deploying application-specific modeling language aggregates. Current work on code generator composition either focuses on white-box integration based on code generator internals or requires extensive handcrafting of integration code. We discuss an approach to black-box generator composition in the context of architecture description languages that relies on explicit generator interfaces and exploits the encapsulation of components. This approach is implemented for the architecture modeling infrastructure MontiArc and has been evaluated in various contexts. We present its details and discuss its generalizability towards other language aggregates.  Highlights include the introduction to composition of concrete syntax, abstract syntax, and well-formedness rules with MontiCore, a demonstration that black-box generator composition works when restricting to various language kinds and an application to robotics
-
-Vadim Zaytsev: **How Do You Test Your Compiler? Here's How I Test Mine** [slides](http://grammarware.net/talks/#LangDev-2017)
-
-At Raincode Labs, we need test suites for our compilers for three
-different reasons: (1) to demonstrate the progress of language
-development to the customer, since we tend to have customers from day
-one who are very impatient and demanding; (2) to measure regression
-regularly and know well how the development is going in general; (3)
-to debug certain known or almost-known problems in the compiler, or to
-prep future features TDD-style.
-
-Lacking the giant shoulders to stand on, we are coming up with our own
-solutions, which might be a good or a bad thing, and is commonly a mix
-of both. In one of the projects I am current working on, we ended up
-having more than a dozen of different kinds of tests: R-tests for
-testing if the parser can recognise a program text, P-tests that
-compare the tree structure produced by the parser, with an expected
-baseline, N-tests to see that normalisation, canonisation and
-desugaring works as expected, E-tests for seeing that erroneous
-situations get resolved in the desired way, T-tests to check that the
-symbol table contains expected identifiers with the right scopes and
-all properly typed, S-tests for something that can be parsed,
-normalised, typed, compiled, verified and executed to produce an a
-priori known outcome, X-tests that throw exceptions in response to
-unrecoverable errors, D-tests that access the runtime library
-functions directly... Each kind has between dozens and thousands of
-test cases. Of course, at certain maturity milestones larger
-integration-like tests start to become an option as well: compiling an
-entire MLOC-long portfolio; generating bind files for the database to
-connect to; even relying on human testers to see if the GUI elements
-are in the right places, if their colours look well and if clicking on
-buttons produces an expected response. I will bring a framework built
-from experience and desperation, and hope to collect buckets of
-valuable feedback on how to make the world a better place by properly
-testing our compilers.
-
-Wim Bast: **JDclare**
-
-[slides](slides/jdclare.pdf "pdf")
-
-
-Dclare is a declarative programming language. It is a multipurpose specification language that describes the world in with classes, properties, functions (without side-effects) and constraints. The constraints are automatically evaluated without any explicit specification of threads, observer-patterns, nor function composition. JDclare is a Java library to make declarative programs in Java, and to connect existing (imperative) Java libraries to be used declarative. We (the Modeling Value Group) are building a language-workbench using JDclare. DClare will also be the standard target language to reduce any declarative DSL to (like the 'base-language' in MPS or Xbase for Xtext). The Modeling Value Group has extensive experience in using different language-workbenches like Xtext, MPS and alike. We always need to develop our own libraries to build the different aspects of DSLs. (With aspects of DLSs we mean: syntax, scoping, type-checking, transformations, validation, debugging, explorers, tables, diagrams, etc.. This is because:
-
-- The workbenches for the build DSLs are not (out of the box) usable by non-technical users.
-
-- Most of the workbenches do not (or very poorly) support for immediate-feedback for typing, compiling, transforming, validations and alike.
-
-- The different meta-DSLs to define the different aspects of a DSL are not well (semantically) integrated (e.g. typing and scoping). * The  meta-DSLs are not understandable without knowledge of the underlying imperative process.
-
-- You have to define a lot of extra (mostly redundant) code to make a workbench really usable.
-
-- The base-languages (like Xbase) are imperative languages, so that you have to reinvent the declarative aspect over and over again. Using DClare we solved many of the above issues. In fact, we use a DClare and EMF integration to solve several DSL aspects in our customer projects. However, we like to develop all aspects of the DSLs in DCLare (or meta DLSs on top of it) to have a better integrated solution. That is why we develop a new language workbench fully in DClare. The advantages of DClare are:
-
-- No monolithic elements (No threads, nor explicit function composition)
-
-- Common language concepts (Classes, Properties, Function, Constraints, Inheritance, Generics, Lambdas)
-
-- Instant consistency (No violation of any constraint guaranteed, exceptions if conflicting constraints exists) * Automatic and generic integration of all aspects.
-
-- Abstracts away from threads, events, observer-patterns, etc (essay to understand and maintain).
-
-- Instant immediate-feedback functionality We would like to share our experiences with building the language-workbench with you. We will talk about the different aspects of DSLs and the way they where specified using DClare. Some aspects became very essay to specify (typing, validation, gui, transformations), others are more challenging (like syntax parsing). The semantics of DClare will become clear based on the presented examples.
-
-Guido Wachsmuth: **DSLs for Parallel Graph Analytics**
-
-Demo of GreenMarl, a DSL to implement parallel graph algorithms, and PGQL, a SQL-like query language for graphs. Discuss integration into Oracle products, requiring different modi of language use
-
-Daco Harkes: **Incremental Computing DSL IceDust: a Language Engineering Case Study in Spoofax** [slides](slides/daco.pdf "pdf")
-
-IceDust is a domain-specific language for incremental computing of derived values in information systems. IceDust has been developed in the Spoofax language workbench over the last four years. In this talk we will highlight how some IceDust implementation details are expressed in Spoofax, how Spoofax' features helped or slowed IceDust development, and how Spoofax' evolution over the years shaped the IceDust implementation.
-
-Walter Cazzola: **Language evolution to support dynamic software updating (DSU)**
-
-Today software systems play a critical role in society’s infrastructures and many are required to provide uninterrupted services in their constantly changing environments. As the problem domain and the operational context of such software changes, the software itself must be updated accordingly. In this talk/demo we propose to support dynamic software updating through language semantic adaptation; this is done through use of micro-languages that confine the effect of the introduced change to specific application features. Micro-languages provide a logical layer over a programming language and associate an application feature with the portion of the programming language used to implement it. Thus, they permit to update the application feature by updating the underlying programming constructs without affecting the behaviour of the other application features. Such a linguistic approach provides the benefit of easy addition/removal of application features (with a special focus on non-functional features) to/from a running application by separating the implementation of the new feature from the original application, allowing for the application to remain unaware of any extensions. The feasibility of this approach is demonstrated with two studies; its benefits and drawbacks are also analysed.»
-
-Benoit Combemale: **Execution Framework of the GEMOC Studio** 
-
-[slides](https://www.slideshare.net/BenotCombemale/execution-framework-of-the-gemoc-studio "slideshare")
-
-The development and evolution of an advanced IDE for a Domain-Specific Language (DSL) is a tedious task. Recent efforts in language workbenches result in frameworks that automatically provide syntactic tooling such as advanced editors. However, defining the execution semantics of languages and their tooling remains mostly hand crafted. Similarly to editors that share code completion or syntax highlighting, the development of advanced debuggers, animators, and others execution analysis tools shares common facilities, which should be reused among various DSLs. In this talk, I will present and make a demo of the execution framework offered by the GEMOC studio, an Eclipse-based language and modeling workbench. The framework provides a generic interface to plug in different execution engines associated to their specific metalanguages used to define the discrete-event operational semantics of DSMLs (e.g., Kermeta/Xtend, xMOF, ALE…). It also integrates generic runtime services that are shared among the approaches used to implement the execution semantics, such as graphical animation and omniscient debugging (provided by Sirius Animator).
