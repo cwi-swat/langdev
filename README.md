@@ -3,6 +3,10 @@
 ## LangDev Meetup at Amazon Amsterdam 21-22 March 2019
 
 
+### Registration
+
+Please Register <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDnvQdrL89hFb2VAWJLlV6pUuBmcOc7x3wRaE4rFV9FER2PA/viewform">on this google form</a> <font color="red"><b>by January 31, 2019</b></font>.
+
 ### Schedule
 
 TBD.
