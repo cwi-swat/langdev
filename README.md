@@ -4,11 +4,13 @@
 
 ### Location
 
-Amazon Amsterdam 
+Amazon Amsterdam
+
 Meester Treublaan 7
+
 1097 DP Amsterdam
 
-Map; https://goo.gl/maps/Dhyaee6BH572
+Map: https://goo.gl/maps/Dhyaee6BH572
 
 ### Registration
 
