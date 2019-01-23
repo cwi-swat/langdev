@@ -14,9 +14,7 @@ Please Register <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDnvQdrL89hFb
 
 ### Schedule
 
-TBD.
-
-<b>No Schedule change.</b>
+![Schedule](./schedule19.png)
 
 
 ### Talks and abstracts
