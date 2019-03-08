@@ -17,6 +17,17 @@ Please Register <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDnvQdrL89hFb
 ![Schedule](./schedule19.png)
 
 
+### KEYNOTE: The K Framework
+
+New languages and virtual machines are proposed at an alarming rate, followed by new versions of them every few weeks, together with programs in these languages that are responsible for actions of potentially significant value. Many bugs and exploits, for example in the new cryptocurrency space, are due to flaws or weaknesses of the underlying programming languages or virtual machines.  Formal analysis and verification tools are therefore needed immediately for such languages and virtual machines.  The usual post-mortem approach to formal language semantics and verification, where the language is firstly implemented and used in production for many years before a need for formal semantics and verification tools naturally arises, simply does not work anymore.  We present recent academic and commercial results in developing languages and virtual machines that come directly equipped with formal analysis and verification tools. The main idea is to generate all these automatically, correct-by-construction from a formal specification in the <a href="http://kframework.org">K Framework</a>. We will also give a demo of the K framework by means of a simple language.
+
+Grigore Rosu is a professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign (UIUC), where he leads the Formal Systems Laboratory (FSL), and the president and CEO of Runtime Verification, Inc (RV).  His research interests encompass both theoretical foundations and system development in the areas of formal methods, software engineering and programming languages.  Before joining UIUC in 2002, he was a research scientist at NASA Ames.  He obtained his Ph.D. at the University of California at San Diego in 2000.  He was offered the CAREER award by the NSF, the Dean's award for excellence in research by the College of Engineering at UIUC in 2014, and the outstanding junior award by the Computer Science Department at UIUC in 2005.  He won the ASE IEEE/ACM most influential paper award in 2016 (for an ASE 2001 paper), the Runtime Verification test of time award (for an RV 2001 paper), the ACM SIGSOFT distinguished paper awards at ASE 2008, ASE 2016, and OOPSLA 2016, and the best software science paper award at ETAPS 2002.
+
+
+
+
+
+
 ### Talks and abstracts
 
 Wim Bast: **Reactive Rules for MPS Languages** 
