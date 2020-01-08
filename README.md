@@ -1,12 +1,12 @@
 
 
-## LangDev Meetup at Amazon Amsterdam 21-22 March 2019
+## LangDev Meetup at JGU Mainz 27-28 April 2020
 
 ### Location
 
-Amazon Amsterdam - Meester Treublaan 7 - 1097 DP Amsterdam
+JGU Mainz Helmholtz-Institut building - Staudingerweg 18 - 55128 Mainz, Germany
 
-Map: https://goo.gl/maps/Dhyaee6BH572
+Map: https://goo.gl/maps/23t15x1VW1JWb2Sm8
 
 ### Registration
 
