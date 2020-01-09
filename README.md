@@ -23,12 +23,19 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 Talk proposals should be submitted by February 29 to the following Google Form (coming soon). A proposal includes a title and a short (maximum 200 words) abstract. In case the talk is accompanied by a demo, we encourage presenters to also provide a brief demo outline as part of the proposal. Presenters will have 30 minutes for their talks (25 min talk + 5 min Q&A). Presenters may choose to follow a traditional presentation style where the Q&A is at the end of the talk, or they may follow a chess timer-based style. 
 
-### Program Committee
+### Organization & Program Committee
+
+Organizers:
+* Sebastian Erdweg, JGU Mainz, erdweg@uni-mainz.de
+* Tamás Szabó, itemis/JGU Mainz, tamas.szabo@itemis.de
 
 All proposals will undergo light reviewing by the program committee, consisting of:
-* Andreas Wortmann, RWTH Aachen, wortmann@se-rwth.de
-* Federico Tomassetti, Strumenta, federico@strumenta.com
-* Niko Stotz, Océ, niko.stotz@nikostotz.de
-* Sebastian Erdweg, JGU Mainz, erdweg@uni-mainz.de
-* Tamas Szabo, itemis/JGU Mainz, tamas.szabo@itemis.de
-* Tijs van der Storm, CWI Amsterdam, storm@cwi.nl
+* Andreas Wortmann, RWTH Aachen
+* Federico Tomassetti, Strumenta
+* Niko Stotz, Océ
+* Tamás Szabó, itemis/JGU Mainz
+* Tijs van der Storm, CWI Amsterdam
+
+In case you have any further questions, please contact one of the organizers. 
+
+
