@@ -6,7 +6,7 @@ The Language Developer’s Meetup (LangDev) is an informal two-day meeting where
 
 JGU Mainz Helmholtz-Institut building - Staudingerweg 18 - 55128 Mainz, Germany
 
-Map: https://goo.gl/maps/23t15x1VW1JWb2Sm8
+Map: [https://goo.gl/maps/23t15x1VW1JWb2Sm8](https://goo.gl/maps/23t15x1VW1JWb2Sm8)
 
 ### Call for Presentations
 
@@ -36,6 +36,6 @@ All proposals will undergo light reviewing by the program committee, consisting 
 * Tamás Szabó, itemis/JGU Mainz
 * Tijs van der Storm, CWI Amsterdam
 
-In case you have any further questions, please contact one of the organizers. See https://www.pl.informatik.uni-mainz.de/team/ for the contact details. 
+In case you have any further questions, please contact one of the organizers. See [https://www.pl.informatik.uni-mainz.de/team](https://www.pl.informatik.uni-mainz.de/team) for the contact details. 
 
 
