@@ -26,8 +26,8 @@ Talk proposals should be submitted by February 29 to the following Google Form (
 ### Organization & Program Committee
 
 Organizers:
-* Sebastian Erdweg, JGU Mainz, erdweg@uni-mainz.de
-* Tamás Szabó, itemis/JGU Mainz, tamas.szabo@itemis.de
+* Sebastian Erdweg, JGU Mainz
+* Tamás Szabó, itemis/JGU Mainz
 
 All proposals will undergo light reviewing by the program committee, consisting of:
 * Andreas Wortmann, RWTH Aachen
@@ -36,6 +36,6 @@ All proposals will undergo light reviewing by the program committee, consisting 
 * Tamás Szabó, itemis/JGU Mainz
 * Tijs van der Storm, CWI Amsterdam
 
-In case you have any further questions, please contact one of the organizers. 
+In case you have any further questions, please contact one of the organizers. See https://www.pl.informatik.uni-mainz.de/team/ for the contact details. 
 
 
