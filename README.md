@@ -21,7 +21,7 @@ LangDev seeks presentations that demonstrate applied aspects of language enginee
 
 We encourage presenters to demonstrate their work with a **demo or live coding** over “just” showing slides. Additionally, we encourage speakers to accompany their presentations with a **reproduction package** that helps the participants to (easily) run the presented tools, experiment with them, or to tweak benchmark experiments. This helps to create a lasting contribution. 
 
-Talk proposals should be submitted by February 29 to the following Google Form (coming soon). A proposal includes a title and a short (maximum 200 words) abstract. In case the talk is accompanied by a demo, we encourage presenters to also provide a brief demo outline as part of the proposal. Presenters will have 30 minutes for their talks (25 min talk + 5 min Q&A). Presenters may choose to follow a traditional presentation style where the Q&A is at the end of the talk, or they may follow a chess timer-based style. 
+**Talk proposals should be submitted by February 29 through [this Google Form](https://forms.gle/snX7orjhXm1cKWcd7).** A proposal includes a title and a short (maximum 200 words) abstract. In case the talk is accompanied by a demo, we encourage presenters to also provide a brief demo outline as part of the proposal. Presenters will have 30 minutes for their talks (25 min talk + 5 min Q&A). Presenters may choose to follow a traditional presentation style where the Q&A is at the end of the talk, or they may follow a chess timer-based style. Notifications about acceptance will by sent out by March 14. 
 
 ### Organization & Program Committee
 
