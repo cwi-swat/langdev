@@ -23,6 +23,11 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 **Talk proposals should be submitted by February 29 through [this Google Form](https://forms.gle/snX7orjhXm1cKWcd7).** A proposal includes a title and a short (maximum 200 words) abstract. In case the talk is accompanied by a demo, we encourage presenters to also provide a brief demo outline as part of the proposal. Presenters will have 30 minutes for their talks (25 min talk + 5 min Q&A). Presenters may choose to follow a traditional presentation style where the Q&A is at the end of the talk, or they may follow a chess timer-based style. Notifications about acceptance will by sent out by March 14. 
 
+### Registration
+
+Please use [this website](https://converia.uni-mainz.de/frontend/index.php?sub=92) for registration. 
+Registration fee is 110 EUR, and it includes coffee breaks and lunch on both days.
+
 ### Organization & Program Committee
 
 Organizers:
