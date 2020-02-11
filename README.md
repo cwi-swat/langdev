@@ -37,7 +37,7 @@ Organizers:
 All proposals will undergo light reviewing by the program committee, consisting of:
 * Andreas Wortmann, RWTH Aachen
 * Federico Tomassetti, Strumenta
-* Niko Stotz, Océ
+* Niko Stotz, Canon Production Printing
 * Tamás Szabó, itemis/JGU Mainz
 * Tijs van der Storm, CWI Amsterdam
 
