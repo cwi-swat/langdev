@@ -7,7 +7,8 @@ The Language Developer’s Meetup (LangDev) is an informal two-day meeting where
 JGU Mainz Helmholtz-Institut building - Staudingerweg 18 - 55128 Mainz, Germany
 
 Click [here](https://goo.gl/maps/23t15x1VW1JWb2Sm8) for Google Maps.
-Click [here](https://drive.google.com/open?id=1wvkcnQDcg4EGVGc3_5r91JOg00zaxqZJ) for JGU Maint campus map.
+
+Click [here](https://drive.google.com/open?id=1wvkcnQDcg4EGVGc3_5r91JOg00zaxqZJ) for JGU Mainz campus map.
 
 ### Call for Presentations
 
