@@ -6,7 +6,8 @@ The Language Developer’s Meetup (LangDev) is an informal two-day meeting where
 
 JGU Mainz Helmholtz-Institut building - Staudingerweg 18 - 55128 Mainz, Germany
 
-Map: [https://goo.gl/maps/23t15x1VW1JWb2Sm8](https://goo.gl/maps/23t15x1VW1JWb2Sm8)
+Click [here](https://goo.gl/maps/23t15x1VW1JWb2Sm8) for Google Maps.
+Click [here](https://drive.google.com/open?id=1wvkcnQDcg4EGVGc3_5r91JOg00zaxqZJ) for JGU Maint campus map.
 
 ### Call for Presentations
 
@@ -27,6 +28,7 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 Please use [this website](https://converia.uni-mainz.de/frontend/index.php?sub=92) for registration. 
 Registration fee is 110 EUR, and it includes coffee breaks and lunch on both days.
+**The deadline for registration is March 26.**
 
 ### Organization & Program Committee
 
