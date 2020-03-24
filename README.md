@@ -1,3 +1,5 @@
+*Update on the Corona pandemic:* it is clear enough now that LangDev'20 cannot take place as planned. We have canceled the conference room and catering and closed the registration site. We will reimburse those who already registered. Given that LangDev is an informal meeting focused on socializing, we (the PC) don’t think an online-style conference is a useful replacement of the in-person workshop. Instead, we will postpone the workshop and reschedule it when the pandemic is resolved.
+
 ## LangDev Meetup at JGU Mainz 27-28 April 2020
 
 The Language Developer’s Meetup (LangDev) is an informal two-day meeting where language engineering enthusiasts from both industry and academia can come together to discuss the state-of-the-art and state-of-the-practice of language engineering. 
