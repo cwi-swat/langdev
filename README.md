@@ -1,4 +1,6 @@
-**Update on the Corona pandemic:** it is clear enough now that LangDev'20 cannot take place as planned. We have canceled the conference room and catering and closed the registration site. We will reimburse those who already registered. Given that LangDev is an informal meeting focused on socializing, we (the PC) don’t think an online-style conference is a useful replacement of the in-person workshop. Instead, we will postpone the workshop and reschedule it when the pandemic is resolved.
+## Update on the Corona pandemic ## 
+
+It is clear enough now that LangDev'20 cannot take place as planned. We have canceled the conference room and catering and closed the registration site. We will reimburse those who already registered. Given that LangDev is an informal meeting focused on socializing, we (the PC) don’t think an online-style conference is a useful replacement of the in-person workshop. Instead, we will postpone the workshop and reschedule it when the pandemic is resolved.
 
 ## LangDev Meetup at JGU Mainz 27-28 April 2020
 
@@ -29,7 +31,7 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 ### Registration
 
-Please use [this website](https://converia.uni-mainz.de/frontend/index.php?sub=92) for registration. 
+Please use [this website]() (**CLOSED**) for registration. 
 Registration fee is 110 EUR, and it includes coffee breaks and lunch on both days.
 **The deadline for registration is March 26.**
 
