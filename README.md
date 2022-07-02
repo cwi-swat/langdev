@@ -17,6 +17,10 @@ We solicit talk proposals concerning the application, development, and innovatio
 * New language workbenches or novel extensions of existing language workbenches.
 * Backend infrastructure of (web-based) language workbenches explaining solutions to collaboration, synchronization, or communication. 
 * Industrial case studies: experience reports, large-scale evaluations, best practices, and human factors to adoption. 
+* Low-Code / No-Code approaches using appropriate languages
+  * Languages for describing and deriving digital twins
+  * Languages for non-engineering issues, such as science, legal, social, or environmental sustainability issues
+  * DSLs engineered on the basis of GPLs and GPMLs (general-purpose languages)
 
 LangDev seeks presentations that demonstrate applied aspects of language engineering. Presentations explaining the theory behind language engineering are also welcome, but they need to showcase the practical applicability of the presented approaches. Presentations about preliminary or unfinished work are welcome.  
 
