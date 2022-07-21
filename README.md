@@ -46,6 +46,7 @@ Organizers:
 
 Program Committee: (to be continued)  
 * Benoit Combemale, Software Engineering - Université de Rennes
+* Sebastian Erdweg, Programming Languages - Johannes Gutenberg University Mainz
 * Bernhard Rumpe, Software Engineering - RWTH Aachen
 * Federico Tomassetti, Strumenta
 
