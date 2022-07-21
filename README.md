@@ -44,7 +44,10 @@ Organizers:
 * Bernhard Rumpe, Software Engineering - RWTH Aachen
 * Nico Jansen, Software Engineering - RWTH Aachen  
 
-Program Committee: tba  
+Program Committee: (to be continued)  
+* Benoit Combemale, Software Engineering - Université de Rennes
+* Bernhard Rumpe, Software Engineering - RWTH Aachen
+* Federico Tomassetti, Strumenta
 
 All proposals will undergo light reviewing by the program committee.  
 
