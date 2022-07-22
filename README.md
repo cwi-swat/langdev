@@ -44,11 +44,12 @@ Organizers:
 * Bernhard Rumpe, Software Engineering - RWTH Aachen
 * Nico Jansen, Software Engineering - RWTH Aachen  
 
-Program Committee: (to be continued)  
+Program Committee:
 * Benoit Combemale, Software Engineering - Université de Rennes
 * Sebastian Erdweg, Programming Languages - Johannes Gutenberg University Mainz
 * Bernhard Rumpe, Software Engineering - RWTH Aachen
 * Federico Tomassetti, Strumenta
+* Vadim Zaytsev, Software Evolution - University of Twente
 
 All proposals will undergo light reviewing by the program committee.  
 
