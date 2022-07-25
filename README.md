@@ -4,7 +4,7 @@ The Language Developer’s Meetup (LangDev) is an informal meeting where languag
 
 <strong> LangDev'22 is generously sponsored by [mgm technology partners GmbH](https://a12.mgm-tp.com/) </strong>
 
-<div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="img/mgm-Logo.svg" alt="drawing" width="300"/> </a> </div>  
+<div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="mgm-Logo.svg" alt="mgm" width="300"/> </a> </div>  
 
 
 ### Location
