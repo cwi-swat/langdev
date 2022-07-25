@@ -1,6 +1,11 @@
 ## LangDev Meetup at RWTH Aachen 26-28 September 2022
 
-The Language Developer’s Meetup (LangDev) is an informal meeting where language engineering enthusiasts from both industry and academia can come together to discuss the state-of-the-art and state-of-the-practice of language engineering. 
+The Language Developer’s Meetup (LangDev) is an informal meeting where language engineering enthusiasts from both industry and academia can come together to discuss the state-of-the-art and state-of-the-practice of language engineering.  
+
+<strong> LangDev'22 is generously sponsored by [mgm technology partners GmbH](https://a12.mgm-tp.com/) </strong>
+
+<div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="img/mgm-Logo.svg" alt="drawing" width="300"/> </a> </div>  
+
 
 ### Location
 
