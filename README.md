@@ -2,10 +2,6 @@
 
 The Language Developer’s Meetup (LangDev) is an informal meeting where language engineering enthusiasts from both industry and academia can come together to discuss the state-of-the-art and state-of-the-practice of language engineering.  
 
-<strong> LangDev'22 is generously sponsored by [mgm technology partners GmbH](https://a12.mgm-tp.com/) </strong>
-
-<div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="mgm-Logo.svg" alt="mgm" width="300"/> </a> </div>  
-
 
 ### Location
 
@@ -60,4 +56,8 @@ All proposals will undergo light reviewing by the program committee.
 
 In case you have any further questions, please contact: jansen@se-rwth.de 
 
+---
 
+LangDev'22 is generously sponsored by [mgm technology partners GmbH](https://a12.mgm-tp.com/) and organized by the [Chair of Software Engineering, RWTH Aachen](https://www.se-rwth.de/)
+
+<div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="mgm-Logo.svg" alt="mgm" width="150"/> </a> &emsp; &emsp; &emsp; <a href="https://www.se-rwth.de/"> <img src="rwth_se-logo.png" alt="se" width="230"/> </a> </div>
