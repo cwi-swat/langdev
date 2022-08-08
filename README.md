@@ -31,7 +31,7 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 ### Registration
 
-Registration details will be announced soon.
+Tickets are available at eventim-light following [this link](https://www.eventim-light.com/de/a/62e8bdb03e787c1c90eb8d0a/e/62e8c4e4287fea3cefd49346/).
 
 ### Important Dates (preliminary)
 * 01.07.2022: Call for Presentations 
