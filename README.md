@@ -58,6 +58,6 @@ In case you have any further questions, please contact: jansen@se-rwth.de
 
 ---
 
-LangDev'22 is generously sponsored by [mgm technology partners GmbH](https://a12.mgm-tp.com/) and organized by the [Chair of Software Engineering, RWTH Aachen](https://www.se-rwth.de/)
+LangDev'22 is organized by [mgm technology partners GmbH](https://a12.mgm-tp.com/) and the [Chair of Software Engineering, RWTH Aachen](https://www.se-rwth.de/)
 
 <div align="center"> <a href="https://a12.mgm-tp.com/"> <img src="mgm-Logo.svg" alt="mgm" width="150"/> </a> &emsp; &emsp; &emsp; <a href="https://www.se-rwth.de/"> <img src="rwth_se-logo.png" alt="se" width="230"/> </a> </div>
