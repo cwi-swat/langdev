@@ -33,9 +33,9 @@ We encourage presenters to demonstrate their work with a **demo or live coding**
 
 Tickets are available at eventim-light following **[this link](https://www.eventim-light.com/de/a/62e8bdb03e787c1c90eb8d0a/e/62e8c4e4287fea3cefd49346/)**.
 
-### Important Dates (preliminary)
+### Important Dates (deadlines extended)
 * 01.07.2022: Call for Presentations 
-* 15.08.2022: Submission Deadline
+* ~~15.08.2022~~ 18.08.2022: Submission Deadline
 * 01.09.2022: Acceptance Notification
 * 26.09.2022-28.09.2022: LangDev'22 Meeting
 
