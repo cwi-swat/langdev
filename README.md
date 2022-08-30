@@ -39,6 +39,10 @@ Tickets are available at eventim-light following **[this link](https://www.event
 * **01.09.2022**: Acceptance Notification
 * **26.09.2022-28.09.2022**: LangDev'22 Meeting
 
+### Preliminary Schedule
+
+![LangDev'22 Schedule](schedule22.png)
+
 ### Organization & Program Committee
 
 Organizers:
