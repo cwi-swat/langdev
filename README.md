@@ -30,8 +30,7 @@ Defining rules for type computations in a new language is not an easy task. MPS 
 
 Coderules offers a new framework in MPS for defining type inference system using a constraint handling rules system, which offers to lift those limitations.
 
-This talk will, after briefly introducing the theory behind those constraints, present the features offered by Coderules through a demonstration and then show a concrete application of these principles with the type system of the Kotlin language for MPS.  
-<br/><br/>
+This talk will, after briefly introducing the theory behind those constraints, present the features offered by Coderules through a demonstration and then show a concrete application of these principles with the type system of the Kotlin language for MPS. <br/><br/>
   
 Vadim Zaytsev: **Weight and See: Having Fun with Weighted Grammars**
 
