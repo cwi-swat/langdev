@@ -117,7 +117,7 @@ A digital twin accompanies its cyber-phsical counter-part during operation and w
 
 Niko Stotz: **Fast, integrated and debuggable Interpreters in MPS and beyond**
 
-	Interpretation enables highly interactive scenarios for many DSLs, such as life execution of test cases, consistency checks, or spreadsheet-like immediate evaluation and feedback. Implementing interpreters is usually boring: Each concept in the DSL needs a typically simple evaluator, and a lot of boilerplate infrastructure. This cries for an interpreter DSL!
+Interpretation enables highly interactive scenarios for many DSLs, such as life execution of test cases, consistency checks, or spreadsheet-like immediate evaluation and feedback. Implementing interpreters is usually boring: Each concept in the DSL needs a typically simple evaluator, and a lot of boilerplate infrastructure. This cries for an interpreter DSL!
 
 After prototyping the first (and by now, widely used) interpreter in MPS ^1, and showing a much faster proof of concept some time ago ^2, we now present a well-engineered, fully integrated new language aspect for interpreters in Jetbrains MPS.
 The new language aspect:
@@ -130,9 +130,9 @@ It follows the ideas outlined in ^3.
 
 This talk focuses on demonstrating the interpreter in action. We show aforementioned features, discuss known drawbacks and look at future enhancements. The implementation will be available as Open Source.
 
-^1: http://mbeddr.com/interpreter/Interpreter.html
-^2: https://www.youtube.com/watch?v=jdFZTxElz1U&list=PLQ176FUIyIUZXibX-WXeiBAM8VnuohJZQ&index=15
-^3: https://www.nikostotz.de/blog/high-performance-interpreters-for-jetbrains-mps/
+^1: http://mbeddr.com/interpreter/Interpreter.html  
+^2: https://www.youtube.com/watch?v=jdFZTxElz1U&list=PLQ176FUIyIUZXibX-WXeiBAM8VnuohJZQ&index=15  
+^3: https://www.nikostotz.de/blog/high-performance-interpreters-for-jetbrains-mps/  
 
 
 Jürgen Mutschall: **Web-based Tools for (Domain Specific) Language Engineering**
