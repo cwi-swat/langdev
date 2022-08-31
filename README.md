@@ -10,6 +10,22 @@ RWTH Aachen Informatikzentrum - Ahornstraße 55 - 52074 Aachen, Germany
 Click [here](https://goo.gl/maps/rf4NACmxXaweaNeVA) for Google Maps.
 
 
+
+
+### Registration
+
+Tickets are available at eventim-light following **[this link](https://www.eventim-light.com/de/a/62e8bdb03e787c1c90eb8d0a/e/62e8c4e4287fea3cefd49346/)**.
+
+### Important Dates (deadlines extended)
+* **01.07.2022**: Call for Presentations 
+* ~~15.08.2022~~ **18.08.2022**: Submission Deadline
+* **01.09.2022**: Acceptance Notification
+* **26.09.2022-28.09.2022**: LangDev'22 Meeting
+
+### Preliminary Schedule
+
+![LangDev'22 Schedule](schedule22.png)
+
 ### Call for Presentations
 
 We solicit talk proposals concerning the application, development, and innovation of language engineering. Topics of interest include, but are not limited to:
@@ -28,20 +44,6 @@ LangDev seeks presentations that demonstrate applied aspects of language enginee
 We encourage presenters to demonstrate their work with a **demo or live coding** over “just” showing slides. Additionally, we encourage speakers to accompany their presentations with a **reproduction package** that helps the participants to (easily) run the presented tools, experiment with them, or tweak benchmark experiments. This helps to create a lasting contribution. 
 
 **Talk proposals should be submitted by August 15 via [easychair](https://easychair.org/conferences/?conf=langdev22).** A proposal includes a title and a short (maximum 200 words) abstract. As LangDev is an international meeting, the proposals and talks should be in English. In case the talk is accompanied by a demo, we encourage presenters to also provide a brief demo outline as part of the proposal. Presenters will have 30 minutes for their talks (25 min talk + 5 min Q&A). Presenters may choose to follow a traditional presentation style where the Q&A is at the end of the talk, or they may follow a chess timer-based style. Notifications about acceptance will be sent out by September 01. 
-
-### Registration
-
-Tickets are available at eventim-light following **[this link](https://www.eventim-light.com/de/a/62e8bdb03e787c1c90eb8d0a/e/62e8c4e4287fea3cefd49346/)**.
-
-### Important Dates (deadlines extended)
-* **01.07.2022**: Call for Presentations 
-* ~~15.08.2022~~ **18.08.2022**: Submission Deadline
-* **01.09.2022**: Acceptance Notification
-* **26.09.2022-28.09.2022**: LangDev'22 Meeting
-
-### Preliminary Schedule
-
-![LangDev'22 Schedule](schedule22.png)
 
 ### Organization & Program Committee
 
