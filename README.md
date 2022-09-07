@@ -22,6 +22,10 @@ Tickets are available at eventim-light following **[this link](https://www.event
 * **01.09.2022**: Acceptance Notification
 * **26.09.2022-28.09.2022**: LangDev'22 Meeting
 
+### Preliminary Schedule
+
+![LangDev'22 Schedule](schedule22.png)
+
 ### Accepted Talks and Abstracts
 
 Clement de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**
@@ -228,10 +232,6 @@ Benjamin Wilson: **Langium, a Modern Day Language Engineering Framework**
 When designing languages it is important to produce a quality language that runs on the right platforms. However, even the best languages can be limited by the systems they were designed for. Language engineers must often consider these constraints as a trade-off. To this end, we propose a way to both design high-quality languages and avoid compromising on system flexibility. We present Langium, an LSP-based language engineering framework based on Typescript and driven by the Chevrotain parser library.  
 Langium facilitates designing languages, complete with built-in support for linking and scoping. Services are provided out of the box, allowing rapid prototyping with the ability for full customization. Validation and generation can also be implemented easily using Langium’s APIs. By leveraging Typescript, Langium is capable of running on a wide variety of platforms, such as in the web — without a backend. Additionally, with the LSP, Langium easily integrates with popular editors such as VS Code and Monaco. In this talk we demonstrate how to leverage these aforementioned features to design a language, customize it, and even deploy it on the web.
 
-
-### Preliminary Schedule
-
-![LangDev'22 Schedule](schedule22.png)
 
 ### Call for Presentations
 
