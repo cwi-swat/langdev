@@ -21,6 +21,7 @@ Registration is possible until **16th of September**.
 * **01.07.2022**: Call for Presentations 
 * ~~15.08.2022~~ **18.08.2022**: Submission Deadline
 * **01.09.2022**: Acceptance Notification
+* **16.09.2022**: Registration Deadline
 * **26.09.2022-28.09.2022**: LangDev'22 Meeting
 
 ### Preliminary Schedule
