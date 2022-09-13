@@ -15,7 +15,7 @@ Click [here](https://goo.gl/maps/rf4NACmxXaweaNeVA) for Google Maps.
 ### Registration
 
 Tickets are available at eventim-light following **[this link](https://www.eventim-light.com/de/a/62e8bdb03e787c1c90eb8d0a/e/62e8c4e4287fea3cefd49346/)**.
-Registration is possible until 16th of September.
+Registration is possible until **16th of September**.
 
 ### Important Dates (deadlines extended)
 * **01.07.2022**: Call for Presentations 
