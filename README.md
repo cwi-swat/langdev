@@ -9,8 +9,9 @@ RWTH Aachen Informatikzentrum - Ahornstraße 55 - 52074 Aachen, Germany
 
 Click [here](https://goo.gl/maps/rf4NACmxXaweaNeVA) for Google Maps.
 
+The meeting is conducted in the lecture hall AH V. Registration takes place directly on site. Please have your ticket at hand.
 
-
+![LangDev'22 Location](location22.png)
 
 ### Registration
 
