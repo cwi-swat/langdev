@@ -38,26 +38,10 @@ Coderules offers a new framework in MPS for defining type inference system using
 This talk will, after briefly introducing the theory behind those constraints, present the features offered by Coderules through a demonstration and then show a concrete application of these principles with the type system of the Kotlin language for MPS. <br/><br/>
 
 
-Vadim Zaytsev: **Weight and See: Having Fun with Weighted Grammars**
-
-Weighted and probabilistic grammars are grammars where production rules are annotated with some values or expressions that guide their "execution" (in the sense of parsing or generation). They found their uses in computer vision, natural language processing, password cracking, test generation, constraint solving, equation discovery, biosequence processing, statistical source code analysis, etc.  
-I am developing a new system to support a particular kind of widely applicable weighted grammars, and can demonstrate its capabilities in things like holding a conversation or proving consistency (which in this context means statistical convergence and termination). <br/><br/>
-
-
 Tony Clark, Ulrich Frank, Daniel Töpel, Michael Bartels, Luca Mattei: **Multi-Level Language Engineering, Modeling and Software Development with the FMMLx and the XModelerML**
 
 Traditional language engineering environments make use of general-purpose meta languages to specify DSMLs. However, this is not the way how technical languages evolve. New concepts are usually not defined from scratch, but by means of existing, more general domain-specific concepts. In this way, not only reuse of existing knowledge, but also integrity of new concepts are promoted. The multi-level meta language FMMLxadopts this approach. It allows the specification of DSMLs with
 existing DSMLs over an arbitrary number of levels. The FMMLxis implemented with the XModeler. The XModeler is a language engineering workbench whose core language is reflexive and extensible. In this way, the XModeler is both an instance of itself and a basis for defining a wide range of co-existing language variants. The FMMLx represents an extension of the XModeler’s meta model, XCore, to introduce explicit levels and deferred instantiation. The resulting version of the XModeler, called XModelerML, also features a new user interface that supports multiple modes of creating, modifying and interacting with objects at any level. Languages, corresponding models and code share the same representation and can be modified at runtime. The XModelerMLcan be downloaded from the webpages of the project “Language Engineering for Multi-Level Modeling”4 that also provide various screencasts which illustrate the use of the FMMLx. <br/><br/>
-
-
-Mikhail Barash, Simen André Lien: **Example-Driven Software Language Engineering**
-
-Language workbenches---tools to define software languages together with their IDEs---are designed to simplify language engineering and implementation: they free language engineers from many meticulous tasks, but oftentimes have a very steep learning curve even for experienced software professionals. With the assumption that meta-definitions are one of the key factors that hinder language engineering, we introduce an example-driven approach to language definition, where a language is defined by giving examples of code written in it. These examples can then be annotated to specify different concerns of language definition: abstract syntax, typing rules, validation rules, formatting rules, and dynamic semantics.  
-We will demonstrate a web-based prototype implementation of the proposed approach. A user can specify syntax and associated validation rules for every language construct by annotating sample code snippets, each of which is given in a separate Monaco editor. Updates to syntax specifications are thus directly visible to the user. The tool is aimed at non-experienced language engineers and supports interactive workflow, e.g., "drag-and-drop copying" of (properties of) specifications across language constructs. From a language specification done with our tool, we generate a grammar for text-based language workbench Langium, which in its turn generates a VSCode-based IDE for the language.
-
-Full text of the work can be found at: https://bora.uib.no/bora-xmlui/handle/11250/3001961
-
-Implementation available at: https://git.app.uib.no/Simen.Lien/example-driven-software-language-engineering <br/><br/>
 
 
 Jasper Denkers: **Taming Complexity of Industrial Printing Systems Using a Constraint-Based DSL — An Industrial Experience Report**
