@@ -194,7 +194,7 @@ In some industrial applications, the complexity of control system is enough high
 4. The concept of “Instruction-set and compiler in the optimization loop” to effectively address the problem of constraints fitting. <br/><br/>
 
 
-Jeff Smits: **What's New in Stratego (2)**
+Jeff Smits: **What's New in Stratego (2)** - [slides](slides/2022/9390.pdf)
 
 In this talk I will briefly introduce the Stratego term rewriting language for people who don't know it (well), in the form of a demo. During the demo I will highlight some of the features that Stratego has gained over the last few years: an incremental compiler, a gradual type system, and some pattern matching optimisation. This has culminated in the alpha release of Stratego 2. Given that there is only 25 minutes, I will only highlight the first two in the demo. Then I'll take a vote from the audience on what to explain in more detail, which may involve some slides or whiteboard scribbles.
 Demo outline: (1) Introduction to the environment of the Spoofax language workbench, and the Tiny Imperative Language on which we will apply transformations written in Stratego. (2) A basic Stratego module, import of signatures of TIL, writing a rewrite rule, applying it with a rewrite strategy, seeing its result. (3) Noting the incremental compilation, with a relatively short feedback cycle, looking at the build log to see that only changed files are recompiled. (4) Adding a type signature to our rewrite rule, looking at the interaction with rewrite strategies. <br/><br/>
