@@ -122,7 +122,9 @@ This presentation gives an overview of the state of development of a new languag
 Following the presentation a live demo will show some of the key elements, like web-oriented "Blended Modeling" and the capabilities of the web browser for advanced projectional editing. <br/><br/>
 
 
-Pedro J. Molina: **Essential 2.0 & Meow: Model Editors on the Web**
+Pedro J. Molina: **Essential 2.0 & Meow: Model Editors on the Web** - [slides](slides/2022/3140.pdf)  Also available on [slideshare](https://www.slideshare.net/pjmolina/langdev-2022-metamodeling-on-the-web-with-essential)
+
+Demo: https://essential.metadev.pro 
 
 Essential is a Language Workbench and tooling for implementing Model Driven tools on .NET initiated in 2008.  
 During this time the tool has been adapted to create metamodels, models, templates and model transformation in a complete integrated development environment (IDE). Essential has been used with success to prototype, create and evolve high-quality commercial code-generators.  
