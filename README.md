@@ -202,7 +202,7 @@ In this talk I will briefly introduce the Stratego term rewriting language for p
 Demo outline: (1) Introduction to the environment of the Spoofax language workbench, and the Tiny Imperative Language on which we will apply transformations written in Stratego. (2) A basic Stratego module, import of signatures of TIL, writing a rewrite rule, applying it with a rewrite strategy, seeing its result. (3) Noting the incremental compilation, with a relatively short feedback cycle, looking at the build log to see that only changed files are recompiled. (4) Adding a type signature to our rewrite rule, looking at the interaction with rewrite strategies. <br/><br/>
 
 
-Jurgen Vinju, Rodin Aarssen, Tijs Van Der Storm: **To parse or to marshall, that is the question**
+Jurgen Vinju, Rodin Aarssen, Tijs Van Der Storm: **To parse or to marshall, that is the question** - [slides](slides/2022/9401.pdf)
 
 In reverse language engineering, with its applications to software quality assessment, static analysis, software maintenance and evolution, refactoring, and renovation, the first question is always how to obtain a high-quality parser for the given language(s).  
 During the last two decades, a storm of open-source, open-access, open compiler frameworks for programming languages have shifted the balance from "better generate parser" to "better map an existing parser" completely. Nevertheless important quality considerations (like high-fidelity, low-noise, and efficiency) are still under scrutiny.  
