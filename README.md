@@ -96,7 +96,7 @@ Malte Heithoff, Judith Michael, Bernhard Rumpe: **Modeling and Developing Digita
 A digital twin accompanies its cyber-phsical counter-part during operation providing useful information to improve its usage and to understand of its emerging behavior. The development and configuration of a digital twin often remains the task of professional software engineers who lack domain expertise. In this talk, we present an approach to enable domain experts to model, generate and configure self-adaptive twins for cyber-physical production systems. We propose a low-code development platform which provides a base architecture for our digital twin, predefined language components suited for the production domain, and an infrastructure for developing a digital twin cockpit. To maximize flexibility, the platform itself is developed in a model-driven manner and can be adjusted to fulfill the needs of domain experts in a specific use-case. <br/><br/>
 
 
-Niko Stotz: **Fast, integrated and debuggable Interpreters in MPS and beyond**
+Niko Stotz: **Fast, integrated and debuggable Interpreters in MPS and beyond** - [slides](slides/2022/2988.pdf)
 
 Interpretation enables highly interactive scenarios for many DSLs, such as life execution of test cases, consistency checks, or spreadsheet-like immediate evaluation and feedback. Implementing interpreters is usually boring: Each concept in the DSL needs a typically simple evaluator, and a lot of boilerplate infrastructure. This cries for an interpreter DSL!  
 After prototyping the first (and by now, widely used) interpreter in MPS ^1, and showing a much faster proof of concept some time ago ^2, we now present a well-engineered, fully integrated new language aspect for interpreters in Jetbrains MPS.
