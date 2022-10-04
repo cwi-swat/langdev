@@ -91,7 +91,7 @@ Every first step towards any programming or domain specific language starts with
 This talk focuses on the features and systems that Langium employs to infer and create semantic models. We will discuss how Langium has enhanced Xtext methods, to bring them to a level that modern developers expect. In our demonstration, you will get to see Langium's features and capabilities in action while we build a new DSL. <br/><br/>
 
 
-Malte Heithoff, Judith Michael, Bernhard Rumpe: **Modeling and Developing Digital Twins**
+Malte Heithoff, Judith Michael, Bernhard Rumpe: **Modeling and Developing Digital Twins** - [slides](slides/2022/2509.pdf)
 
 A digital twin accompanies its cyber-phsical counter-part during operation providing useful information to improve its usage and to understand of its emerging behavior. The development and configuration of a digital twin often remains the task of professional software engineers who lack domain expertise. In this talk, we present an approach to enable domain experts to model, generate and configure self-adaptive twins for cyber-physical production systems. We propose a low-code development platform which provides a base architecture for our digital twin, predefined language components suited for the production domain, and an infrastructure for developing a digital twin cockpit. To maximize flexibility, the platform itself is developed in a model-driven manner and can be adjusted to fulfill the needs of domain experts in a specific use-case. <br/><br/>
 
