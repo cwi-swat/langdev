@@ -209,7 +209,7 @@ During the last two decades, a storm of open-source, open-access, open compiler 
 In this talk we revisit a number of mapped parsers and rewritten grammars for (legacy) programming languages in the Rascal eco-system: Java, C/C++, PHP, Ada; and we discuss implementation effort and design decisions, next to common problems. Recently, it was made possible for Rascal programmers to use also "concrete syntax matching" on syntax trees that were acquired from external sources. This final blow completely unbalances the trade-off towards parser reuse and lets grammers in the corner of the domain-specific languages. Or doesn't it? <br/><br/>
 
 
-Alessio Stalla: **Bridging the gap between textual and projectional: a proof of concept**
+Alessio Stalla: **Bridging the gap between textual and projectional: a proof of concept** - [slides](slides/2022/9588.pdf)
 
 Textual and projectional editors each have their advantages and disadvantages. Both users and developers know very well how to work with text. However, textual syntax limits our expressiveness, readability, and interactivity, among other things. On the other hand, projectional editors are still complicated to develop and use, even if we’ve made great progress, and text editing in projectional editors is not on par with our best text editors.  
 So, we present an innovative approach to editors, based on ProseMirror, a JavaScript toolkit for building web-based word processor applications. ProseMirror is well-suited for editing text out of the box, and it features an extensible schema of arbitrarily nested blocks with attributes. Built-in blocks include paragraphs, lists, and tables.  
