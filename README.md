@@ -187,7 +187,7 @@ This presentation takes you through the components that constitute the Freon Lan
 Special attention will be given to the stacked architecture. The first and second layers in this architecture enable the language engineer to quickly prototype a DSL using a set of language description languages, i.e. meta languages. The third layer fully supports the fine-tuning of the DSL tool to the client’s needs. The presentation will conclude with a small demonstration. <br/><br/>
 
 
-Luca De Santis: **Languages and compilers for extremely resource-constrained processors**
+Luca De Santis: **Languages and compilers for extremely resource-constrained processors** - [slides](slides/2022/8825.pdf)
 
 In some industrial applications, the complexity of control system is enough high to require a processor, but commercial solutions don’t fit area, power and speed constraints. In these special cases, an “in-house” processor development is necessary, but to make the solution effectively usable, a custom language and an associated compiler are necessary. In this talk we are going to show some specific features of custom compilers design for a highly resource-constrained processor, like:
 1. Hardware specific variables typing, to address specialized storage media, as opposed to generic virtualized typing in general-purpose languages.
