@@ -114,7 +114,7 @@ This talk focuses on demonstrating the interpreter in action. We show aforementi
 ^3: https://www.nikostotz.de/blog/high-performance-interpreters-for-jetbrains-mps/  <br/><br/>
 
 
-Jürgen Mutschall: **Web-based Tools for (Domain Specific) Language Engineering**
+Jürgen Mutschall: **Web-based Tools for (Domain Specific) Language Engineering** - [slides](slides/2022/3087.pdf)
 
 The roots of the established tools and modeling approaches (e.g. UML/SysML, MetaEdit+, EMF, Sirius, Xtext, MPS) lie in the research ideas of the 90s or 2000s. Even though these have been proven in practice and have gained a lot of functionality over many iterations, they do not really take advantage of today's technical possibilities.
 In 2019 Markus Voelter’s call for an “Open Platform for Systems and Business Engineering Tools” outlines a requirement profile for a future development environment for system and (domain) language engineers. The community is currently in search for easy-to-use web based, scalable development tools with textual and graphical notations and good multi-user support, which address this vision of a future platform.
