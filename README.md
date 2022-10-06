@@ -140,7 +140,7 @@ Demo outline:
 http://est40.metadev.pro <br/><br/>
 
 
-Andreas Wortmann, Jérôme Pfeiffer, David Schmalzing: **Composition Operators for Software Languages: A Literature Review**
+Andreas Wortmann, Jérôme Pfeiffer, David Schmalzing: **Composition Operators for Software Languages: A Literature Review** - [slides](slides/2022/4322.pdf)
 
 Efficiently engineering software languages demands their reuse through composition. Research in software language engineering has produced many different operators to reuse and compose languages and language parts. These operate on different dimensions of languages, produce diverse results, and are distributed across various technological spaces and publications. This hampers understanding the state of language composition for researchers and practitioners. To address this, ten years ago, Erdweg et al. identified five categories of software language composition. Since then, innovations in software language engineering question whether this classification still holds. To this end, we report the results of a literature review on language composition operators that have since been published. In this review, we identify operators, their properties, supported language dimensions, and relate them to the categories of language composition. Through this, our survey draws a new, detailed map of language composition operators that can guide SLE researchers in identifying uncharted territory and practitioners in employing the most suitable composition operators. <br/><br/>
 
