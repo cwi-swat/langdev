@@ -31,6 +31,9 @@ Registration is possible until **16th of September**.
 
 ### Accepted Talks and Abstracts
 
+Timo Greifenberg: ** A12 Enterprise Low Code Platform ** - [slides](slides/2022/1111.pdf)  
+Website: https://a12.mgm-tp.com/  <br/><br/>
+
 Clément de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
 
 Defining rules for type computations in a new language is not an easy task. MPS historically provides DSLs for defining such system, but these are restricted to a range of usages and may not be explicit when it comes to their behavior.  
@@ -51,7 +54,7 @@ We have developed a domain-specific language called CSX that offers an interface
 In this talk, we will introduce CSX and present our evaluation of CSX on its coverage of the printing domain in an industrial context, and we report on lessons learned on using a constraint-based DSL in an industrial context. <br/><br/>
 
 
-Julian Thome: **A micro language framework for building Domain Specific Language in Go**
+Julian Thome: **A micro language framework for building Domain Specific Language in Go**  - [slides](slides/2022/1083.pdf)
 
 Prototyping, designing and evolving a Domain Specific Language (DSL) is a
 challenging process. Usually this is an exploratory cycle of prototyping ideas,
@@ -72,7 +75,7 @@ language core. It can be easily extended with custom-types and custom
 functions. <br/><br/>
 
 
-Anton Risberg Alaküla, Görel Hedin, Niklas Fors: **Property Probes - Source Code Based Exploration of Program Analysis Results**
+Anton Risberg Alaküla, Görel Hedin, Niklas Fors: **Property Probes - Source Code Based Exploration of Program Analysis Results**   - [slides](slides/2022/1765.pdf)
 
 Viewing program analysis results in an editor is useful, both for ordinary developers and for developers of the analyses.
 Existing protocols for editor-analyzer communication, like LSP, are however typically limited to specific kinds of analysis results and do not support the exploration of analysis sub-steps.  
