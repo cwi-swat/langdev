@@ -31,7 +31,7 @@ Registration is possible until **16th of September**.
 
 ### Accepted Talks and Abstracts
 
-Timo Greifenberg: ** A12 Enterprise Low Code Platform ** - [slides](slides/2022/1111.pdf)  
+Timo Greifenberg: **A12 Enterprise Low Code Platform** - [slides](slides/2022/1111.pdf)  
 Website: https://a12.mgm-tp.com/  <br/><br/>
 
 Clément de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
