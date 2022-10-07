@@ -31,14 +31,14 @@ Registration is possible until **16th of September**.
 
 ### Accepted Talks and Abstracts
 
-Clement de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**
+Clement de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
 
 Defining rules for type computations in a new language is not an easy task. MPS historically provides DSLs for defining such system, but these are restricted to a range of usages and may not be explicit when it comes to their behavior.  
 Coderules offers a new framework in MPS for defining type inference system using a constraint handling rules system, which offers to lift those limitations.  
 This talk will, after briefly introducing the theory behind those constraints, present the features offered by Coderules through a demonstration and then show a concrete application of these principles with the type system of the Kotlin language for MPS. <br/><br/>
 
 
-Tony Clark, Ulrich Frank, Daniel Töpel, Michael Bartels, Luca Mattei: **Multi-Level Language Engineering, Modeling and Software Development with the FMMLx and the XModelerML**
+Tony Clark, Ulrich Frank, Daniel Töpel, Michael Bartels, Luca Mattei: **Multi-Level Language Engineering, Modeling and Software Development with the FMMLx and the XModelerML**  - [slides](slides/2022/0768.pdf)
 
 Traditional language engineering environments make use of general-purpose meta languages to specify DSMLs. However, this is not the way how technical languages evolve. New concepts are usually not defined from scratch, but by means of existing, more general domain-specific concepts. In this way, not only reuse of existing knowledge, but also integrity of new concepts are promoted. The multi-level meta language FMMLxadopts this approach. It allows the specification of DSMLs with
 existing DSMLs over an arbitrary number of levels. The FMMLxis implemented with the XModeler. The XModeler is a language engineering workbench whose core language is reflexive and extensible. In this way, the XModeler is both an instance of itself and a basis for defining a wide range of co-existing language variants. The FMMLx represents an extension of the XModeler’s meta model, XCore, to introduce explicit levels and deferred instantiation. The resulting version of the XModeler, called XModelerML, also features a new user interface that supports multiple modes of creating, modifying and interacting with objects at any level. Languages, corresponding models and code share the same representation and can be modified at runtime. The XModelerMLcan be downloaded from the webpages of the project “Language Engineering for Multi-Level Modeling”4 that also provide various screencasts which illustrate the use of the FMMLx. <br/><br/>
