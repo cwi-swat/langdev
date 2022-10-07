@@ -88,7 +88,7 @@ More precisely, we will create probes that show type checking, control-flow grap
 We will also present an algorithm for tracking a single AST node across multiple versions of a text document, which is necessary for a good property probe experience. <br/><br/>
 
 
-Irina Artemeva: **Shaping semantic models with Langium**
+Irina Artemeva: **Shaping semantic models with Langium**  - [slides](slides/2022/1989.pdf)
 
 Every first step towards any programming or domain specific language starts with parsing source code into an abstract syntax tree. This is the foundation on which one starts building further language support, such as interpreters, compilers, or IDE functionality. Consequently, how one determines to shape their semantic model directly impacts how to implement these advanced features. We have seen language engineering frameworks, such as Eclipse Xtext, infer semantic models from grammar declarations. This approach has proven to be very useful for prototyping languages as well as designing mature language systems. As Xtext's spiritual successor, Langium has adopted, simplified, and improved this idea.  
 This talk focuses on the features and systems that Langium employs to infer and create semantic models. We will discuss how Langium has enhanced Xtext methods, to bring them to a level that modern developers expect. In our demonstration, you will get to see Langium's features and capabilities in action while we build a new DSL. <br/><br/>
