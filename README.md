@@ -32,7 +32,7 @@ Registration is possible until **16th of September**.
 ### Accepted Talks and Abstracts
 
 Timo Greifenberg: **A12 Enterprise Low Code Platform** - [slides](slides/2022/1111.pdf)  
-Website: [](https://a12.mgm-tp.com/)  <br/><br/>
+Website: [https://a12.mgm-tp.com/](https://a12.mgm-tp.com/)  <br/><br/>
 
 Clément de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
 
@@ -127,7 +127,7 @@ Following the presentation a live demo will show some of the key elements, like 
 
 Pedro J. Molina: **Essential 2.0 & Meow: Model Editors on the Web** - [slides](slides/2022/3140.pdf)  Also available on [slideshare](https://www.slideshare.net/pjmolina/langdev-2022-metamodeling-on-the-web-with-essential)
 
-Demo: [](https://essential.metadev.pro) 
+Demo: [https://essential.metadev.pro](https://essential.metadev.pro) 
 
 Essential is a Language Workbench and tooling for implementing Model Driven tools on .NET initiated in 2008.  
 During this time the tool has been adapted to create metamodels, models, templates and model transformation in a complete integrated development environment (IDE). Essential has been used with success to prototype, create and evolve high-quality commercial code-generators.  
