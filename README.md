@@ -31,7 +31,7 @@ Registration is possible until **16th of September**.
 
 ### Accepted Talks and Abstracts
 
-Clement de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
+Clément de La Bourdonnaye: **MPS Coderules: constraint programming for type inference**  - [slides](slides/2022/0145.pdf)
 
 Defining rules for type computations in a new language is not an easy task. MPS historically provides DSLs for defining such system, but these are restricted to a range of usages and may not be explicit when it comes to their behavior.  
 Coderules offers a new framework in MPS for defining type inference system using a constraint handling rules system, which offers to lift those limitations.  
