@@ -183,7 +183,7 @@ On July 1st 2021, the European Union Digital COVID(-19) Certificate (the EU DCC)
 In this talk, I will explain the EU DCC and its business rules framework, and in particular, the language engineering used in defining machine-processable, exchangable business rules. Also, I'll give some insights on the challenges associated with the EU DCC effort, and how these shaped design and implementation. <br/><br/>
 
 
-Jos Warmer, Anneke Kleppe: **Introducing Freon: A Language Workbench for the Web**
+Jos Warmer, Anneke Kleppe: **Introducing Freon: A Language Workbench for the Web** - [slides](slides/2022/8222.pdf)  
 
 A couple of years ago the development of ProjectIt, an open-source projectional editor for the web, was started. Earlier versions of this workshop have included reports on this tool. Currently, this project has grown into more than an editor. It may now be regarded to be a language workbench, which calls for a name change. The workbench is now called Freon.
 This presentation takes you through the components that constitute the Freon Language WorkBench: the scoper, the typer, the validator, the parser, the interpreter, and, of course, the editor. An explanation is given on how a language engineer may use the components to develop a webbased tool that supports the engineer’s clients DSL. Also, the reason is given why a tool that uses projectional editing should include a parser.
