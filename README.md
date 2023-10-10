@@ -28,13 +28,220 @@ Registration is possible until **9th of November**.
 
 ### Preliminary Schedule
 
-**Tuesday, November 14** 
-9:00-17:00
+<style>
+    table.schedule {
+        border-collapse: collapse;
+        border: 1px solid;
+        display: table;
+        width: 100%;
+    }
 
-**Wednessday, November 15** 
-9:00-17:00
+    table.schedule:nth-child(even) {
+        margin-top: 20px;
+    }
 
-A more detailed program will follow as soon as possible after 15.10.2023.
+    table.schedule td:nth-child(1) {
+        width: 50px;
+        text-align: right;
+    }
+
+    table.schedule td:nth-child(2) {
+        width: 60%;
+    }
+
+    table.schedule td:nth-child(3) {
+        width: 30%;
+    }
+
+    table.schedule th, td {
+        border: 1px solid black;
+        text-align: left;
+        vertical-align: center;
+        padding: 8px;
+    }
+
+    table.schedule tr.day {
+        background-color: midnightblue;
+    }
+
+    table.schedule tr.day td {
+        color: white;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    table.schedule tr.break {
+        background-color: lightgray;
+        color: black;
+    }
+
+    table.schedule tr.break td:nth-child(2) {
+        text-align: center;
+    }
+</style>
+
+
+<table class="schedule" markdown="0">
+    <tr class="day">
+        <td colspan="3">Tuesday, November 14</td>
+    </tr>
+    <tr>
+        <td>8:30</td>
+        <td colspan="2">Registration</td>
+    </tr>
+    <tr>
+        <td>9:00</td>
+        <td colspan="2">Welcome</td>
+    </tr>
+    <tr>
+        <td>9:30</td>
+        <td>Framing Debug Protocols to Hotwire Probes</td>
+        <td>Tijs van der Storm</td>
+    </tr>
+    <tr>
+        <td>10:00</td>
+        <td>Now witness the power of fully operational partial evaluation!</td>
+        <td>Meinte Boersma</td>
+    </tr>
+    <tr class="break">
+        <td>10:30</td>
+        <td colspan="2">Coffee break</td>
+    </tr>
+    <tr>
+        <td>11:00</td>
+        <td>Projectional Forms</td>
+        <td>Herman Peeren</td>
+    </tr>
+    <tr>
+        <td>11:30</td>
+        <td>Your Own Language: design with Langium, execute fast with LLVM</td>
+        <td>Irina Artemeva</td>
+    </tr>
+    <tr>
+        <td>12:00</td>
+        <td>The StarLasu method for writing parsers</td>
+        <td>Federico Tomassetti</td>
+    </tr>
+    <tr class="break">
+        <td>12:30</td>
+        <td colspan="2">Lunch</td>
+    </tr>
+    <tr>
+        <td>14:00</td>
+        <td>Incremental Type-Checking for Free</td>
+        <td>Aron Zwaan</td>
+    </tr>
+    <tr>
+        <td>14:30</td>
+        <td>Make models available on the web through modelix: Practical design considerations, building blocks and samples</td>
+        <td>Norman Köster</td>
+    </tr>
+    <tr>
+        <td>15:00</td>
+        <td>Compositional Engineering of DSLs for Assistive Systems</td>
+        <td>Judith Michael</td>
+    </tr>
+    <tr class="break">
+        <td>15:30</td>
+        <td colspan="2">Coffee break</td>
+    </tr>
+    <tr>
+        <td>16:00</td>
+        <td>The Revival of Dr Ambiguity: requirements, design, and implementation of a grammar engineering environment</td>
+        <td>Jurgen Vinju</td>
+    </tr>
+    <tr>
+        <td>16:30</td>
+        <td>Eclipse Sirius Web: A low code and cloud native language workbench for graphical modeling DSLs</td>
+        <td>Théo Giraudet</td>
+    </tr>
+    <tr>
+        <td>17:00</td>
+        <td>Orca: Web DSL for editing Container Orchestration Configurations</td>
+        <td>Pedro Molina</td>
+    </tr>
+</table>
+
+<table class="schedule" markdown="0">
+    <tr class="day">
+        <td colspan="3">Wednessday, November 15</td>
+    </tr>
+    <tr>
+        <td>8:30</td>
+        <td colspan="2">Registration</td>
+    </tr>
+    <tr>
+        <td>9:00</td>
+        <td>Cinco Cloud – The Next Generation of Graphical Language Engineering</td>
+        <td>Daniel Busch</td>
+    </tr>
+    <tr>
+        <td>9:30</td>
+        <td>Implementing Symbol Resolution in StarLasu</td>
+        <td>Lorenzo Addazi</td>
+    </tr>
+    <tr>
+        <td>10:00</td>
+        <td>Building extendible translators</td>
+        <td>Gert Veldhuijzen van Zanten</td>
+    </tr>
+    <tr class="break">
+        <td>10:30</td>
+        <td colspan="2">Coffee break</td>
+    </tr>
+    <tr>
+        <td>11:00</td>
+        <td>The LionWeb Initiative</td>
+        <td>Niko Stotz and Jos Warmer</td>
+    </tr>
+    <tr>
+        <td>11:30</td>
+        <td>Enabling Technology for Live Programming</td>
+        <td>Riemer van Rozen</td>
+    </tr>
+    <tr>
+        <td>12:00</td>
+        <td>ALEF: From Tax law to code</td>
+        <td>Arjan Oortgiese</td>
+    </tr>
+    <tr class="break">
+        <td>12:30</td>
+        <td colspan="2">Lunch</td>
+    </tr>
+    <tr>
+        <td>14:00</td>
+        <td>A Case for an Open Protocol for Collaboration</td>
+        <td>Mark Sujew</td>
+    </tr>
+    <tr>
+        <td>14:30</td>
+        <td>Server-side architecture for reactive analysis of domain models.</td>
+        <td>Radimir Sorokin</td>
+    </tr>
+    <tr>
+        <td>15:00</td>
+        <td>Leveraging Machine Learning for Python Version Identification</td>
+        <td>Vadim Zaytsev</td>
+    </tr>
+    <tr class="break">
+        <td>15:30</td>
+        <td colspan="2">Coffee break</td>
+    </tr>
+    <tr>
+        <td>16:00</td>
+        <td>Human-centred explanation of rule-based systems in the legal domain</td>
+        <td>Suzan Zuurmond</td>
+    </tr>
+    <tr>
+        <td>16:30</td>
+        <td>Transformations to map concrete and abstract syntaxes in MPS</td>
+        <td>Wim Bast</td>
+    </tr>
+    <tr>
+        <td>17:00</td>
+        <td colspan="2">Closing</td>
+    </tr>
+</table>
 
 ### Call for Presentations
 
