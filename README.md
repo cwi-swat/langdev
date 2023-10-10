@@ -533,7 +533,12 @@ Organizers (MDSE team of the Business Rules Management group):
 * Arjan Oortgiese 
 * Johan Blok 
 
+### Previous Editions
 
+* [2022](Langdev2022.html)
+* [2020](langdev2020.html)
+* [2019](Langdev2019.html)
+* [2018](Langdev2018.html)
 
 ---
 
