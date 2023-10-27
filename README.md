@@ -259,9 +259,9 @@ Registration is possible until **9th of November**.
     <tr>
         <td>15:00</td>
         <td>
-          <a href="#leveraging-machine-learning-for-python-version-identification-by-vadim-zaytsev">Leveraging Machine Learning for Python Version Identification</a>
+          <a href="#leveraging-machine-learning-for-python-version-identification-by-vadim-zaytsev-lola-solovyeva-and-marcus-gerhold">Leveraging Machine Learning for Python Version Identification</a>
         </td>
-        <td>Vadim Zaytsev</td>
+        <td>Vadim Zaytsev, Lola Solovyeva and Marcus Gerhold</td>
     </tr>
     <tr class="break">
         <td>15:30</td>
@@ -466,7 +466,7 @@ This presentation aims to explain the need for a fresh approach to collaboration
 
 In the talk, we delve into the topic of facilitating projectional editing with semantic analysis in the context of web applications. In desktop applications like JetBrains MPS, document analysis is straightforward: upon opening an editor, an analysis is run in-process, promptly delivering results to the user screen. However, transitioning to web-based editors introduces complexities due to the necessity of remote analysis on the server, presenting its own set of challenges. In our talk, we outline our approach to conducting semantic document analysis for a projection editor on the server side. Notably, our method promotes reactive and incremental analysis, while preserving the analysis outcomes in a database.
 
-#### Leveraging Machine Learning for Python Version Identification <span class="presenter">by Vadim Zaytsev</span>
+#### Leveraging Machine Learning for Python Version Identification <span class="presenter">by Vadim Zaytsev, Lola Solovyeva and Marcus Gerhold</span>
 
 Accurate identification of a programming language's version is crucial for maintaining code quality, ensuring compatibility, making informed development decisions. While classical AST-based and signature-based solutions perform well, they often fall short when dealing with the nuances of distinct language versions, producing erroneous results.
 
