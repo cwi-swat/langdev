@@ -103,7 +103,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>10:00</td>
         <td>
-          <a href="#now-witness-the-power-of-fully-operational-partial-evaluation-by-meinte-boersma">Now witness the power of fully operational partial evaluation!</a>
+          <a href="#now-witness-the-power-of-fully-operational-partial-evaluation-by-meinte-boersma---slides">Now witness the power of fully operational partial evaluation!</a>
         </td>
         <td>Meinte Boersma</td>
     </tr>
@@ -114,7 +114,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>11:00</td>
         <td>
-          <a href="#projectional-forms-by-herman-peeren">Projectional Forms</a>
+          <a href="#projectional-forms-by-herman-peeren---slides">Projectional Forms</a>
         </td>
         <td>Herman Peeren</td>
     </tr>
@@ -128,7 +128,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>12:00</td>
         <td>
-          <a href="#the-starlasu-method-for-writing-parsers-by-federico-tomassetti">The StarLasu method for writing parsers</a>
+          <a href="#the-starlasu-method-for-writing-parsers-by-federico-tomassetti---slides">The StarLasu method for writing parsers</a>
         </td>
         <td>Federico Tomassetti</td>
     </tr>
@@ -139,7 +139,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>14:00</td>
         <td>
-          <a href="#incremental-type-checking-for-free-by-aron-zwaan">Incremental Type-Checking for Free</a>
+          <a href="#incremental-type-checking-for-free-by-aron-zwaan---slides">Incremental Type-Checking for Free</a>
         </td>
         <td>Aron Zwaan</td>
     </tr>
@@ -202,14 +202,14 @@ Registration is possible until **9th of November**.
     <tr>
         <td>9:30</td>
         <td>
-          <a href="#implementing-symbol-resolution-in-starlasu-by-lorenzo-addazi">Implementing Symbol Resolution in StarLasu</a>
+          <a href="#implementing-symbol-resolution-in-starlasu-by-lorenzo-addazi---slides">Implementing Symbol Resolution in StarLasu</a>
         </td>
         <td>Lorenzo Addazi</td>
     </tr>
     <tr>
         <td>10:00</td>
         <td>
-          <a href="#building-extendible-translators-by-gert-veldhuijzen-van-zanten">Building extendible translators</a>
+          <a href="#building-extendible-translators-by-gert-veldhuijzen-van-zanten---slides">Building extendible translators</a>
         </td>
         <td>Gert Veldhuijzen van Zanten</td>
     </tr>
@@ -220,7 +220,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>11:00</td>
         <td>
-          <a href="#the-lionweb-initiative-by-niko-stotz-and-jos-warmer">LionWeb Initiative</a>
+          <a href="#the-lionweb-initiative-by-niko-stotz-and-jos-warmer---slides">LionWeb Initiative</a>
         </td>
         <td>Niko Stotz and Jos Warmer</td>
     </tr>
@@ -234,7 +234,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>12:00</td>
         <td>
-          <a href="#alef-from-tax-law-to-code-by-arjan-oortgiese">ALEF: From Tax law to code</a>
+          <a href="#alef-from-tax-law-to-code-by-arjan-oortgiese---slides">ALEF: From Tax law to code</a>
         </td>
         <td>Arjan Oortgiese</td>
     </tr>
@@ -270,7 +270,7 @@ Registration is possible until **9th of November**.
     <tr>
         <td>16:00</td>
         <td>
-          <a href="#human-centred-explanation-of-rule-based-systems-in-the-legal-domain-by-suzan-zuurmond">Human-centred explanation of rule-based systems in the legal domain</a>
+          <a href="#human-centred-explanation-of-rule-based-systems-in-the-legal-domain-by-suzan-zuurmond---slides">Human-centred explanation of rule-based systems in the legal domain</a>
         </td>
         <td>Suzan Zuurmond</td>
     </tr>
@@ -293,6 +293,10 @@ Registration is possible until **9th of November**.
 h4 span.presenter {
     font-weight: normal;
 }
+
+h4 a {
+  font-weight: normal;
+}
 </style>
 
 #### Framing Debug Protocols to Hotwire Probes <span class="presenter">by Tijs van der Storm</span> 
@@ -307,7 +311,7 @@ show how to engineer probes with only modest efforts for mainstream languages, s
 C, Java, Javascript and Python, and sketch directions for future work, and what probes
 could mean for domain-specific languages and end-user programming.
 
-#### Now witness the power of fully operational partial evaluation! <span class="presenter">by Meinte Boersma</span>
+#### Now witness the power of fully operational partial evaluation! <span class="presenter">by Meinte Boersma</span> - [slides](slides/2023/meinte-boersma.pdf)
 
 Partial evaluation is a technique to “run” a program against input that's only partially known. The goal of this concept could be to optimize a program, or to help with reasoning about its behavior without using a debugger. The use case that I'll be using to demonstrate the concept with is inspired by analysis of business rules for the EU DCC (the “international COVID-19 QR code”).
 
@@ -325,7 +329,7 @@ Even though this technique isn't entirely new, the influence of FP on the design
 
 (I might also use Freon.)
 
-#### Projectional Forms <span class="presenter">by Herman Peeren</span>
+#### Projectional Forms <span class="presenter">by Herman Peeren</span> - [slides](slides/2023/projectional-forms.pdf)
 
 The basic idea of “Projectional Forms” is very simple: use HTML form elements instead of text in an editor to get information into an AST. Text input boxes, dropdown select boxes, check boxes, radio buttons etc.
 
@@ -355,7 +359,7 @@ Finally, we will compare two approaches for making your DSL executable:
 * Transforming a DSL program into a GPL to use the capabilities of that GPL
 * Transforming a DSL program into LLVM IR to take advantage of the LLVM infrastructure."
 
-#### The StarLasu method for writing parsers <span class="presenter">by Federico Tomassetti</span>
+#### The StarLasu method for writing parsers <span class="presenter">by Federico Tomassetti</span> - [slides](slides/2023/the-chisel-method-for-building-parsers.pdf)
 
 In this presentation we present the results of our reflections on building the best parsers we can. This means producing quality models, making them easy to consume by different users, testing them thoroughly, and documenting them appropriately. It also means ensuring that the process to develop them is as pleasant as possible. The result of these reflections is the StarLasu method and the supporting libraries and tools that make it possible to apply this method conveniently.
 
@@ -363,7 +367,7 @@ We hope that sharing this work at LangDev will help us validate it with this aud
 
 Among other points we will also discuss how the compatibility with LionWeb could play a role in making parsers built with this method more valuable for a larger audience. Demo outline: Most of the presentation will be covered by slides, but I also plan to introduce very short demos to demonstrate our testing tool, our parsing tool, and our documentation tool. If needed for the evaluation I can provide some preliminary screenshots and a more detailed outline.
 
-#### Incremental Type-Checking for Free <span class="presenter">by Aron Zwaan</span>
+#### Incremental Type-Checking for Free <span class="presenter">by Aron Zwaan</span> - [slides](slides/2023/incremental-type-checking-for-free.pdf)
 
 Fast analysis response times in IDEs are essential for a good editor experience.
 Incremental type-checking can provide that in a scalable fashion.
@@ -423,18 +427,18 @@ During the talk, a live-demo will be delivered.
 
 We present Cinco Cloud, a holistic web-based language engineering environment that seamlessly aligns the entire process from the meta-modeling of graphical domain-specific languages, via application modeling in corresponding integrated modeling environments, to the deployment of the final product through CI/CD pipelines using Git repository platform integrations. Cinco Cloud supports a role-specific access management in order to organize the collaborative modeling involving stakeholders of different expertise without any installation requirements. The presentation illustrates the interplay of all the required steps with a concrete application example.
 
-#### Implementing Symbol Resolution in StarLasu <span class="presenter">by Lorenzo Addazi</span>
+#### Implementing Symbol Resolution in StarLasu <span class="presenter">by Lorenzo Addazi</span> - [slides](slides/2023/implementing-semantic-enrichment-in-starlasu.pdf)
 
 We know that symbol resolution is a necessary step when performing non-trivial code analysis. There are various approaches to implement it and designing a notation to express its rules as easily and understandably as possible remains a challenge. In this presentation, we share our experience in working on a symbol resolution framework to be used in StarLasu - a methodology promoting the development of language-processing tools, e.g. transpilers, compilers, interpreters and static analysis tools, as configurable pipelines through a collection of open- source runtime libraries in various programming languages, e.g. Kotlin, Python, Typescript and C#. First, we are going to illustrate how symbol resolvers can be implemented in StarLasu, i.e. how to represent references among nodes, how to specify language-specific resolution rules and what kind of support is provided. Then, a short open-source demo illustrating a symbol resolver for a simple entity language implemented using Kolasu in Kotlin will be provided.
 
-#### Building extendible translators <span class="presenter">by Gert Veldhuijzen van Zanten</span>
+#### Building extendible translators <span class="presenter">by Gert Veldhuijzen van Zanten</span> - [slides](slides/2023/extendible-translators.pdf)
 
 We will describe how extendible translators can be build using a language that incorporated polymorphic dispatch and memoization.
 Polymorphic dispatch helps simplifying case analysis and memoization helps preventing cyclic visits and greatly simpifies reference resolving between target nodes. Translators can easiy be extended to add additional cases for instance for language extensions.
 We will show how the language can be used for writing extendible interpreters, migrations, type checkers, and desugarings.
 We will also show some of the technniques used to implement the translator language.
 
-#### The LionWeb Initiative <span class="presenter">by Niko Stotz and Jos Warmer</span>
+#### The LionWeb Initiative <span class="presenter">by Niko Stotz and Jos Warmer</span> - [slides](slides/2023/lioneeb.pdf)
 
 The LionWeb initiative defines protocols for communication between participating software components such as repositories, editors, and other clients. It facilitates the community-based development and reuse of language engineering and modeling tools on the web. In this talk, we’ll introduce LionWeb with a particular focus on integrating different technologies.
 We’ll start with an overview of LionWeb as a whole, our perspective on web-based modeling tools, why we’re working on it, who is involved, a little bit of history, and a sneak peek at some of the tools that are being developed in the vicinity. Then we’ll show how to exchange M2 and M1 models between different technologies and programming languages like MPS/Java, StarLasu/Kotlin, EMF/Xtend, and Freon/TypeScript. We’ll include projectional editors, parsers, fat clients, web environments, and more. We’ll wrap up the talk with a review of what we have achieved so far and an outline of concrete steps planned for 2024.
@@ -447,7 +451,7 @@ Live programming brings code to life with immediate and continuous feedback. To 
 1. Riemer van Rozen. 2023. Cascade: A Meta-Language for Change, Cause and Effect. In Conference on Software Language Engineering (SLE ’23).
 2. Riemer van Rozen. 2023. Game Engine Wizardry for Programming Mischief. In Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments (PAINT ’23).
 
-#### ALEF: From Tax law to code <span class="presenter">by Arjan Oortgiese</span>
+#### ALEF: From Tax law to code <span class="presenter">by Arjan Oortgiese</span> - [slides](slides/2023/alef-from-tax-law-to-code.pdf)
 
 In this talk we want to demonstrate how rule analysts can enter and check the validity of rules. The tool ALEF (Agile Law Execution Factory) is developed by the Dutch Tax Office to support the process of translating law to software in an agile and technology independent way. Rule analysts specify the meaning of the law in a CNL (Controlled Natural Language) that is called Regelspraak. This specification is transformed to products like:
 
@@ -475,7 +479,7 @@ We are currently engaged in training a machine learning model on diverse Python 
 
 We would like to share our experiences, insight, solutions and non-solutions to these challenges, paving the way for further research and community collaboration on the application of machine learning in source code analysis.
 
-#### Human-centred explanation of rule-based systems in the legal domain <span class="presenter">by Suzan Zuurmond</span>
+#### Human-centred explanation of rule-based systems in the legal domain <span class="presenter">by Suzan Zuurmond</span> - [slides](slides/2023/hcexplanation_graphdb.pdf)
 
 We present an innovative approach to enhance the transparency and user-friendliness of rule-based automated decision-making systems within the legal domain. Our research addresses the pressing need for human-centred explanations in such systems.
 
