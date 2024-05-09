@@ -10,7 +10,7 @@
     --tertiary-color: #7e8b9e;
 }
 .markdown-body img {
-  background-color: --bg-color: #0f1017;
+  background-color: var(--bg-color);
 }
 html: {
   margin: 0;
@@ -172,7 +172,7 @@ h3 {
 }
 hr {
   border: 0;
-  heigth: 2px;
+  heigth: 1px;
   color: #fff;
 }
 .banner {
