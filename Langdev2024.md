@@ -55,6 +55,9 @@ p {
   margin: 3rem;
   height: 4rem;
 }
+.markdown-body .h1 {
+  border-bottom: none;
+}
 .title-xl {
    font-family: "Poppins", sans-serif;
    font-style: normal;
