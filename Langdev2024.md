@@ -58,6 +58,11 @@ p {
 .markdown-body .h1 {
   border-bottom: none;
 }
+.markdown-body tr,
+.markdown-body td{
+    background-color:  var(--bg-color);
+}
+
 .title-xl {
    font-family: "Poppins", sans-serif;
    font-style: normal;
