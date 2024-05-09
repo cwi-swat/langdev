@@ -642,7 +642,7 @@ All proposals will undergo reviewing by the program committee.
 <h2> Organization</h2>
 
 <p>
-In case you have any further questions, please contact: [langdev2024@metadev.pro](mailto:langdev2024@metadev.pro)
+In case you have any further questions, please contact: <a href="mailto:langdev2024@metadev.pro">langdev2024&commat;metadev.pro</a>
 </p>
 
 <p>Organizers:</p>
