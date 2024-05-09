@@ -182,9 +182,9 @@ h2, .title-m {
     <div class="top-menu">
       <nav>
         <a class="ml2">Home</a>
-        <a href="2024/program.md"class="ml2">Program</a>
-        <a href="2024/speakers.md"class="ml2">Speakers</a>
-        <a href="2024/venue.md" class="ml2">Venue</a>
+        <a href="2024/program"class="ml2">Program</a>
+        <a href="2024/speakers"class="ml2">Speakers</a>
+        <a href="2024/venue" class="ml2">Venue</a>
         <a class="ml2 btn cta">Get Tickets</a>
       </nav>
     </div>
@@ -199,7 +199,7 @@ h2, .title-m {
 come together to discuss the <em>state of the art</em> &amp; <em>state of the practice</em> of language enginering.
   </p>
   <div class="mt3">
-    <a class="btn secondary" href="2024/venue.md">Plan your travel</a>
+    <a class="btn secondary" href="2024/venue">Plan your travel</a>
     <a class="btn cta ml2" href="">Get Tickets</a>
   </div>
 
