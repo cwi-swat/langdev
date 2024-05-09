@@ -181,9 +181,9 @@ h2, .title-m {
     <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2024"><img src="./assets/2024/langdev2024-logo.svg"></a>
     <div class="top-menu">
       <nav>
-        <a class="ml2">Home</a>
-        <a href="2024/program"class="ml2">Program</a>
-        <a href="2024/speakers"class="ml2">Speakers</a>
+        <a class="ml2 current">Home</a>
+        <a href="2024/program" class="ml2">Program</a>
+        <a href="2024/speakers" class="ml2">Speakers</a>
         <a href="2024/venue" class="ml2">Venue</a>
         <a class="ml2 btn cta">Get Tickets</a>
       </nav>
