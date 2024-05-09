@@ -9,6 +9,9 @@
     --bg-dark-color: #0b0c0f;
     --tertiary-color: #7e8b9e;
 }
+.markdown-body img {
+  background-color: --bg-color: #0f1017;
+}
 html: {
   margin: 0;
   padding: 0;
