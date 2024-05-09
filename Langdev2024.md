@@ -55,14 +55,6 @@ p {
   margin: 3rem;
   height: 4rem;
 }
-.fr {
-  float: right;  
-  margin-left: 0rem;
-  position: relative;
-  top: -5rem;
-  right: -1rem;
-  z-index: -1;
-}
 .title-xl {
    font-family: "Poppins", sans-serif;
    font-style: normal;
@@ -138,7 +130,7 @@ h3 {
    font-weight: 600;
    font-size: 16px;
 }
-h2, .title-m {
+.markdown-body h2, .title-m {
   margin-top: 3rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -148,6 +140,7 @@ h2, .title-m {
   line-height: 137%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  border-bottom: none;
 }
 
 .top-bar {
@@ -182,6 +175,15 @@ hr {
   heigth: 2px;
   color: #fff;
 }
+.banner {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.c1 {
+  width: 50%;
+  min-width: 25rem;
+}
 </style>
 
 <div markdown="0">
@@ -197,23 +199,29 @@ hr {
       </nav>
     </div>
   </div>
-  <img class="fr" src="assets/2024/seville-night.png">
-  <h1 class="mt12 title-xl" >&num;langdev2024</h1>
-  <div class="title-l">Aerospace Edition</div>
-  <div class="mt6 title-dates">LangDev Conference</div>
-  <div class="title-dates">Seville, 17-19 October 2024.</div>
 
-  <p>Where language engineering enthusiasts from both industry and academia
-come together to discuss the <em>state of the art</em> &amp; <em>state of the practice</em> of language enginering.
-  </p>
-  <div class="mt3">
-    <a class="btn secondary" href="2024/venue">Plan your travel</a>
-    <a class="btn cta ml2" href="">Get Tickets</a>
+  <div class="banner">
+    <div class="c1">
+      <h1 class="mt12 title-xl" >&num;langdev2024</h1>
+      <div class="title-l">Aerospace Edition</div>
+      <div class="mt6 title-dates">LangDev Conference</div>
+      <div class="title-dates">Seville, 17-19 October 2024.</div>
+      <p>Where language engineering enthusiasts from both industry and academia
+    come together to discuss the <em>state of the art</em> &amp; <em>state of the practice</em> of language enginering.
+      </p>
+      <div class="mt3">
+        <a class="btn secondary" href="2024/venue">Plan your travel</a>
+        <a class="btn cta ml2" href="">Get Tickets</a>
+      </div>
+      </div>
+    <div class="c1">
+      <img class="fr" src="assets/2024/seville-night.png">
+    </div>
   </div>
 
   <div class="mt6 sponsors center">
     <h2 class="title-m">Sponsors</h2>
-    <div>
+    <div class="flex">
      <a href="https://www.f1re.nl/" alt="F1RE"><img class="logo2" src="assets/2024/sponsors/f1re-logo.svg"></a>
      <a href="https://strumenta.com/"><img class="logo2" alt="Strumenta" src="assets/2024/sponsors/strumenta.png"></a>
      <a href="https://metadev.pro/"><img class="logo2" alt="Metadev" src="assets/2024/sponsors/metadev-dark.svg"></a>
@@ -222,6 +230,8 @@ come together to discuss the <em>state of the art</em> &amp; <em>state of the pr
   </div>
   <div class="collaborators center">
    <h2 class="title-m">Collaborators</h2>
+   <div class="flex">
+   </div>
    <a class="btn tertiary" href="https://metadev.pro/contact/">Collaborate with us &rarr;</a>
   </div>
 </div>
