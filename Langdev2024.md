@@ -179,10 +179,26 @@ hr {
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 .c1 {
   width: 50%;
   min-width: 25rem;
+}
+.flex {
+  display: flex;
+}
+.sponsors img {
+  background-color: var(--bg-light-color);
+}
+@media (max-width: 480px) {
+  .c1 {
+    width: 99%;
+  }
+  .column {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 </style>
 
@@ -257,10 +273,9 @@ hr {
 <h2>Location</h2>
 
 <p>
-<strong>Escuela Técnica Superior de Ingeniería Informática</strong> - Universidad de Sevilla
-<br/>
-Avenida Reina Mercedes, s/n. 41012 Seville, Spain
-<br/>
+<strong>Escuela Técnica Superior de Ingeniería Informática</strong><br/>
+Universidad de Sevilla<br/>
+Avenida Reina Mercedes, s/n. 41012 Seville, Spain<br/>
 
 <a href="https://maps.app.goo.gl/dWGjuFmpbTh4NbFeA">Map</a>
 </p>
@@ -602,7 +617,7 @@ We solicit talk proposals concerning the application, development, and innovatio
 </ul>
 
 <p>
-We encourage presenters to demonstrate their work with a **demo or live coding** over “just” showing slides. Additionally, we encourage speakers to accompany their presentations with a **reproduction package** that helps the participants to (easily) run the presented tools, experiment with them, or tweak benchmark experiments. This helps to create a lasting contribution.
+We encourage presenters to demonstrate their work with a <strong>demo or live coding</strong> over “just” showing slides. Additionally, we encourage speakers to accompany their presentations with a <strong>reproduction package</strong> that helps the participants to (easily) run the presented tools, experiment with them, or tweak benchmark experiments. This helps to create a lasting contribution.
 </p>
 
 <h2> Program Committee</h2>
