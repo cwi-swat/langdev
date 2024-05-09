@@ -24,6 +24,16 @@ body {
   color: var(--main-color);
   background-color:  var(--bg-color);
 }
+.langdev-logo {
+  margin-top: 2rem;
+  border: 0;
+}
+.langdev-logo img {
+  height: 4rem;
+}
+.langdev-logo:hover {
+  underline: none;  
+}
 
 .column {
   min-width: 20rem;
@@ -136,13 +146,7 @@ h2, .title-m {
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-.langdev-logo {
-  margin-top: 2rem;
-  border: 0;
-}
-.langdev-logo:hover {
-  underline: none;  
-}
+
 .top-bar {
   margin-top: 1rem;
 }
@@ -174,7 +178,7 @@ h2, .title-m {
 
 <div markdown="0">
   <div class="top-bar">
-    <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2024"><img src="./assets/2024/logo-dark.png"></a>
+    <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2024"><img src="./assets/2024/langdev2024-logo.svg"></a>
     <div class="top-menu">
       <nav>
         <a class="ml2">Home</a>
