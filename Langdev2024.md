@@ -38,10 +38,10 @@ body {
   underline: none;  
 }
 
-.column {
+.content {
   min-width: 20rem;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 p {
@@ -55,6 +55,14 @@ p {
   margin: 3rem;
   height: 4rem;
 }
+.markdown-body .h1 {
+  border-bottom: none;
+}
+.markdown-body tr,
+.markdown-body td{
+    background-color:  var(--bg-color);
+}
+
 .title-xl {
    font-family: "Poppins", sans-serif;
    font-style: normal;
@@ -170,7 +178,7 @@ h3 {
 .center {
   text-align: center;
 }
-hr {
+.markdown-body hr {
   border: 0;
   heigth: 1px;
   color: #fff;
@@ -195,7 +203,8 @@ hr {
   .c1 {
     width: 99%;
   }
-  .column {
+  .content {
+    min-width: unset;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -252,7 +261,7 @@ hr {
   </div>
 </div>
 
-<div class="column" markdown="0">
+<div class="content" markdown="0">
   <h2>Topics & Goals</h2>
 
 <p>LangDev is celebrated on an yearly basis around Europe. It brings together the community working & researching around Language Engineering, MDE, DSLs with a clear focus on showing progress on the state of the art with working tooling. Talks with running software demonstrations are encouraged over just theoretical papers.
@@ -638,7 +647,7 @@ All proposals will undergo reviewing by the program committee.
 <h2> Organization</h2>
 
 <p>
-In case you have any further questions, please contact: [langdev2024@metadev.pro](mailto:langdev2024@metadev.pro)
+In case you have any further questions, please contact: <a href="mailto:langdev2024@metadev.pro">langdev2024&commat;metadev.pro</a>
 </p>
 
 <p>Organizers:</p>
