@@ -8,10 +8,7 @@
   --bg-dark-color: #0b0c0f;
   --tertiary-color: #7e8b9e;
 }
-.markdown-body img {
-  background-color: var(--bg-color);
-}
-html: {
+html {
   margin: 0;
   padding: 0;
 }
@@ -34,7 +31,7 @@ body {
   height: 4rem;
 }
 .langdev-logo:hover {
-  underline: none;
+  text-decoration: none;
 }
 
 .content {
@@ -54,14 +51,15 @@ p {
   margin: 3rem;
   height: 4rem;
 }
-.markdown-body .h1 {
-  border-bottom: none;
-}
-.markdown-body tr,
-.markdown-body td {
-  background-color: var(--bg-color);
-}
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 137%;
+  color: #fff;
+}
 .title-xl {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -100,6 +98,11 @@ p {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.cta:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
 .secondary {
   background-color: var(--bg-color);
   color: #ffffff;
@@ -125,20 +128,15 @@ a:hover {
 .ml2 {
   margin-left: 3rem;
 }
-.xh2 {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-}
+
 h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  color: #fff;
 }
-.markdown-body h2,
+h2,
 .title-m {
   margin-top: 3rem;
   text-align: center;
@@ -154,6 +152,7 @@ h3 {
 
 .top-bar {
   margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 .top-menu {
   margin-top: 3rem;
@@ -179,9 +178,9 @@ h3 {
 .center {
   text-align: center;
 }
-.markdown-body hr {
+hr {
   border: 0;
-  heigth: 1px;
+  height: 1px;
   color: #fff;
 }
 .banner {
@@ -197,6 +196,9 @@ h3 {
 .flex {
   display: flex;
 }
+.current {
+  color: var(--accent-color);
+}
 .sponsors img {
   background-color: var(--bg-light-color);
 }
@@ -209,4 +211,75 @@ h3 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+}
+.top-menu nav a {
+  text-decoration: none;
+  padding-bottom: 1rem;
+  border-bottom: 0px;
+}
+.top-menu nav a:hover {
+  color: var(--accent-color);
+}
+.top-menu nav a.current {
+  border-bottom: 3px solid var(--accent-color);
+}
+.top-menu nav a.cta:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* tables */
+table.schedule {
+  border-collapse: collapse;
+  border: 1px solid;
+  display: table;
+  width: 100%;
+}
+
+table.schedule:nth-child(even) {
+  margin-top: 20px;
+}
+
+table.schedule td:nth-child(1) {
+  width: 50px;
+  text-align: right;
+}
+
+table.schedule td:nth-child(2) {
+  width: 60%;
+}
+
+table.schedule td:nth-child(3) {
+  width: 30%;
+}
+
+table.schedule th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  vertical-align: center;
+  padding: 8px;
+}
+
+table.schedule tr.day {
+  background-color: midnightblue;
+}
+
+table.schedule tr.day td {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.schedule tr.break {
+  background-color: lightgray;
+  color: black;
+}
+table.schedule tr.social {
+  background-color: #e0ccff;
+  color: black;
+}
+
+table.schedule tr.break td:nth-child(2) {
+  text-align: center;
 }
