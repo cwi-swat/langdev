@@ -56,7 +56,11 @@ p {
 }
 .logo2 {
   margin: 3rem;
-  width: 10rem;
+  width: 11rem;
+}
+.logo3 {
+  margin: 3rem;
+  height: 4rem;
 }
 
 h1 {
