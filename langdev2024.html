@@ -15,13 +15,24 @@
       href="./assets/2024/favicon/favicon-32x32.png"
       sizes="32x32"
     />
+    <script src="assets/js/script.js" defer></script>
   </head>
   <body>
-    <div>
+    <div class="header">
       <div class="top-bar">
-        <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2024"
-          ><img src="./assets/2024/langdev2024-logo.svg"
-        /></a>
+        <a
+          class="langdev-logo"
+          href="https://langdevcon.org"
+          alt="langdev 2024"
+        >
+          <img src="./assets/2024/langdev2024-logo.svg" />
+        </a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <div class="top-menu">
           <nav>
             <a class="ml2 current">Home</a>
@@ -47,44 +58,46 @@
           </p>
           <div class="mt3">
             <a class="btn secondary" href="2024/venue">Plan your travel</a>
-            <a class="btn cta ml2" href="">Get Tickets</a>
+            <a class="btn cta" href="">Get Tickets</a>
           </div>
         </div>
-        <div class="c1">
-          <img class="fr" src="assets/2024/seville-night.png" />
-        </div>
       </div>
-
-      <div class="mt6 sponsors center">
-        <h2 class="title-m">Sponsors</h2>
-        <div class="flex">
-          <a href="https://www.f1re.nl/" alt="F1RE"
-            ><img class="logo2" src="assets/2024/sponsors/f1re-logo.svg"
-          /></a>
-          <a href="https://strumenta.com/"
-            ><img
-              class="logo2"
-              alt="Strumenta"
-              src="assets/2024/sponsors/strumenta.png"
-          /></a>
-          <a href="https://metadev.pro/"
-            ><img
-              class="logo2"
-              alt="Metadev"
-              src="assets/2024/sponsors/metadev-dark.svg"
-          /></a>
-        </div>
-        <a class="btn tertiary" href="https://metadev.pro/contact/"
-          >Become a sponsor &rarr;</a
-        >
+    </div>
+    <div class="mt6 sponsors center">
+      <h2 class="title-m">Sponsors</h2>
+      <div class="flex">
+        <a href="https://www.f1re.nl/" alt="F1RE"
+          ><img class="logo2" src="assets/2024/sponsors/f1re-logo.png"
+        /></a>
+        <a href="https://strumenta.com/"
+          ><img
+            class="logo3"
+            alt="Strumenta"
+            src="assets/2024/sponsors/strumenta-white.png"
+        /></a>
+        <a href="https://metadev.pro/"
+          ><img
+            class="logo2"
+            alt="Metadev"
+            src="assets/2024/sponsors/metadev-dark.svg"
+        /></a>
       </div>
-      <div class="collaborators center">
-        <h2 class="title-m">Collaborators</h2>
-        <div class="flex"></div>
-        <a class="btn tertiary" href="https://metadev.pro/contact/"
-          >Collaborate with us &rarr;</a
-        >
+      <a class="btn" href="https://metadev.pro/contact/">
+        <span class="tertiary">Become a sponsor &rarr;</span>
+      </a>
+    </div>
+    <div class="collaborators center">
+      <h2 class="title-m">Collaborators</h2>
+      <div class="flex">
+        <a href="https://www.us.es/" alt="University of Seville"
+          ><img
+            class="logo"
+            src="assets/2024/sponsors/us-principal-monocromo.svg"
+        /></a>
       </div>
+      <a class="btn" href="https://metadev.pro/contact/"
+        ><span class="tertiary">Collaborate with us &rarr;</span></a
+      >
     </div>
 
     <div class="content">
@@ -104,26 +117,28 @@
         the European Union in different programs).
       </p>
 
-      <h2>Special Edition</h2>
+      <div class="special-edition">
+        <h2>Special Edition</h2>
 
-      <p>
-        Seville's edition is putting the emphasis on
-        <strong>Aerospace</strong> sector and <strong>Security</strong>.
-      </p>
-      <p>
-        Seville has an enterprise cluster of companies devoted to Aerospace. The
-        organization want to take the opportunity to reunite and promote the
-        interchange between the industry and research to align research &
-        transfer technologies as a meeting point for a unique networking
-        opportunity.
-      </p>
+        <p>
+          Seville's edition is putting the emphasis on
+          <strong>Aerospace</strong> sector and <strong>Security</strong>.
+        </p>
+        <p>
+          Seville has an enterprise cluster of companies devoted to Aerospace.
+          The organization want to take the opportunity to reunite and promote
+          the interchange between the industry and research to align research &
+          transfer technologies as a meeting point for a unique networking
+          opportunity.
+        </p>
 
-      <p>
-        On the other hand, <strong>Security</strong> and cybersecurity is a
-        central topic for any digital system. Sophistication of attacks demands
-        better security tools, process and analysis tools. Models. modeling
-        tools & DSLs for security are on the rise.
-      </p>
+        <p>
+          On the other hand, <strong>Security</strong> and cybersecurity is a
+          central topic for any digital system. Sophistication of attacks
+          demands better security tools, process and analysis tools. Models.
+          modeling tools & DSLs for security are on the rise.
+        </p>
+      </div>
 
       <h2>Location</h2>
 
@@ -161,7 +176,7 @@
 
       <h2>Preliminary Schedule</h2>
 
-      <table class="schedule">
+      <table class="mt3 schedule">
         <tr class="day">
           <td colspan="3">Thursday, October 17</td>
         </tr>
@@ -239,11 +254,6 @@
           <td>17:00</td>
           <td>Slot 11</td>
           <td>to be announced</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
         </tr>
         <tr class="social">
           <td>21:00</td>
@@ -458,11 +468,11 @@
         <a href="https://metadev.pro/">Metadev</a>.
       </p>
 
-      <div>
+      <div class="flex">
         <a href="https://www.us.es/" alt="University of Seville"
           ><img
             class="logo"
-            src="https://www.us.es/sites/default/files/inline-images/US-marca-monocromo.png"
+            src="assets/2024/sponsors/us-principal-monocromo.svg"
         /></a>
         <a href="https://metadev.pro/"
           ><img
