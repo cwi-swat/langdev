@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Langdev 2024 - Speakers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Langdev 2024 - Home</title>
     <link href="./assets/2024/seville.css" rel="stylesheet" />
     <link
       rel="icon"
@@ -39,7 +40,8 @@
             <a href="2024/program" class="ml2">Program</a>
             <a href="2024/speakers" class="ml2">Speakers</a>
             <a href="2024/venue" class="ml2">Venue</a>
-            <a class="ml2 btn cta">Get Tickets</a>
+            <a class="ml2 btn cta hidden">Get Tickets</a>
+            <button class="btn-exit" id="close-menu">X</button>
           </nav>
         </div>
       </div>
@@ -58,7 +60,7 @@
           </p>
           <div class="mt3">
             <a class="btn secondary" href="2024/venue">Plan your travel</a>
-            <a class="btn cta" href="">Get Tickets</a>
+            <a class="btn cta hidden" href="">Get Tickets</a>
           </div>
         </div>
       </div>
@@ -191,12 +193,12 @@
         <tr>
           <td>9:30</td>
           <td>Slot 1</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>10:00</td>
           <td>Slot 2</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>10:30</td>
@@ -205,17 +207,17 @@
         <tr>
           <td>11:00</td>
           <td>Slot 3</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>11:30</td>
           <td>Slot 4</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>12:00</td>
           <td>Slot 5</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>12:30</td>
@@ -224,17 +226,17 @@
         <tr>
           <td>14:00</td>
           <td>Slot 6</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>14:30</td>
           <td>Slot 7</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>15:00</td>
           <td>Slot 8</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>15:30</td>
@@ -243,17 +245,17 @@
         <tr>
           <td>16:00</td>
           <td>Slot 9</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>16:30</td>
           <td>Slot 10</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>17:00</td>
           <td>Slot 11</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="social">
           <td>21:00</td>
@@ -272,17 +274,17 @@
         <tr>
           <td>9:00</td>
           <td>Slot 1</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>9:30</td>
           <td>Slot 2</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>10:00</td>
           <td>Slot 3</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>10:30</td>
@@ -291,17 +293,17 @@
         <tr>
           <td>11:00</td>
           <td>Slot 4</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>11:30</td>
           <td>Slot 5</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>12:00</td>
           <td>Slot 6</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>12:30</td>
@@ -310,17 +312,17 @@
         <tr>
           <td>14:00</td>
           <td>Slot 7</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>14:30</td>
           <td>Slot 8</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>15:00</td>
           <td>Slot 9</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr class="break">
           <td>15:30</td>
@@ -329,12 +331,12 @@
         <tr>
           <td>16:00</td>
           <td>Slot 10</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>16:30</td>
           <td>Slot 11</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
         <tr>
           <td>17:00</td>
@@ -349,7 +351,7 @@
         <tr class="social">
           <td>9:00<br />12:00</td>
           <td>Guided City Tour</td>
-          <td>to be announced</td>
+          <td class="low">to be announced</td>
         </tr>
       </table>
 
@@ -462,23 +464,30 @@
       </ul>
 
       <hr />
-      <p>
-        <strong>LangDev'24</strong> is organized by the
-        <a href="https://www.us.es/">University of Seville</a> &amp;
-        <a href="https://metadev.pro/">Metadev</a>.
-      </p>
-
-      <div class="flex">
-        <a href="https://www.us.es/" alt="University of Seville"
-          ><img
-            class="logo"
-            src="assets/2024/sponsors/us-principal-monocromo.svg"
+      <div class="footer">
+        <p>
+          <strong>LangDev'24</strong> is organized by the
+          <a href="https://www.us.es/">University of Seville</a> &amp;
+          <a href="https://metadev.pro/">Metadev</a>.
+        </p>
+        <div class="flex bottom-line">
+          <a href="https://www.us.es/" alt="University of Seville"
+            ><img
+              class="logo"
+              src="assets/2024/sponsors/us-principal-monocromo.svg"
+          /></a>
+          <a href="https://metadev.pro/"
+            ><img
+              class="logo2"
+              alt="Metadev"
+              src="assets/2024/sponsors/metadev-dark.svg"
+          /></a>
+        </div>
+        <a href="https://x.com/LangDev2024" alt=" "
+          ><img class="icon" src="assets/2024/x-icon.svg"
         /></a>
-        <a href="https://metadev.pro/"
-          ><img
-            class="logo2"
-            alt="Metadev"
-            src="assets/2024/sponsors/metadev-dark.svg"
+        <a href="https://www.linkedin.com/in/langdev2024/" alt=" "
+          ><img class="icon" src="assets/2024/in-icon.svg"
         /></a>
       </div>
     </div>

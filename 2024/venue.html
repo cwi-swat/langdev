@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Langdev 2024 - Speakers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Langdev 2024 - Venue</title>
     <link href="../assets/2024/seville.css" rel="stylesheet" />
     <link
       rel="icon"
@@ -15,6 +16,7 @@
       href="../assets/2024/favicon/favicon-32x32.png"
       sizes="32x32"
     />
+    <script src="../assets/js/script.js" defer></script>
   </head>
   <body>
     <div class="main">
@@ -34,142 +36,169 @@
             <a href="program" class="ml2">Program</a>
             <a href="speakers" class="ml2">Speakers</a>
             <a href="venue" class="ml2 current">Venue</a>
-            <a class="ml2 btn cta">Get Tickets</a>
+            <a class="ml2 btn cta hidden">Get Tickets</a>
+            <button class="btn-exit" id="close-menu">X</button>
           </nav>
         </div>
       </div>
 
-      <div class="banner">
+      <div class="header-secondary">
         <div class="c1">
           <h1>Venue &amp; Travel Information</h1>
-
           <h2>Seville</h2>
           <p>
-            Seville Seville is a monumental city located at the South of Spain.
-            Its well-known as the America's Gate during the XVI century as all
-            the commerce between America and Spain was centralized in the city.
+            Seville is a monumental city located at the South of Spain. Its
+            well-known as the America's Gate during the XVI century as all the
+            commerce between America and Spain was centralized in the city.
             Don't forget to reserve some time to visit the city and get lost on
             its ancient streets.
           </p>
 
-          <h2>How to arrive to Seville?</h2>
-
-          <h3>By Plane</h3>
-          <p>
-            <tt>SVQ</tt>
-            <a href="https://www.aena.es/en/sevilla.html">Seville Airport</a>
-            Connected with flights from/to Europe destinations from carriers:
-          </p>
+          <h2>Tourism &amp; landmarks to visit</h2>
           <ul>
             <li>
-              Air France, Austrian Airlines, BA Euroflyer, EasyJet, Edelweis,
-              Iberia, Lufthansa, RyanAir, Scandinavian Airlines, TAP, Transavia,
-              Vueling,Wizz
+              <a
+                href="https://www.andalucia.org/en/sevilla-visitas-plaza-de-espana"
+                >Plaza de España</a
+              >
+            </li>
+            <li>
+              <a href="https://www.realalcazarsevilla.com/"
+                >Real Alcazar de Sevilla</a
+              >
+            </li>
+            <li>
+              <a href="https://catedraldesevilla.com/en/"
+                >Seville Cathedral & La Giralda</a
+              >
+            </li>
+            <li>
+              <a href="https://visitasevilla.es/en/seville-city-hall/"
+                >Seville City Hall</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.andalucia.org/en/sevilla-cultural-tourism-archivo-general-de-indias"
+                >Archivo General de Indias</a
+              >
+            </li>
+            <li>
+              <a href="https://www.setasdesevilla.com/en/"
+                >Las Setas de Sevilla</a
+              >
+            </li>
+            <li>
+              <a href="https://www.italicasevilla.org/en/"
+                >Roman city of Itálica, Santiponce</a
+              >
+            </li>
+            <li>
+              <a href="https://sevillecityguide.com/attractions-seville.html"
+                >More ideas</a
+              >
             </li>
           </ul>
-
-          <h3>By High-Speed Train</h3>
-          <p>
-            AVE Train (2 hours 45 min) from Madrid, Atocha Station (<a
-              href="https://maps.app.goo.gl/Z7tHz8C4ttNfLjSX9"
-              >map</a
-            >) to Seville, Santa Justa Station (<a
-              href="https://maps.app.goo.gl/XU5PFWRDgj6ALpBE9"
-              >map</a
-            >).
-          </p>
-          <p>
-            <a href="https://www.thetrainline.com/en/stations/seville"
-              >Trainline.com</a
-            >
-          </p>
-
-          <h3>Where to stay</h3>
-          <p>
-            The city is plenty of accommodations ranging all kind of prices from
-            hotels to house rentals.
-          </p>
-          <ul>
-            <li><a href="https://www.booking.com/">Booking</a></li>
-            <li><a href="https://lastminute.com/">Last Minute</a></li>
-            <li><a href="https://www.airbnb.es/">airbnb</a></li>
-            <li><a href="https://www.trivago.es/en-US/">Trivago</a></li>
-          </ul>
-
-          <h3>Tourism &amp; landmarks to visit</h3>
-          <div>
-            <ul>
-              <li>
-                <a
-                  href="https://www.andalucia.org/en/sevilla-visitas-plaza-de-espana"
-                  >Plaza de España</a
-                >
-              </li>
-              <li>
-                <a href="https://www.realalcazarsevilla.com/"
-                  >Real Alcazar de Sevilla</a
-                >
-              </li>
-              <li>
-                <a href="https://catedraldesevilla.com/en/"
-                  >Seville Cathedral & La Giralda</a
-                >
-              </li>
-              <li>
-                <a href="https://visitasevilla.es/en/seville-city-hall/"
-                  >Seville City Hall</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.andalucia.org/en/sevilla-cultural-tourism-archivo-general-de-indias"
-                  >Archivo General de Indias</a
-                >
-              </li>
-              <li>
-                <a href="https://www.setasdesevilla.com/en/"
-                  >Las Setas de Sevilla</a
-                >
-              </li>
-              <li>
-                <a href="https://www.italicasevilla.org/en/"
-                  >Roman city of Itálica, Santiponce</a
-                >
-              </li>
-              <li>
-                <a href="https://sevillecityguide.com/attractions-seville.html"
-                  >[More ideas.</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <h3>Wheater</h3>
-          <p>
-            May &amp; October are the ideal months to visit Seville to avoid the
-            extreme heat in summer.
-            <a
-              href="https://www.accuweather.com/es/es/seville/306733/october-weather/306733"
-              >Temperatures</a
-            >
-            are soft &amp; warm ranging: 17 ºC - 27 ºC.
-          </p>
-
-          <h3>Food &amp; drink</h3>
-          <p>
-            Try the
-            <a href="https://devourtours.com/blog/typical-foods-in-seville/"
-              >local food</a
-            >
-            and get inspired.
-          </p>
         </div>
 
-        <div class="c1">
-          <img
-            style="margin-left: 4rem; width: 30rem"
-            src="../assets/2024/seville.png"
-          />
+        <img class="img-banner" src="/assets/2024/seville.png" />
+      </div>
+      <div class="content">
+        <h2>How to arrive to Seville?</h2>
+
+        <p><strong>By Plane</strong></p>
+        <p>
+          <a href="https://www.aena.es/en/sevilla.html">Seville Airport</a>
+          Connected with flights from/to Europe destinations from carriers:
+        </p>
+        <ul>
+          <li>
+            Air France, Austrian Airlines, BA Euroflyer, EasyJet, Edelweis,
+            Iberia, Lufthansa, RyanAir, Scandinavian Airlines, TAP, Transavia,
+            Vueling,Wizz
+          </li>
+        </ul>
+
+        <p><strong>By High-Speed Train</strong></p>
+        <p>
+          AVE Train (2 hours 45 min) from Madrid, Atocha Station (<a
+            href="https://maps.app.goo.gl/Z7tHz8C4ttNfLjSX9"
+            >map</a
+          >) to Seville, Santa Justa Station (<a
+            href="https://maps.app.goo.gl/XU5PFWRDgj6ALpBE9"
+            >map</a
+          >).
+        </p>
+        <p>
+          <a href="https://www.thetrainline.com/en/stations/seville"
+            >Trainline.com</a
+          >
+        </p>
+
+        <h2>Where to stay</h2>
+        <p>
+          The city is plenty of accommodations ranging all kind of prices from
+          hotels to house rentals.
+        </p>
+        <ul>
+          <li><a href="https://www.booking.com/">Booking</a></li>
+          <li><a href="https://lastminute.com/">Last Minute</a></li>
+          <li><a href="https://www.airbnb.es/">airbnb</a></li>
+          <li><a href="https://www.trivago.es/en-US/">Trivago</a></li>
+        </ul>
+
+        <div class="banner-column">
+          <div class="wrap wrap2">
+            <h2>Wheater</h2>
+            <p>
+              May &amp; October are the ideal months to visit Seville to avoid
+              the extreme heat in summer.
+              <a
+                href="https://www.accuweather.com/es/es/seville/306733/october-weather/306733"
+                >Temperatures</a
+              >
+              are soft &amp; warm ranging: 17 ºC - 27 ºC.
+            </p>
+          </div>
+          <div>
+            <div class="wrap wrap1">
+              <h2>Food &amp; drink</h2>
+              <p>
+                Try the
+                <a href="https://devourtours.com/blog/typical-foods-in-seville/"
+                  >local food</a
+                >
+                and get inspired.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>
+            <strong>LangDev'24</strong> is organized by the
+            <a href="https://www.us.es/">University of Seville</a> &amp;
+            <a href="https://metadev.pro/">Metadev</a>.
+          </p>
+          <div class="flex bottom-line">
+            <a href="https://www.us.es/" alt="University of Seville"
+              ><img
+                class="logo"
+                src="/assets/2024/sponsors/us-principal-monocromo.svg"
+            /></a>
+            <a href="https://metadev.pro/"
+              ><img
+                class="logo2"
+                alt="Metadev"
+                src="/assets/2024/sponsors/metadev-dark.svg"
+            /></a>
+          </div>
+          <a href="https://x.com/LangDev2024" alt=" "
+            ><img class="icon" src="/assets/2024/x-icon.svg"
+          /></a>
+          <a href="https://www.linkedin.com/in/langdev2024/" alt=" "
+            ><img class="icon" src="/assets/2024/in-icon.svg"
+          /></a>
         </div>
       </div>
     </div>
