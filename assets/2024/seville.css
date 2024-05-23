@@ -52,7 +52,9 @@ p {
 }
 
 ul {
+  list-style-type: square;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding-left: 2rem;
 }
 
