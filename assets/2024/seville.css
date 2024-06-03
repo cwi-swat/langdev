@@ -82,6 +82,12 @@ h1 {
   line-height: 137%;
 }
 
+h3 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
 .title-xl {
   color: #fff;
   font-family: "Poppins", sans-serif;
