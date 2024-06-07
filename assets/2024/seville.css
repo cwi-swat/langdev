@@ -164,6 +164,9 @@ a:hover {
 .ml2 {
   margin-left: 3rem;
 }
+.counter {
+  height: 2.5rem;
+}
 
 h3 {
   color: #fff;
