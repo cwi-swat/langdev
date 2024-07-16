@@ -62,6 +62,12 @@ ul {
   height: 6rem;
   margin: 2rem;
 }
+.logo-frame {
+  height: 4rem;
+  margin: 2rem;
+  padding: 0.7rem;
+  background-color: #f0f0f0;
+}
 
 .logo2 {
   margin: 3rem;
