@@ -63,10 +63,10 @@ ul {
   margin: 2rem;
 }
 .logo-frame {
+  background-color: #f0f0f0;
   height: 4rem;
   margin: 2rem;
   padding: 0.7rem;
-  background-color: #f0f0f0;
 }
 
 .logo2 {
@@ -89,9 +89,9 @@ h1 {
 }
 
 h3 {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  font-family: "Poppins", sans-serif;
 }
 
 .title-xl {
@@ -289,6 +289,17 @@ h2,
   grid-template-columns: 1fr 1fr;
 }
 
+.map-container {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+iframe {
+  border: 0;
+  height: 375px;
+  width: 100%;
+}
+
 .wrap {
   border: 2px dashed var(--accent-color);
   height: 12rem;
@@ -436,8 +447,8 @@ hr {
 .flex {
   align-items: center;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .current {
@@ -472,6 +483,10 @@ hr {
   .content {
     margin: 0 1.5rem;
     min-width: unset;
+  }
+
+  .map-container {
+    display: none;
   }
 }
 
