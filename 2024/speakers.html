@@ -17,6 +17,38 @@
       sizes="32x32"
     />
     <script src="../assets/js/script.js" defer></script>
+    <style>
+      .speaker {
+        float: left;
+        margin-right: 4rem;
+        width: 10rem;
+        filter: saturate(50%) sepia(10%) saturate(10%);
+      }
+      h2 {
+        text-align: left;
+        font-size: 1.3rem;
+      }
+      .s-affiliation {
+        margin-bottom: 2rem;
+      }
+      .s-keynote {
+        margin-bottom: 16rem;
+      }
+      .s-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-style: italic;
+      }
+      hr {
+        margin-top: 3rem;
+        width: 50%;
+        height: 0px;
+        border-top: 2px solid #7e8b9e;
+      }
+      .footer {
+        margin-top: 10rem;
+      }
+    </style>
   </head>
   <body>
     <div class="main">
@@ -43,7 +75,22 @@
       </div>
       <div class="content">
         <h1>Speakers</h1>
-        <p>Comming soon...!</p>
+        <div class="s-keynote">
+          <img
+            class="speaker"
+            src="../assets/2024/speakers/marcel-verhoef.png"
+          />
+          <h2>Marcel Verhoef</h2>
+          <div class="s-affiliation">
+            Director of Technology at the <strong>European Space Agency</strong>
+          </div>
+          <div>OPENNING KEYNOTE</div>
+          <div class="s-title">
+            Model Based Software Engineering in Space Missions
+          </div>
+          <hr />
+        </div>
+        <p>More speakers comming soon...!</p>
         <div class="footer">
           <p>
             <strong>LangDev'24</strong> is organized by the
