@@ -623,3 +623,50 @@ table.schedule tr.social {
 table.schedule tr.break td:nth-child(2) {
   text-align: center;
 }
+
+table.inscription {
+  border-spacing: 0px;
+  text-align: center;
+  margin: 2rem;
+  padding: 0px;
+}
+.inscription th.col1 {
+  width: 15rem;
+  height: 4rem;
+  margin: 0;
+}
+.inscription th.col2,
+.inscription td.col2 {
+  height: 4rem;
+  width: 25rem;
+  background-color: #5f6875;
+  margin: 0;
+}
+.inscription th.col3,
+.inscription td.col3 {
+  height: 4rem;
+  width: 25rem;
+  background-color: #4c535e;
+  margin: 0;
+}
+
+table.inscription th,
+table.inscription td {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+table.inscription td {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+.big {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+ol.inscription {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
