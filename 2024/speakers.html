@@ -19,32 +19,51 @@
     <script src="../assets/js/script.js" defer></script>
     <style>
       .speaker {
-        float: left;
-        margin-right: 4rem;
-        width: 10rem;
-        filter: saturate(50%) sepia(10%) saturate(10%);
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 3rem;
+        margin-bottom: 4rem;
+        border-bottom: 2px solid #7e8b9e;
       }
+      .speaker h2 {
+        color: var(--accent-color);
+      }
+      .speaker img {
+        margin-top: 5rem;
+        margin-right: 4rem;
+        width: 12rem;
+        height: fit-content;
+        filter: grayscale(70%) sepia(70%) hue-rotate(141deg) contrast(1)
+          brightness(1) saturate(0.8);
+      }
+      .speaker .social {
+        margin-right: 1rem;
+      }
+      .speaker .social img {
+        margin-top: 1rem;
+        margin-right: 0rem;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
       h2 {
         text-align: left;
         font-size: 1.3rem;
       }
       .s-affiliation {
         margin-bottom: 2rem;
-      }
-      .s-keynote {
-        margin-bottom: 16rem;
+        font-style: italic;
       }
       .s-title {
         font-size: 1.2rem;
-        font-weight: bold;
-        font-style: italic;
+        font-style: normal;
+        margin-left: 3rem;
       }
-      hr {
-        margin-top: 3rem;
-        width: 50%;
-        height: 0px;
-        border-top: 2px solid #7e8b9e;
+      .s-title a:before {
+        content: "◢";
+        margin-right: 0.7rem;
       }
+
       .footer {
         margin-top: 10rem;
       }
@@ -75,20 +94,236 @@
       </div>
       <div class="content">
         <h1>Speakers</h1>
-        <div class="s-keynote">
-          <img
-            class="speaker"
-            src="../assets/2024/speakers/marcel-verhoef.png"
-          />
-          <h2>Marcel Verhoef, PhD.</h2>
-          <div class="s-affiliation">
-            Director of Technology at the <strong>European Space Agency</strong>
+        <div class="speaker keynote">
+          <img src="../assets/2024/speakers/marcel-verhoef.png" />
+          <div>
+            <h2>Marcel Verhoef, PhD.</h2>
+            <div class="s-affiliation">
+              Director of Technology at the
+              <strong
+                ><a href="https://www.esa.int/"
+                  >European Space Agency</a
+                ></strong
+              >
+            </div>
+            <div>OPENNING KEYNOTE</div>
+            <div class="s-title">
+              <a href="program.html/#keynote"
+                >Model Based Software Engineering in Space Missions</a
+              >
+            </div>
+            <a class="social" href="https://www.linkedin.com/in/marcelverhoef/"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
           </div>
-          <div>OPENNING KEYNOTE</div>
-          <div class="s-title">
-            Model Based Software Engineering in Space Missions
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/utikhonova.jpg" />
+          <div>
+            <h2>Ulyana Tikhonova, PhD.</h2>
+            <div class="s-affiliation">
+              Model Driven Software Engineer at
+              <strong><a href="https://f1re.io">F1RE</a></strong>
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html/#12">Implementing LionWeb in Rascal</a>
+            </div>
+
+            <a
+              class="social"
+              href="https://linkedin.com/in/ulyana-tikhonova-35b179a2/"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
           </div>
-          <hr />
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/bcombemale.jpg" />
+          <div>
+            <h2>Beniot Combemale, PhD.</h2>
+            <div class="s-affiliation">
+              Full Profesor at
+              <strong
+                ><a href="https://www.univ-rennes.fr/en/"
+                  >University of Rennes</a
+                ></strong
+              >, <br />
+              Researcher at <a href="https://www.irisa.fr/">IRISA</a> &amp;
+              <a href="https://www.inria.fr/en">INRIA</a>
+            </div>
+            <div>SESSIONS</div>
+            <div class="s-title">
+              <a href="program.html/#17"
+                >PolyDebug: An Extensible and Language-Agnostic Architecture for
+                Polyglot Debugging</a
+              >
+              <br />
+              <a href="program.html/#18"
+                >Towards Iterative and Low-code DSL Development
+              </a>
+            </div>
+
+            <a class="social" href="https://linkedin.com/in/combemale/"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
+            <a class="social" href="https://x.com/bcombemale/"
+              ><img src="../assets/2024/x-icon.svg"
+            /></a>
+            <a class="social" href="https://people.irisa.fr/Benoit.Combemale/"
+              ><img src="../assets/2024/home-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/ftomassetti.jpg" />
+          <div>
+            <h2>Federico Tomassetti, PhD.</h2>
+            <div class="s-affiliation">
+              Founder at
+              <strong><a href="https://strumenta.com/">Strumenta</a></strong
+              >.
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html/#1"
+                >Language Engineering for Language Migrations</a
+              >
+            </div>
+
+            <a class="social" href="https://linkedin.com/in/federicotomassetti/"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
+            <a class="social" href="https://x.com/ftomasse/"
+              ><img src="../assets/2024/x-icon.svg"
+            /></a>
+            <a class="social" href="https://github.com/ftomassetti/"
+              ><img src="../assets/2024/github-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/pjmolina.jpg" />
+          <div>
+            <h2>Pedro J. Molina, PhD.</h2>
+            <div class="s-affiliation">
+              Founder at
+              <strong><a href="https://metadev.pro/">Metadev</a></strong
+              >,<br />
+              Representing
+              <a href="https://twitter.com/isagroupsevilla">ISA-Group</a> on the
+              <a href="https://www.openapis.org/">OpenAPI Initiative</a>.
+            </div>
+            <div>SESSIONS</div>
+            <div class="s-title">
+              <a href="program.html/#6"
+                >Collaborative Modeling capabilities in Orca with CRDTs</a
+              >
+              <br />
+              <a href="program.html/#7"
+                >Model Based Software Engineering in Space Missions</a
+              ><br />
+
+              <a href="program.html/#8"
+                >Improving the Observability &amp; Security of Kubernetes with
+                MDE</a
+              >
+            </div>
+
+            <a class="social" href="https://linkedin.com/in/pjmolina"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
+            <a class="social" href="https://x.com/pmolinam/"
+              ><img src="../assets/2024/x-icon.svg"
+            /></a>
+            <a class="social" href="https://github.com/pjmolina/"
+              ><img src="../assets/2024/github-icon.svg"
+            /></a>
+            <a class="social" href="https://pjmolina.com/"
+              ><img src="../assets/2024/home-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/pgomez.png" />
+          <div>
+            <h2>Pablo Gómez-Abajo, PhD.</h2>
+            <div class="s-affiliation">
+              Assistant Professor.
+              <strong
+                ><a href="https://uam.es/"
+                  >Universidad Autónoma de Madrid</a
+                ></strong
+              >.
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html/#9"
+                >Mutation testing for Domain-Specific Languages: the case of
+                task-oriented chatbots</a
+              >
+            </div>
+
+            <a class="social" href="https://linkedin.com/in/gomezabajo"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
+            <a class="social" href="https://x.com/gomezabajo_en/"
+              ><img src="../assets/2024/x-icon.svg"
+            /></a>
+            <a class="social" href="https://github.com/gomezabajo/"
+              ><img src="../assets/2024/github-icon.svg"
+            /></a>
+            <a class="social" href="https://www.gomezabajo.es/"
+              ><img src="../assets/2024/home-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/draco.png" />
+          <div>
+            <h2>Deni Raco</h2>
+            <div class="s-affiliation">
+              Assistant Professor.
+              <strong
+                ><a href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1"
+                  >RWTH Aachen University</a
+                ></strong
+              >.
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html/#36"
+                >A SysML-based Framework for Analyzing Security and Safety
+                Properties Applied on an Aerospace Data Link Uplink Feed
+                System</a
+              >
+            </div>
+
+            <a class="social" href="https://www.se-rwth.de/staff/Deni.Raco/"
+              ><img src="../assets/2024/home-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/tgiraudet.png" />
+          <div>
+            <h2>Théo Giraudet</h2>
+            <div class="s-affiliation">
+              Software Engineer at
+              <strong><a href="https://www.obeosoft.com/en/">Obeo</a></strong
+              >.
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html/#20"
+                >Augmenting graphical modeling workbenches with semantic-aware
+                interactive features</a
+              >
+            </div>
+
+            <a class="social" href="https://linkedin.com/in/theo-giraudet/"
+              ><img src="../assets/2024/in-icon.svg"
+            /></a>
+          </div>
         </div>
         <p>More speakers comming soon...!</p>
         <div class="footer">

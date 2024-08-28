@@ -566,17 +566,41 @@ table.schedule {
   border-collapse: collapse;
   display: table;
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 table.tr.social {
   margin-top: 20px;
 }
 
-table.schedule td:nth-child(1) {
+table.schedule.day1 td:nth-child(1) {
   text-align: right;
   width: 50px;
 }
 
+table.schedule.day1 tr.tl td:nth-child(1) {
+  text-align: left;
+}
+
+table.schedule.day1 td:nth-child(2) {
+  width: 30%;
+}
+
+table.schedule.day1 td:nth-child(3) {
+  width: 15%;
+}
+table.schedule.day1 td:nth-child(4) {
+  width: 30%;
+}
+
+table.schedule.day1 td:nth-child(5) {
+  width: 15%;
+}
+
+table.schedule td:nth-child(1) {
+  text-align: right;
+  width: 50px;
+}
 table.schedule td:nth-child(2) {
   width: 60%;
 }
@@ -594,7 +618,7 @@ td {
 }
 
 table.schedule td.low {
-  color: #7e8b9e;
+  color: #a0abb9;
 }
 
 table.schedule th.day {
@@ -613,7 +637,7 @@ table.schedule tr.day td {
 }
 
 table.schedule tr.break {
-  background-color: #2d303d;
+  background-color: #555864;
 }
 table.schedule tr.social {
   background-color: #2d303d;
@@ -622,6 +646,21 @@ table.schedule tr.social {
 
 table.schedule tr.break td:nth-child(2) {
   text-align: center;
+}
+
+.empty {
+  background-color: #424a56;
+}
+.track {
+  font-weight: bold;
+  background-color: #7e8b9e;
+}
+.lunch {
+  height: 9rem;
+}
+.social td {
+  height: 12rem;
+  background-color: #424a56;
 }
 
 table.inscription {
@@ -669,4 +708,35 @@ table.inscription td {
 ol.inscription {
   margin-left: 3rem;
   margin-bottom: 3rem;
+}
+
+.session-details {
+  margin-top: 3rem;
+}
+
+.session-details .session {
+  margin-bottom: 2rem;
+}
+.session-details .session .title {
+  font-weight: 500;
+}
+.session-details .title a {
+  color: var(--accent-color);
+}
+.session-details .session .author {
+  font-style: italic;
+}
+.session-details .session .abstract {
+  margin-top: 0.8rem;
+  margin-bottom: 4rem;
+  padding-left: 2rem;
+}
+.session-details .session p {
+  margin-block-start: 0.7rem;
+}
+.session-details .session ol {
+  padding-left: 3rem;
+}
+.session {
+  border-bottom: 2px solid #7e8b9e;
 }
