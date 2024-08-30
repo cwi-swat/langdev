@@ -28,58 +28,6 @@ Registration is possible until **9th of November**.
 
 ### Preliminary Schedule
 
-<style>
-    table.schedule {
-        border-collapse: collapse;
-        border: 1px solid;
-        display: table;
-        width: 100%;
-    }
-
-    table.schedule:nth-child(even) {
-        margin-top: 20px;
-    }
-
-    table.schedule td:nth-child(1) {
-        width: 50px;
-        text-align: right;
-    }
-
-    table.schedule td:nth-child(2) {
-        width: 60%;
-    }
-
-    table.schedule td:nth-child(3) {
-        width: 30%;
-    }
-
-    table.schedule th, td {
-        border: 1px solid black;
-        text-align: left;
-        vertical-align: center;
-        padding: 8px;
-    }
-
-    table.schedule tr.day {
-        background-color: midnightblue;
-    }
-
-    table.schedule tr.day td {
-        color: white;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    table.schedule tr.break {
-        background-color: lightgray;
-        color: black;
-    }
-
-    table.schedule tr.break td:nth-child(2) {
-        text-align: center;
-    }
-</style>
-
 <table class="schedule" markdown="0">
     <tr class="day">
         <td colspan="3">Tuesday, November 14</td>
