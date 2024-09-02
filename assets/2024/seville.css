@@ -274,8 +274,7 @@ h2,
   left: 50%;
   padding: 0.5rem 1rem;
   position: fixed;
-  /* top: 50%; */
-  top: 40%;
+  top: 65%;
   transform: translate(-50%, -50%);
 }
 
@@ -353,6 +352,7 @@ iframe {
     right: 0;
     top: 0;
     width: 100%;
+    z-index: 2;
   }
 
   #menu-toggle:checked + .menu-icon + .top-menu {
@@ -565,8 +565,8 @@ table.schedule {
   border: 1px solid;
   border-collapse: collapse;
   display: table;
-  width: 100%;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 table.tr.social {
@@ -652,48 +652,48 @@ table.schedule tr.break td:nth-child(2) {
   background-color: #424a56;
 }
 .track {
-  font-weight: bold;
   background-color: #7e8b9e;
+  font-weight: bold;
 }
 .lunch {
   height: 9rem;
 }
 .social td {
-  height: 12rem;
   background-color: #424a56;
+  height: 12rem;
 }
 
 table.inscription {
   border-spacing: 0px;
-  text-align: center;
   margin: 2rem;
   padding: 0px;
+  text-align: center;
 }
 .inscription th.col1 {
-  width: 15rem;
   height: 4rem;
   margin: 0;
+  width: 15rem;
 }
 .inscription th.col2,
 .inscription td.col2 {
-  height: 4rem;
-  width: 25rem;
   background-color: #5f6875;
+  height: 4rem;
   margin: 0;
+  width: 25rem;
 }
 .inscription th.col3,
 .inscription td.col3 {
-  height: 4rem;
-  width: 25rem;
   background-color: #4c535e;
+  height: 4rem;
   margin: 0;
+  width: 25rem;
 }
 
 table.inscription th,
 table.inscription td {
+  border: none;
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 table.inscription td {
@@ -702,12 +702,12 @@ table.inscription td {
   text-align: center;
 }
 .big {
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 ol.inscription {
-  margin-left: 3rem;
   margin-bottom: 3rem;
+  margin-left: 3rem;
 }
 
 .session-details {
@@ -727,8 +727,8 @@ ol.inscription {
   font-style: italic;
 }
 .session-details .session .abstract {
-  margin-top: 0.8rem;
   margin-bottom: 4rem;
+  margin-top: 0.8rem;
   padding-left: 2rem;
 }
 .session-details .session p {
