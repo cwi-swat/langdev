@@ -46,6 +46,12 @@
         height: 1.5rem;
       }
 
+      .speaker a.social:hover img {
+        filter: grayscale(0%) sepia(100%) hue-rotate(-30deg) saturate(2)
+          brightness(1.2);
+        transition: filter 0.3s ease;
+      }
+
       h2 {
         text-align: left;
         font-size: 1.3rem;
@@ -66,6 +72,12 @@
 
       .footer {
         margin-top: 10rem;
+      }
+
+      @media (max-width: 480px) {
+        .speaker {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
@@ -767,6 +779,25 @@
             /></a>
             <a class="social" href="https://github.com/Foxandxss"
               ><img src="../assets/2024/github-icon.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="../assets/2024/speakers/astalla.jpg" />
+          <div>
+            <h2>Alessio Stalla</h2>
+            <div class="s-affiliation">
+              Language Engineer at
+              <strong><a href="https://strumenta.com">Strumenta</a></strong>
+            </div>
+            <div>SESSION</div>
+            <div class="s-title">
+              <a href="program.html#37"
+                >LionWeb and Kolasu: an integration story</a
+              >
+            </div>
+            <a class="social" href="https://linkedin.com/in/alessiostalla/"
+              ><img src="../assets/2024/in-icon.svg"
             /></a>
           </div>
         </div>

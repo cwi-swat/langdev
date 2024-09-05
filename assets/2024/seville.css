@@ -64,7 +64,7 @@ ul {
 }
 .logo-frame {
   background-color: #f0f0f0;
-  height: 4rem;
+  height: 3rem;
   margin: 2rem;
   padding: 0.7rem;
 }
@@ -133,6 +133,11 @@ h3 {
   text-decoration: none;
 }
 
+a.btn:hover span {
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
 .cta {
   background-color: var(--accent-color);
   color: #ffffff;
@@ -165,7 +170,8 @@ a:visited {
   color: var(--main-color);
 }
 a:hover {
-  color: #fff;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
 }
 .ml2 {
   margin-left: 3rem;
@@ -326,7 +332,7 @@ iframe {
 
 @media (max-width: 900px) {
   .flex {
-    flex-direction: column;
+    display: block;
   }
 
   .menu-icon {
@@ -663,51 +669,74 @@ table.schedule tr.break td:nth-child(2) {
   height: 12rem;
 }
 
-table.inscription {
-  border-spacing: 0px;
-  margin: 2rem;
-  padding: 0px;
-  text-align: center;
+.inscription {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 2fr;
+  margin: 2rem 0;
+  width: 100%;
 }
-.inscription th.col1 {
-  height: 4rem;
-  margin: 0;
-  width: 15rem;
+.inscription .col1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
 }
-.inscription th.col2,
-.inscription td.col2 {
+
+.inscription .col1 span,
+.col4 span {
+  height: 3.625rem;
+}
+
+.inscription .col2,
+.col3 {
   background-color: #5f6875;
-  height: 4rem;
-  margin: 0;
-  width: 25rem;
-}
-.inscription th.col3,
-.inscription td.col3 {
-  background-color: #4c535e;
-  height: 4rem;
-  margin: 0;
-  width: 25rem;
-}
-
-table.inscription th,
-table.inscription td {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-table.inscription td {
-  margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
   text-align: center;
 }
+
+.inscription .col1 p:nth-child(3),
+.col2 p:nth-child(3),
+.col3 p:nth-child(3),
+.col4 p:nth-child(3) {
+  padding-top: 2rem;
+}
+
+.inscription p {
+  height: 5rem;
+  line-height: 1.1;
+}
+
 .big {
   font-size: 1.5rem;
   font-weight: bold;
 }
-ol.inscription {
+
+.col4 {
+  display: none;
+}
+
+ol.instructions {
+  display: block;
   margin-bottom: 3rem;
-  margin-left: 3rem;
+  padding-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  .inscription {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 3fr;
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .col4 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
 }
 
 .session-details {
