@@ -46,6 +46,12 @@
         height: 1.5rem;
       }
 
+      .speaker a.social:hover img {
+        filter: grayscale(0%) sepia(100%) hue-rotate(-30deg) saturate(2)
+          brightness(1.2);
+        transition: filter 0.3s ease;
+      }
+
       h2 {
         text-align: left;
         font-size: 1.3rem;
@@ -66,6 +72,12 @@
 
       .footer {
         margin-top: 10rem;
+      }
+
+      @media (max-width: 480px) {
+        .speaker {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
