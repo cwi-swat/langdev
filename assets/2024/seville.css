@@ -654,6 +654,21 @@ table.schedule tr.break td:nth-child(2) {
   text-align: center;
 }
 
+table.schedule.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  table.schedule.day1 {
+    display: none;
+  }
+  table.schedule.mobile {
+    display: block;
+    margin-top: 1rem;
+    padding: 0;
+  }
+}
+
 .empty {
   background-color: #424a56;
 }
