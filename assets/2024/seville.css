@@ -466,6 +466,9 @@ hr {
 }
 
 @media (max-width: 480px) {
+  .main {
+    padding: 0.5rem;
+  }
   .c1 {
     min-width: 16rem;
     padding: 0;
@@ -487,7 +490,7 @@ hr {
   }
 
   .content {
-    margin: 0 1.5rem;
+    margin: 0 0rem;
     min-width: unset;
   }
 
@@ -652,6 +655,21 @@ table.schedule tr.social {
 
 table.schedule tr.break td:nth-child(2) {
   text-align: center;
+}
+
+table.schedule.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  table.schedule.day1 {
+    display: none;
+  }
+  table.schedule.mobile {
+    display: block;
+    margin-top: 1rem;
+    padding: 0;
+  }
 }
 
 .empty {
