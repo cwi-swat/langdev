@@ -190,8 +190,8 @@
             <td class="low">Jesús Sánchez &mdash; U. of Murcia</td>
             <td>
               <a href="#28">
-                Jabuti CE: A Tool for Specifying Smart Contracts in the Domain
-                of Enterprise Application Integration</a
+                Jabuti CE: Writing Executable Smart Contracts for Enterprise
+                Application Integration</a
               >
             </td>
             <td class="low">Mailson T. Borges &mdash; Unijui U.</td>
@@ -534,8 +534,8 @@
 
             <td>
               <a href="#28">
-                Jabuti CE: A Tool for Specifying Smart Contracts in the Domain
-                of Enterprise Application Integration</a
+                Jabuti CE: Writing Executable Smart Contracts for Enterprise
+                Application Integration</a
               >
             </td>
             <td class="low">Mailson T. Borges &mdash; Unijui U.</td>
@@ -1473,8 +1473,8 @@
           <div class="session">
             <div class="title">
               <a name="28">
-                Jabuti CE: A Tool for Specifying Smart Contracts in the Domain
-                of Enterprise Application Integration
+                Jabuti CE: Writing Executable Smart Contracts for Enterprise
+                Application Integration
               </a>
             </div>
             <div class="author">
@@ -1487,25 +1487,35 @@
             </div>
             <div class="abstract">
               <p>
-                Some decentralised applications (such as blockchains) take
-                advantage of the services that smart contracts provide.
-                Currently, each blockchain platform is tightly coupled to a
-                particular contract language; for example, Ethereum supports
-                Serpent and Solidity, while Hyperledger prefers Go.
+                Usually, the integration of two or more enterprise applications
+                involves business or technical constraints, which can be
+                represented by smart contracts. Nevertheless, writing smart
+                contracts is an error-prone task due to the knowledge required
+                and the variety of programming languages and blockchains
+                available. Jabuti DSL, a domain-specific language (DSL) for
+                Enterprise Application Integration, tries to solve this problem
+                through simplified syntax and business semantics constructors.
               </p>
               <p>
-                To ease contract reuse, contracts can be specified in
-                platform-independent languages and automatically translated into
-                the languages of the target platforms. With this approach, the
-                task is reduced to the specification of the contract in the
-                language statements. This can be tedious and error-prone unless
-                the language is accompanied by supportive tools.
+                As Jabuti DSL smart contracts are non-executable, we have
+                developed Jabuti CE. Jabuti CE is a tool for specifying and
+                transforming Jabuti DSL smart contracts into executable code. It
+                consists of three main components: ANTLR-based Jabuti DSL
+                Grammar, VSCode Plugin, and Transformation Engine. The grammar
+                contains Jabuti DSL semantic rules. VSCode plugin is an
+                extension for VSCode editor and provides some features like code
+                highlighting, autocompletion, code navigation, syntax and
+                semantic validation, among others. The transformation engine
+                allows the implementation of template transformation for any
+                blockchain and has the implementation for Ethereum through
+                Solidity language and Hyperledger Fabric through Golang.
               </p>
               <p>
-                We present Jabuti CE, a model-driven tool that assists users of
-                Jabuti DSL in specifying platform-independent contracts for
-                Enterprise Application Integration. We have implemented Jabuti
-                CE as an extension for Visual Studio Code.
+                Jabuti CE code is available at
+                <a
+                  href="https://github.com/gca-research-group/jabuti-ce-transformation-engine"
+                  >https://github.com/gca-research-group/jabuti-ce-transformation-engine</a
+                >.
               </p>
             </div>
           </div>
