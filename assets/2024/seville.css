@@ -787,3 +787,7 @@ ol.instructions {
 .session {
   border-bottom: 2px solid #7e8b9e;
 }
+
+.closed {
+  text-decoration: line-through;
+}
