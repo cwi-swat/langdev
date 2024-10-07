@@ -62,6 +62,7 @@ ul {
   height: 6rem;
   margin: 2rem;
 }
+
 .logo-frame {
   background-color: #f0f0f0;
   height: 3rem;
@@ -77,6 +78,10 @@ ul {
 .logo3 {
   height: 4rem;
   margin: 3rem;
+}
+.logo4 {
+  width: 19rem;
+  margin: 2rem;
 }
 
 h1 {
