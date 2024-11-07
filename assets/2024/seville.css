@@ -796,3 +796,28 @@ ol.instructions {
 .closed {
   text-decoration: line-through;
 }
+
+.material {
+  display: flex;
+  margin: 1.7rem 0rem;
+  gap: 2rem;
+}
+.video:before {
+  content: " ";
+  background: url(youtube.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+.slides:before {
+  content: " ";
+  background: url(download.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+.slides {
+  margin-right: 2rem;
+}
