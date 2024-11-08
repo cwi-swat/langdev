@@ -80,8 +80,8 @@ ul {
   margin: 3rem;
 }
 .logo4 {
-  width: 19rem;
   margin: 2rem;
+  width: 19rem;
 }
 
 h1 {
@@ -799,27 +799,32 @@ ol.instructions {
 
 .material {
   display: flex;
-  margin: 1.7rem 0rem;
   gap: 2rem;
+  margin: 1.7rem 0rem;
 }
 .video:before {
-  content: " ";
   background: url(youtube.svg);
-  background-repeat: no-repeat;
   background-position: 0rem 0.9rem;
-  width: 2.3rem;
-  height: 2rem;
+  background-repeat: no-repeat;
+  content: " ";
   display: inline-block;
+  height: 2rem;
+  width: 2.3rem;
 }
 .slides:before {
-  content: " ";
   background: url(download.svg);
-  background-repeat: no-repeat;
   background-position: 0rem 0.7rem;
-  width: 2.1rem;
-  height: 2rem;
+  background-repeat: no-repeat;
+  content: " ";
   display: inline-block;
+  height: 2rem;
+  width: 2.1rem;
 }
 .slides {
   margin-right: 2rem;
+}
+.video:hover:before,
+.slides:hover:before {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(83%) saturate(3430%)
+    hue-rotate(3deg) brightness(103%) contrast(103%);
 }
