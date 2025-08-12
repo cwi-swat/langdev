@@ -25,8 +25,8 @@ Abstracts will be reviewed lightly by the program committee (to be determined).
 
 Important dates
 
-- Submission deadline: 15 August
-- Notification: 1 September
+- Submission deadline: 1 September
+- Notification: 15 September
 - LangDev’25: 16-17 October
 
 Location: **Amsterdam, NL**
