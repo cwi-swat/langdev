@@ -29,5 +29,7 @@ Important dates
 - Notification: 1 September
 - LangDev’25: 16-17 October
 
+Location: **Amsterdam, NL**
+
 Submit your abstract at: [https://forms.gle/Hnfhd4T8DEyXNTcBA](https://forms.gle/Hnfhd4T8DEyXNTcBA)
 
