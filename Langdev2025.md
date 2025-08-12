@@ -15,6 +15,7 @@ We solicit talk proposals concerning the application, development, and innovatio
 - Applications of AI to Language Workbenches and/or language engineering.
 
 LangDev seeks presentations that demonstrate applied aspects of language engineering. Presentations explaining the theory behind language engineering are also welcome, but they need to showcase the practical applicability of the presented approaches. Presentations about preliminary or unfinished work are welcome. This year we distinguish three kinds of presentations:
+
 - Regular: 30 minutes presentation
 - Lightning: 10 minutes
 - Tech demo: 10 minutes
