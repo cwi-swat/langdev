@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Langdev 2025 - Speakers</title>
+    <link href="../assets/2025/stylesheet.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/2025/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/2025/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <script src="../assets/js/script.js" defer></script>
+    <style>
+      .speaker {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 3rem;
+        margin-bottom: 4rem;
+        border-bottom: 2px solid #7e8b9e;
+      }
+      .speaker h2 {
+        color: var(--accent-color);
+      }
+      .speaker img {
+        margin-top: 5rem;
+        margin-right: 4rem;
+        width: 12rem;
+        height: 12rem;
+        filter: grayscale(70%) sepia(70%) hue-rotate(141deg) contrast(1)
+          brightness(1) saturate(0.8);
+      }
+      .speaker .social {
+        margin-right: 1rem;
+      }
+      .speaker .social img {
+        margin-top: 1rem;
+        margin-right: 0rem;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      .speaker a.social:hover img {
+        filter: grayscale(0%) sepia(100%) hue-rotate(-30deg) saturate(2)
+          brightness(1.2);
+        transition: filter 0.3s ease;
+      }
+
+      h2 {
+        text-align: left;
+        font-size: 1.3rem;
+      }
+      .s-affiliation {
+        margin-bottom: 2rem;
+        font-style: italic;
+      }
+      .s-title {
+        font-size: 1.2rem;
+        font-style: normal;
+        margin-left: 3rem;
+      }
+      .s-title a:before {
+        content: "◢";
+        margin-right: 0.7rem;
+      }
+
+      .footer {
+        margin-top: 10rem;
+      }
+
+      @media (max-width: 480px) {
+        .speaker {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top-bar">
+        <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2025"
+          ><img src="../assets/2025/Langdevlogo.png"
+        /></a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="top-menu">
+          <nav>
+            <a href="../" class="ml2">Home</a>
+            <a href="program" class="ml2">Program</a>
+            <a href="speakers" class="ml2 current">Speakers</a>
+            <a href="venue" class="ml2">Venue</a>
+            <a class="ml2 btn cta" href="https://Langdev.eventbrite.com">Get Tickets</a>
+          </nav>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Speakers will be published on 16/09/2025</h1>
+      </div>
+<!-- 
+      <div class="footer">
+        <p>
+          <strong>LangDev'25</strong> is organized by 
+          <a href="https://www.f1re.nl/">F1RE</a>,
+          <a href="https://www.uva.nl/">University of Amsterdam</a> &amp;
+          <a href="https://www.cwi.nl/">CWI</a>
+        </p>
+        <div class="flex bottom-line">
+          <a href="https://www.uva.nl/" alt="University of Amsterdam"
+            ><img
+              class="logo"
+              alt="Uva"
+              src="../assets/2025/sponsors/UvaLogo.jpg"
+          /></a>
+          <a href="https://www.cwi.nl/"
+            ><img
+              class="logo2"
+              alt="CWI"
+              src="../assets/2025/sponsors/cwi-logo.svg"
+          /></a>
+        </div>
+        <a class="ml2" href="https://x.com/LangDev2025" alt="X"
+          ><img class="icon" src="../assets/2025/x-icon.svg"
+        /></a>
+        <a
+          class="ml2"
+          href="https://www.linkedin.com/in/langdev2025/"
+          alt="Linkedin"
+          ><img class="icon" src="../assets/2025/in-icon.svg"
+        /></a>
+        <a
+          class="ml2"
+          href="https://librecounter.org/referer/show"
+          target="_blank"
+        >
+          <img
+            class="counter"
+            src="https://librecounter.org/outline-orange.svg"
+            referrerpolicy="unsafe-url"
+        /></a>
+      </div> -->
+    </div>
+  </body>
+</html>
