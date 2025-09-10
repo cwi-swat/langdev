@@ -34,3 +34,11 @@ Location: **Amsterdam, NL**
 
 Submit your abstract at: [https://forms.gle/Hnfhd4T8DEyXNTcBA](https://forms.gle/Hnfhd4T8DEyXNTcBA)
 
+### Previous Editions
+
+- [2024, Seville](langdev2024.html)
+- [2023, Utrecht](Langdev2023.html)
+- [2022, Aachen](Langdev2022.html)
+- [2020, Mainz](langdev2020.html)
+- [2019, Amsterdam](Langdev2019.html)
+- [2018, Amsterdam](Langdev2018.html)
