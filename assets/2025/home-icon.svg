@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+	<defs>
+	</defs>
+	<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+		<path d="M 75.847 85.108 H 14.153 c -1.657 0 -3 -1.343 -3 -3 V 41.183 c 0 -1.657 1.343 -3 3 -3 s 3 1.343 3 3 v 37.925 h 55.693 V 41.183 c 0 -1.657 1.343 -3 3 -3 s 3 1.343 3 3 v 40.925 C 78.847 83.766 77.504 85.108 75.847 85.108 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #7E8B9E; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+		<path d="M 86.497 39.099 c -0.58 0 -1.167 -0.168 -1.684 -0.52 L 45 11.52 L 5.187 38.58 c -1.372 0.934 -3.237 0.575 -4.167 -0.794 c -0.932 -1.371 -0.576 -3.236 0.794 -4.167 l 41.5 -28.207 c 1.019 -0.692 2.355 -0.692 3.373 0 l 41.5 28.207 c 1.37 0.931 1.726 2.797 0.795 4.167 C 88.4 38.639 87.457 39.099 86.497 39.099 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #7E8B9E; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+		<path d="M 75.847 19.197 c -1.657 0 -3 -1.343 -3 -3 v -4.812 h -7.626 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 h 10.626 c 1.657 0 3 1.343 3 3 v 7.812 C 78.847 17.854 77.504 19.197 75.847 19.197 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #7E8B9E; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	</g>
+</svg>
