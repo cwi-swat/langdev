@@ -302,66 +302,19 @@
         <div class="session">
           <div class="title">
             <a name="14">
-              Grammar of Forms
+              Introducing Coco: a programming language designed for making formal verification accessible
             </a>
           </div>
-          <div class="author">
-            Herman Peeren
-          </div>
+          <div class="author">Thomas Gibson-Robinson -- Cocotec and Alexander Darmonski -- Sioux</div>
           <div class="abstract">
             <p>
-              An update of my 2023 talk on LangDevCon about Projectional Forms: using (extended) HTML forms to online
-              define a model, meta-model and generator.
-              Starting point is: everything that can be done with code, can be done with forms.
-
-              Some points I want to show:
-            <ul>
-              <li>
-                LionWeb compatibility.
-              </li>
-              <li>
-                From grammar to forms. Patterns. Handling recursive definitions.
-              </li>
-              <li>
-                Building generators with forms.
-              </li>
-            </ul>
-            </p>
-          </div>
-        </div>
-        <div class="session">
-          <div class="title">
-            <a name="15">SysML v2 language in LionWeb
-            </a>
-          </div>
-          <div class="author">Ulyana Tikhonova
-          </div>
-          <div class="abstract">
-            <p>
-              The interoperability of modeling frameworks is an important condition for creating an ecosystem of
-              modeling tools,
-              where one can mix and match components from various technologies and benefit from the best capabilities
-              each tool has to offer.
-              The LionWeb protocol was started with the mission to achieve such interoperability between modeling
-              frameworks and language workbenches.
+              Formal verification is a technique for increasing the reliability of software by mathematically proving the correctness of software, instead of testing. It is particularly useful for software where there are large numbers of potential paths through the code; in such systems formal verification is often the only practical choice for achieving reliable software.
             </p>
             <p>
-              To test the power of LionWeb, we apply it to SysML v2, a general-purpose modeling language, that is highly
-              anticipated in the world of Model Based System Engineering (MBSE).
-              The SysML v2 language has been developed by Object Management Group (OMG) and is prototyped in the
-              open-source pilot implementation.
-              The pilot implementation of SysML v2 uses Eclipse Modeling Framework (EMF) for capturing the structure of
-              the language and Xtext for providing its textual notation.
+              This talk will introduce the Coco language and explore some of the unique design decisions that were made when developing the Coco language. Coco is a particularly unusual language: it is designed to enable formal verification by non-formal-verification experts, and is also designed to generate code in regular programming languages (such as C++) to enable deployment of Coco programs. This talk will also explore how Coco has evolved over time, starting from a primitive DSL to becoming a more general programming language, and will also provide an overview of the implementation of the Coco language frontend. Lastly, we will explain how other companies have made novel uses of Coco as a backend language in order to produce accessible graphical tooling. 
             </p>
             <p>
-              As EMF is already connected to LionWeb, we can use the pilot implementation of SysML v2 to export the
-              metamodel of the SysML v2 language into LionWeb and then reuse it in the other modeling frameworks from
-              the ecosystem,
-              such as JetBrains MPS and Freon. In this talk we demonstrate what it takes to export an EMF-based
-              large-scale language,
-              such as SysML v2, to the LionWeb format; how SysML v2 is imported into the Freon and MPS language
-              workbenches;
-              and what kind of opportunities are created by this ecosystem of interoperable language engineering tools.
+              Coco is a programming language that is specifically designed for developing event-driven software that will be validated using formal verification. It has been used extensively in industry, with large companies such as ASML writing large amounts of software in Coco in order to improve their reliability.
             </p>
           </div>
         </div>
@@ -718,6 +671,98 @@
               We will demonstrate jjodel’s collaborative features through modeling scenarios, showcasing concurrent
               editing, presence awareness, and the effectiveness of this gaming-inspired approach to real-time
               collaborative language engineering.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="41">
+              Grammar of Forms
+            </a>
+          </div>
+          <div class="author">
+            Herman Peeren
+          </div>
+          <div class="abstract">
+            <p>
+              An update of my 2023 talk on LangDevCon about Projectional Forms: using (extended) HTML forms to online
+              define a model, meta-model and generator.
+              Starting point is: everything that can be done with code, can be done with forms.
+
+              Some points I want to show:
+            <ul>
+              <li>
+                LionWeb compatibility.
+              </li>
+              <li>
+                From grammar to forms. Patterns. Handling recursive definitions.
+              </li>
+              <li>
+                Building generators with forms.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="42">SysML v2 language in LionWeb
+            </a>
+          </div>
+          <div class="author">Ulyana Tikhonova
+          </div>
+          <div class="abstract">
+            <p>
+              The interoperability of modeling frameworks is an important condition for creating an ecosystem of
+              modeling tools,
+              where one can mix and match components from various technologies and benefit from the best capabilities
+              each tool has to offer.
+              The LionWeb protocol was started with the mission to achieve such interoperability between modeling
+              frameworks and language workbenches.
+            </p>
+            <p>
+              To test the power of LionWeb, we apply it to SysML v2, a general-purpose modeling language, that is highly
+              anticipated in the world of Model Based System Engineering (MBSE).
+              The SysML v2 language has been developed by Object Management Group (OMG) and is prototyped in the
+              open-source pilot implementation.
+              The pilot implementation of SysML v2 uses Eclipse Modeling Framework (EMF) for capturing the structure of
+              the language and Xtext for providing its textual notation.
+            </p>
+            <p>
+              As EMF is already connected to LionWeb, we can use the pilot implementation of SysML v2 to export the
+              metamodel of the SysML v2 language into LionWeb and then reuse it in the other modeling frameworks from
+              the ecosystem,
+              such as JetBrains MPS and Freon. In this talk we demonstrate what it takes to export an EMF-based
+              large-scale language,
+              such as SysML v2, to the LionWeb format; how SysML v2 is imported into the Freon and MPS language
+              workbenches;
+              and what kind of opportunities are created by this ecosystem of interoperable language engineering tools.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="43">CPSLint: A Domain-Specific Language Enabling Cyber-Physical Systems Dataset Validation and Sanitisation
+            </a>
+          </div>
+          <div class="author">Uraz Odyurt, Ömer Sayilir, Vadim Zaytsev
+          </div>
+          <div class="abstract">
+            <p>
+              Raw datasets are often too large and unstructured to work with directly, necessitating a data preparation process. The domain of industrial Cyber-Physical Systems (CPSs) is no exception, as raw data typically consists of large time-series datasets logging the system’s status by regular time intervals. We introduce CPSLint, a Domain-Specific Language (DSL) designed to enable the data preparation process for industrial CPS. We leverage the fact that many raw datasets in the CPS domain require similar actions to render them suitable for Machine-Learning (ML) solution workflows, e.g., Fault Detection and Identification (FDI) workflows.
+            </p>
+            <p>
+              CPSLint’s main features include enforcing constraints through validation and remediation for data columns, e.g., imputing missing data from surrounding rows, as well as statistical insights. These insights will provide user friendly analytic output such as plots. The more advanced features cover inference of extra CPS-specific data structures, both column-wise and row-wise. For instance, descriptive execution phases as an effective method of data compartmentalisation are extracted and prepared for ML-assisted FDI workflows.
+            </p>
+            <p>
+              As EMF is already connected to LionWeb, we can use the pilot implementation of SysML v2 to export the
+              metamodel of the SysML v2 language into LionWeb and then reuse it in the other modeling frameworks from
+              the ecosystem,
+              such as JetBrains MPS and Freon. In this talk we demonstrate what it takes to export an EMF-based
+              large-scale language,
+              such as SysML v2, to the LionWeb format; how SysML v2 is imported into the Freon and MPS language
+              workbenches;
+              and what kind of opportunities are created by this ecosystem of interoperable language engineering tools.
             </p>
           </div>
         </div>
