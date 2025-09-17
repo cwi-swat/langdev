@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Langdev 2025 - Abstracts</title>
+  <link href="../assets/2025/stylesheet.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="../assets/2025/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../assets/2025/favicon/favicon-32x32.png" sizes="32x32" />
+  <script src="../assets/js/script.js" defer></script>
+  <style>
+    .speaker {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 3rem;
+      margin-bottom: 4rem;
+      border-bottom: 2px solid #7e8b9e;
+    }
+
+    .speaker h2 {
+      color: var(--accent-color);
+    }
+
+    .speaker img {
+      margin-top: 5rem;
+      margin-right: 4rem;
+      width: 12rem;
+      height: 12rem;
+      filter: grayscale(70%) sepia(70%) hue-rotate(141deg) contrast(1) brightness(1) saturate(0.8);
+    }
+
+    .speaker .social {
+      margin-right: 1rem;
+    }
+
+    .speaker .social img {
+      margin-top: 1rem;
+      margin-right: 0rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    .speaker a.social:hover img {
+      filter: grayscale(0%) sepia(100%) hue-rotate(-30deg) saturate(2) brightness(1.2);
+      transition: filter 0.3s ease;
+    }
+
+    h2 {
+      text-align: left;
+      font-size: 1.3rem;
+    }
+
+    .s-affiliation {
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .s-title {
+      font-size: 1.2rem;
+      font-style: normal;
+      margin-left: 3rem;
+    }
+
+    .s-title a:before {
+      content: "◢";
+      margin-right: 0.7rem;
+    }
+
+    .footer {
+      margin-top: 10rem;
+    }
+
+    @media (max-width: 480px) {
+      .speaker {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="top-bar">
+      <a class="langdev-logo" href="https://langdevcon.org" alt="langdev 2025"><img
+          src="../assets/2025/Langdevlogo.png" /></a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="top-menu">
+        <nav>
+          <a href="../" class="ml2">Home</a>
+          <a href="program" class="ml2">Program</a>
+          <a href="abstracts" class="ml2 current">Abstracts</a>
+          <a href="venue" class="ml2">Venue</a>
+          <a class="ml2 btn cta" href="https://Langdev.eventbrite.com">Get Tickets</a>
+        </nav>
+      </div>
+    </div>
+    <div class="content">
+
+      <h1>Abstracts</h1>
+      <div class="session-details">
+        <div class="session">
+          <div class="title">
+            <a name="5">High fidelity source to source transformations with parse tree diff</a>
+          </div>
+          <div class="author">
+            Jurgen Vinju
+          </div>
+          <div class="abstract">
+            <p>
+              To rewrite textual source code, rewriting annotated parse trees using (concrete) pattern matching and
+              substitution,
+              and then unparsing the result, has been the plateau for high fidelity code transformations for almost two
+              decades.
+              Although elegant and easy to use, the tree rewriting mechanism isn't accurate enough by itself for
+              industrial application.
+              Instead, to avoid losing any source code comments and indentation accidentally,
+              language engineers would pattern match on the trees and then collect edit actions (insert, delete,
+              replace) with minute detail.
+            </p>
+            <p>
+              In this talk we present a new parse tree diffing algorithm which automates the task of identifying minimal
+              text edits from a pair of parse trees:
+              the original and the rewritten.
+              These edits then change the program according to the logic of the applied rewrite rules,
+              while keeping source code comments and indentation and other details such as case insensitive keywords
+              intact.
+              A second, inverted, diff algorithm infers edits from a formatted tree,
+              where nothing has changed but the whitespace, for deriving hifi code formatters without loss of comments
+              or case insensitive keywords.
+            </p>
+            <p>
+              The two new language-parametric algorithms are demonstrated on a simple and a complex language, with a
+              simple and a complex transformation.
+              We compare the old noisy result with the new pristine edits and formulate further challenges in generating
+              idiomatic source code using rewrite rules."
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="6">Protostar: an AST solution for ANTLR4 and LionWeb</a>
+          </div>
+          <div class="author">Alessio Stalla</div>
+          <div class="abstract">
+            <p>
+              ANTLR4 is one of the most popular parser generators.
+              ANTLR-generated parsers are robust, performant, and relatively easy to maintain.
+            </p>
+            <p>
+              However, a parser is only the first step in a language engineering solution.
+              Whether it’s a code migration, DSL, compiler, or another system or tool,
+              we’ll need to resolve symbols, run analyses (such as data flow) and validations (such as type checking),
+              interoperate with other systems, etc.
+            </p>
+            <p>
+              An abstract-syntax tree (AST) is the backbone of such advanced features.
+              For that purpose, at Strumenta we have developed a collection of open-source AST libraries called
+              Starlasu,
+              integrating with LionWeb and ANTLR.
+            </p>
+            <p>
+              Currently,writing Starlasu ASTs means writing in one of the supported general-purpose languages,
+              such as Kotlin, Python, TypeScript, and others. There’s a mismatch between the domain – AST construction,
+              traversal, transformation etc.
+              – and the implementation language, that libraries in the Starlasu family can fill only partially.
+            </p>
+            <p>
+              That’s why we designed and built Protostar, a language specialized on AST design,
+              based on LionWeb and integrated with ANTLR. From Protostar declarative code we generate a Starlasu AST,
+              transformers from ANTLR parse trees to the AST, and LionWeb integration code.
+            </p>
+            <p>
+              Protostar comes with a Gradle plugin for integrating it into your build,
+              and lightweight IDE support through the Language Server Protocol.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="7">Rejuvenating a 40y old DSL environment</a>
+          </div>
+          <div class="author">Davy Landman</div>
+          <div class="abstract">
+            <p>
+              Imagine designing DSLs in a time where 4GL and Oracle Forms looked like the future.
+              Now step into a time machine and 40 years later, there are many lines of code written in your language.
+              A big success.
+              Except that time machine didn't exist, you're already on your pension,
+              and a different group of people has been responsible for maintaining the language and it's environment.
+            </p>
+            <p>
+              Swat.engineering was tasked to rejuvinate this language and environment.
+              We're going to share our experience of this migration and how managed to solve some of the new
+              requirements using new DSLs.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="11">Apricot: Collaborative Modeling for SysML2</a>
+          </div>
+          <div class="author">Pedro J. Molina, PhD / (Metadev)
+          </div>
+          <div class="abstract">
+            <p>
+              SysML v2 is gaining strong momentum in aerospace and other engineering domains.
+              At Metadev, we are developing Apricot, a web-based collaborative editor for SysML2 models (<a
+                href="https://apricot.metadev.pro">https://apricot.metadev.pro</a>).
+              Apricot is designed to support team-based modeling workflows, enabling engineers to build, share, and
+              evolve SysML2 models collaboratively.
+              This talk will present the challenges and solutions behind Apricot’s design from a language engineering
+              perspective:
+            <ul>
+              <li>Handling the breadth of the SysML2 specification, which defines hundreds of interrelated concepts.
+              </li>
+              <li>Organizing this complexity into an accessible and productive modeling environment.</li>
+              <li>Addressing model persistence, versioning, and permission management in a collaborative setting.</li>
+              <li>Applying DSL techniques and language workbench concepts to SysML2 tool support.</li>
+            </ul>
+            </p>
+            <p>
+              The presentation will include a live demo of Apricot, showcasing how these ideas translate into practice
+              and how language engineering can help bring SysML2 adoption to real-world engineering teams.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="12">Leveraging a functional database in language engineering: the case of specifying product
+              behavior.</a>
+          </div>
+          <div class="author">Jennek Geels, Pieter Verduin</div>
+          <div class="abstract">
+            <p>
+              In this industry case we present a tool for domain experts specifying the behavior of a complex printing
+              system – interactively, incrementally and collectively.
+              This should result in validated and verified models of product behavior that can be handed over to
+              developers.
+            </p>
+            <p>
+              For the specification of product behavior, we have adopted two complementary languages: Gherkin and
+              MuDForM.
+              It is our aim to give these languages execution semantics such that we can connect them: using Gherkin
+              scenarios as tests verifying the MuDForM models.
+              We achieved this by adopting a functional state model.
+              A functional state model has append-only semantics, meaning that facts are not updated in place, but new
+              facts accumulate and may override previous facts.
+            </p>
+            <p>
+              To realize this state model, we chose Datomic, a database that has the desired append-only semantics
+              built-in.
+              Datomic comes with a rich API that is battle-tested. To leverage this API, we worked with the Clojure
+              language, a modern JVM based LISP.
+              Rather than re-implement concepts from JetBrains MPS (our platform for the past five years) we embraced a
+              fresh, fully functional design approach – capitalizing on the knowledge of the Clojure/Datomic community.
+              This has proven highly rewarding.
+            </p>
+            <p>In the first phase (now completed), we took an internal DSL approach, building the above languages, the
+              models and the interpreter with pure Clojure functions acting on a Datomic database.
+              We will demonstrate our prototype, which is being rolled out to our target audience as we speak.
+              Also, we will share insights into how functional thinking has shaped our language engineering practices
+            </p>
+            <p>
+              In the second phase (just initiated), we are transitioning to an external DSL approach by integrating
+              Freon using LionWeb protocols.
+              We will outline our strategy for bridging the gap between LionWeb and our functional approach to language
+              engineering.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="13">
+              Applying DSL methodology to digital hardware design: a case study of an AI accelerator
+            </a>
+          </div>
+          <div class="author">Luca De Santis</div>
+          <div class="abstract">
+            <p>
+              The rapidly increasing complexity of digital hardware, particularly in the domain of artificial
+              intelligence (AI) accelerators, calls for design methodologies that enhance abstraction, productivity,
+              reliability, and robustness-by-design.
+              Domain-Specific Language (DSL) methodologies offer a promising solution by allowing designers to express
+              hardware intent at a higher level of abstraction while retaining fine-grained control over low-level
+              implementation details.
+            </p>
+            <p>
+              This talk presents a case study on applying DSL methodology to the design of a configurable AI
+              accelerator. We describe the guiding principles of the DSL approach, illustrate its integration with
+              conventional hardware description workflows, and highlight the resulting benefits in terms of design
+              clarity, reusability, and verification.
+              The study demonstrates the potential of DSL methodologies as a practical and effective tool for
+              next-generation digital hardware design, with particular emphasis on AI-oriented architectures."
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="14">
+              Grammar of Forms
+            </a>
+          </div>
+          <div class="author">
+            Herman Peeren
+          </div>
+          <div class="abstract">
+            <p>
+              An update of my 2023 talk on LangDevCon about Projectional Forms: using (extended) HTML forms to online
+              define a model, meta-model and generator.
+              Starting point is: everything that can be done with code, can be done with forms.
+
+              Some points I want to show:
+            <ul>
+              <li>
+                LionWeb compatibility.
+              </li>
+              <li>
+                From grammar to forms. Patterns. Handling recursive definitions.
+              </li>
+              <li>
+                Building generators with forms.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="15">SysML v2 language in LionWeb
+            </a>
+          </div>
+          <div class="author">Ulyana Tikhonova
+          </div>
+          <div class="abstract">
+            <p>
+              The interoperability of modeling frameworks is an important condition for creating an ecosystem of
+              modeling tools,
+              where one can mix and match components from various technologies and benefit from the best capabilities
+              each tool has to offer.
+              The LionWeb protocol was started with the mission to achieve such interoperability between modeling
+              frameworks and language workbenches.
+            </p>
+            <p>
+              To test the power of LionWeb, we apply it to SysML v2, a general-purpose modeling language, that is highly
+              anticipated in the world of Model Based System Engineering (MBSE).
+              The SysML v2 language has been developed by Object Management Group (OMG) and is prototyped in the
+              open-source pilot implementation.
+              The pilot implementation of SysML v2 uses Eclipse Modeling Framework (EMF) for capturing the structure of
+              the language and Xtext for providing its textual notation.
+            </p>
+            <p>
+              As EMF is already connected to LionWeb, we can use the pilot implementation of SysML v2 to export the
+              metamodel of the SysML v2 language into LionWeb and then reuse it in the other modeling frameworks from
+              the ecosystem,
+              such as JetBrains MPS and Freon. In this talk we demonstrate what it takes to export an EMF-based
+              large-scale language,
+              such as SysML v2, to the LionWeb format; how SysML v2 is imported into the Freon and MPS language
+              workbenches;
+              and what kind of opportunities are created by this ecosystem of interoperable language engineering tools.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="19">Bridging Worlds: Real-time Synchronization between MPS and Web Apps with Modelix
+            </a>
+          </div>
+          <div class="author">Alexei Quapp
+          </div>
+          <div class="abstract">
+            <p>
+              Collaborating on complex models in desktop-based MPS applications often relies on cumbersome, Git-based
+              workflows, creating significant overhead for subject matter experts, especially during review cycles. This
+              talk presents a hybrid approach that bridges the gap between powerful, feature-rich MPS clients and
+              modern, collaborative web applications.
+            </p>
+            <p>
+              Leveraging Modelix and its dedicated MPS plugin, we enable real-time, bi-directional synchronization
+              between a standalone MPS instance and a web-based editor. We will showcase this solution with a case study
+              of an itemis product, demonstrating how subject matter experts using the established desktop application
+              can seamlessly interact with reviewers on its new web-based counterpart. The presentation will feature a
+              live demonstration of a cross-platform review scenario, highlighting how this architecture eliminates
+              setup friction and streamlines the collaborative modeling workflow.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="20">LionWeb’s delta protocol: incremental model changes
+            </a>
+          </div>
+          <div class="author">LionWeb initiative
+          </div>
+          <div class="abstract">
+            <p>Propagating model changes incrementally is an important capability to have: it improves performance by
+              reducing network bandwidth usage and lag, it’s essential for implementing collaborative editing á la
+              GoogleDocs, and potentially avoids re-computations — with some assumptions on the nature of the
+              computation.
+            </p>
+            <p>
+              Much of last year’s work by the LionWeb initiative has gone into specifying and implementing the LionWeb
+              delta protocol which enables support for propagating changes in models incrementally. In this talk, we’ll
+              update you on the state of this specification, explain the architectural ideas behind it, and demo the
+              current implementations of LionWeb delta protocol-compliant clients and repositories on various platforms,
+              including C# and TypeScript.
+
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="21">Making DSLs conversable
+            </a>
+          </div>
+          <div class="author">Krishna Narasimhan
+          </div>
+          <div class="abstract">
+            <p>DSLs allow experts to express complex business logic in a precise and formal way. One of their major
+              limitations, is accessibility; they require users to learn a specific tool(and syntax), which creates a
+              barrier for non-technical stakeholders. Our approach addresses this by using an LLM as a controlled parser
+              for unstructured input, not as a general reasoner. The framework relies on a set of artifacts that
+              formalize the domain: a grammar, an interpreter for semantic validation, and a 'linguistic connector' that
+              maps formal DSL constructs to natural language prompts. This architecture decouples the domain's semantics
+              from the conversational mechanics, allowing the underlying DSL and its validation rules to serve as the
+              verifiable source of truth, while the LLM's role is restricted to a Natural language - DSL translator.
+            </p>
+            <p>
+              In our demonstration, we first test the system's depth against a DSL encompassing a detailed set of
+              validation rules. We will test the system with vague or incomplete queries, to show how the system
+              leverages the DSL's validation rules to guide the user with clarifying questions and prevent invalid
+              operations. Then, to illustrate the framework's adaptability, we will configure it live for a second,
+              lightweight DSL. This will demonstrate how the linguistic connector reduces the need for manual prompt
+              engineering while extending the system to a new domain.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="22">Integrated graphical and textual modelling using GLSP and Langium
+            </a>
+          </div>
+          <div class="author">
+            Andreas Hell
+
+          </div>
+          <div class="abstract">
+            <p>Many domain-specific modelling languages (DSMLs) combine graphical and textual elements. While it is
+              often possible to get away with simple textual labels, many situations require more complex textual
+              sub-languages. For example, consider the use of condition expressions in flowchart-like languages or
+              action specifications in statechart-like languages.
+            </p>
+            <p>
+              Developing tool support for DSMLs that integrate expressive graphical and textual elements requires
+              combining two different paradigms for language processing: projectional editing for the graphical elements
+              and a parsing-based approach for the textual elements. A purely projectional approach quickly becomes
+              inconvenient (necessitating parser integrations like grammar cells available in the MPS technology space),
+              and parsing-based approaches currently do not handle graphical languages well. For modern web-based
+              language workbenches, such integrations are currently not well supported.
+            </p>
+            <p>
+              We present a reusable framework for integrating text-based grammar support using Langium into the
+              graphical model of GLSP-based languages. The backend maintains a complete abstract-syntax graph,
+              irrespective of whether a particular part of the model is edited graphically or textually. Langium-managed
+              text elements automatically manage scoping across the entire model contents, enabling scenarios where the
+              position of a text node in the graphical model can influence the elements available during linking. The
+              framework is available open source, and we invite the community to integrate it into their own languages.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="23">LZA-Editor: Accelerating Cloud Migrations with Compliance
+            </a>
+          </div>
+          <div class="author">Pedro J. Molina
+          </div>
+          <div class="abstract">
+            <p>Many companies keep moving their software to the cloud to improve scalability, availability, and reduce
+              costs.
+              However, rapid migrations without the necessary expertise often result in suboptimal deployments and weak
+              security configurations.
+              Such misconfigurations pose significant risks, including potential attack vectors when applications are
+              exposed in the cloud.
+              In this short demo, we will present LZA-Editor (Landing Zone Acceleration), a web-based, model-driven tool
+              developed by Metadev for Ingram Micro and AWS Spain.
+              The tool accelerates cloud deployments while ensuring security and compliance with ENS (the Spanish
+              National Security Scheme).
+              LZA-Editor is designed for executives and managers (non-developer roles) to blueprint cloud deployment
+              strategies that meet security compliance requirements. It simplifies complexity by integrating policy
+              enforcement, network design, and backup strategies, while embedding industry best practices by default.
+              <a href="https://lza-editor.metadev.pro">https://lza-editor.metadev.pro</a>
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="27">
+              Freon-Powered: Crafting Web-Native DSL Editors That Wow</a>
+          </div>
+          <div class="author">Jos Warmer</div>
+          <div class="abstract">
+            <p>Domain-Specific Languages (DSLs) have long been tied to specialized desktop environments. Yet, as
+              software increasingly moves to the web, so too does the demand for DSL tooling that feels at home in the
+              browser.
+            </p>
+            <p>
+              Simply running existing DSL tools in the browser is not enough. It often misses the smooth, interactive
+              experience users expect from modern web apps.
+            </p>
+            <p>
+              Freon takes a browser-first approach, offering a rich set of native UI components, like checkboxes, radio
+              buttons, sliders, and more, straight out of the box for an instantly familiar user experience. The variety
+              of potential UI components in the web ecosystem is vast and ever-growing.
+            </p>
+            <p>
+              Rather than trying to pre-build them all, Freon introduces a flexible plugin mechanism that allows
+              seamless integration of external components into the DSL editor. Even better, built-in Freon components
+              can be embedded recursively inside external ones, enabling deep customization and a consistent user
+              experience. This approach makes it possible to tailor DSL editors to end-users while preserving the look,
+              feel, and responsiveness of a true web application.
+            </p>
+            <p>
+              In fact, the entire Freon DSL editor is itself a reusable component, ready to be embedded directly into
+              any web app, allowing DSL capabilities to blend into existing workflows rather than forcing users into a
+              separate tool.
+            </p>
+            <p>
+              In this session, we’ll showcase how multiple external components can be integrated into Freon,
+              demonstrating how a DSL editor can be both powerful and natively web-friendly.
+            </p>
+            <strong>SHORT VERSION FOR PROGRAM OVERVIEW</strong>
+            <p>
+              Freon brings DSL editing into the browser with a native web experience. Instead of just porting desktop
+              tools, it offers built-in UI components and a plugin system to seamlessly integrate external ones—while
+              keeping everything consistent and customizable. The entire editor is itself a component, ready to embed in
+              any web app. In this talk, we’ll show how Freon makes DSLs feel like they truly belong on the web.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="28">Building Visual Models with Daga
+
+            </a>
+          </div>
+          <div class="author">
+            Javier Centeno Vega
+
+          </div>
+          <div class="abstract">
+            <p>
+              Daga is a versatile graphical diagramming tool which can be added into web applications to enable the user
+              to view, create and edit a wide variety of customizable graphical models consisting of nodes and
+              connections. It allows the creation of nocode or lowcode solutions.
+            </p>
+            <p>
+              Among its many uses cases, we have created applications that use Daga to work with a variety of
+              established diagram notations such as UML diagrams, BPMN 2.0 and SysML 2.0 as well as custom diagrams to
+              model CMDBs (Configuration Management Databases) and container deployment models (Docker and Kubernetes).
+            </p>
+            <p>
+              In this talk we will show not only the versatility of Daga for a variety of diagrams, but also features
+              that can be implemented with it, such as real-time collaboration using CRDTs and importing/exporting the
+              diagram with custom data formats.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="29">Jjodel and Layout-Sensitive Notation: Ensuring Semantic Integrity Beyond Topology
+
+            </a>
+          </div>
+          <div class="author">Alfonso Pierantonio, Antonio Bucchiarone, Juri Di Rocco, Damiano Di Vincenzo
+
+          </div>
+          <div class="abstract">
+            <p>Jjodel is a cloud-native reflective workbench that lowers barriers to language engineering by offering
+              modular viewpoints for syntax, validation, and semantics in a low-code environment. While diagrammatic
+              notations in software engineering are typically topological, capturing structure through connectivity,
+              many engineering domains, such as railway interlocking, rely on layout-sensitive notations where meaning
+              is conveyed by spatial configuration . These notations pose challenges not addressed by mainstream
+              meta-editors like GMF or Sirius, since layout is traditionally treated as a rendering concern rather than
+              a semantic one.
+            </p>
+            <p>
+              In layout-sensitive languages, semantics is often defined directly on the concrete syntax, which works
+              well for human interpretation but undermines correctness when models are subject to automated
+              transformations. Models that differ only in layout may share the same abstract syntax, jeopardizing the
+              uniqueness of semantic interpretation. To address this, we present a formal framework that distinguishes
+              explicit and implicit layout semantics and derives a set of requirements for unambiguous mapping from
+              concrete to abstract syntax. These requirements cover layout extraction, semantic integration,
+              abstraction, co-evolution, and automation readiness, ensuring that positional distinctions are preserved
+              without polluting metamodels.
+            </p>
+            <p>
+              The talk introduces these principles through Jjodel, illustrating how its reflective architecture supports
+              layout-sensitive notations while maintaining semantic integrity. A live demonstration using a simple
+              algebraic notation highlights the trade-offs: while minimal, the case captures how spatial order affects
+              semantics and how Jjodel enforces correctness under layout changes. This positions Jjodel as a testbed for
+              advancing meta-language support for layout-sensitive domains, bridging the gap between human-centric
+              diagrammatic practices and automation-driven MDE.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="38">SpaceTime Programming: Live and Omniscient Exploration of Code and Execution
+
+            </a>
+          </div>
+          <div class="author">Jean-Baptiste Doderlein
+
+          </div>
+          <div class="abstract">
+            <p>
+              Programming environments typically separate the world of static code from the dynamic execution of
+              programs. Developers must switch between writing code and observing its
+              execution, often with limited tools to understand the relationship between code changes and runtime
+              behavior. While several approaches exist to bridge this gap—exploratory programming for comparing code
+              variants, live programming for instant feedback, and omniscient debugging for exploring execution
+              history—existing solutions tend to focus on specific aspects rather than providing a fully integrated
+              environment.
+            </p>
+            <p>
+              In this talk, we introduce the new concept of SpaceTime Programming, a novel approach that unifies these
+              paradigms to create a seamless environment for exploring both code modifications and execution flow. At
+              the core of our approach is a trace mechanism that captures not only execution state but also the
+              corresponding code changes, enabling developers to explore programs in both space (code variants) and time
+              (execution flow). We demonstrate this concept through two case studies: a live omniscient debugger, and a
+              Flappy Bird game instrumented to support live and omniscient exploration.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="39">Omniscient Debugging for Change-Based DSLs
+
+            </a>
+          </div>
+          <div class="author">Riemer van Rozen and Jakub Kaşıkcı
+
+          </div>
+          <div class="abstract">
+            <p>
+              Omniscient debugging lets developers test hypotheses and explore what-if scenarios without requiring
+              restarts. Instead of only stepping forward through the execution, developers can also look back and
+              inspect run-time histories. However, debuggers typically record histories as snapshots of program states,
+              omitting the changes and causal relationships needed to answer why-questions [2].
+            </p>
+            <p>
+              Cascade has introduced cause-and-effect chains as a generic engine that powers change-based
+              Domain-Specific Languages (DSLs) for live programming [3]. We aim to create a reusable omniscient debugger
+              for change-based DSLs by integrating debugging mechanisms with cause-and-effect chains.
+            </p>
+            <p>
+              After a brief introduction [2], we give a live demo of a reusable omniscient debugger that provides a
+              select-and-filter mechanism for answering why-questions [1]. We illustrate how to isolate issues and
+              identify root causes for the Live State Machine Language, showing both executions from recorded histories
+              and live sessions. The new interaction model supports practical and reusable omniscient debugging for
+              change-based DSLs.
+            </p>
+            <p>
+              Keywords.
+              Domain-Specific Languages, Omniscient Debugging, Execution Traces, Live Programming, Cause-and-Effect
+              Chains, Language Workbenches
+            </p>
+            <p>
+            <ul>
+              <li>
+                [1] Jakub Kaşıkcı. 2025. Omniscient Debugging for Change-Based Domain-Specific Languages. Master’s
+                thesis.
+                University of Amsterdam. Ongoing project.
+              </li>
+              <li>
+                [2] Jakub Kaşıkcı, Riemer van Rozen, and Tijs van der Storm. 2025. Omniscient Debugging: A Systematic
+                Mapping Study. (2025). Ongoing work.
+              </li>
+              <li>
+                [3] Riemer van Rozen. 2023. Cascade: A Meta-Language for Change, Cause and Effect. In Software Language
+                Engineering. ACM.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="40">jodel: Real-Time Rooms for Collaborative Modeling</a>
+          </div>
+          <div class="author">Juri Di Rocco</div>
+          <div class="abstract">
+            <p>This presentation introduces the collaborative architecture of jjodel, a cloud-based modeling platform
+              that allows real-time, multi-user collaborative modeling. jjodel draws inspiration from the gaming domain,
+              particularly from multiplayer games where actions are executed and broadcast instantly to all
+              participants. It employs a room-based collaboration model, where every modeling action is immediately
+              shared with all connected users, ensuring everyone has a consistent and up-to-date view of the artifacts
+              being worked on.
+            </p>
+            <p>
+              The backend is implemented using socket-based communication, which supports low-latency synchronization.
+              Additionally, jjodel features an Action Language that represents change operations in a uniform manner.
+              This DSL ensures that edits can be consistently propagated, replayed, and analyzed across clients. To
+              store collaboration data, jjodel utilizes a persistence layer that maintains both the current state and
+              the history of collaborative sessions.
+            </p>
+            <p>
+              Similar to online games where conflicts are minimized because all players can instantly see and react to
+              the same actions, jjodel reduces conflicts by synchronizing updates immediately across clients. This
+              results in a smooth and reliable collaborative modeling experience.
+            </p>
+            <p>
+              We will demonstrate jjodel’s collaborative features through modeling scenarios, showcasing concurrent
+              editing, presence awareness, and the effectiveness of this gaming-inspired approach to real-time
+              collaborative language engineering.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="45">The Freon Scoping Meta-Language, A Novel and Simple Approach to Defining Name-Binding Rules for
+              Domain-Specific Languages</a>
+          </div>
+          <div class="author">
+            Anneke Kleppe
+
+          </div>
+          <div class="abstract">
+            <p>
+              Freon is a lightweight, web-native language workbench for rapidly building domain-specific languages
+              (DSLs) with projectional editors and modular tooling. In its latest version, Freon introduces a dedicated
+              scoping meta-language that allows language designers to declaratively define name-binding and resolution
+              rules—removing the need for boilerplate or low-level implementation code.
+
+              This talk will introduce the scoping meta-language and show how it:
+            <ul>
+              <li>Captures common scoping patterns—nested scopes, imports, cross-references—in a concise, reusable
+                notation.</li>
+              <li>Supports extension and customization to match the binding semantics of complex DSLs.</li>
+              <li>Integrates seamlessly with Freon’s meta-toolchain to provide immediate feedback in the editor.</li>
+            </ul>
+            </p>
+            <p>
+              Using a working DSL example, I will demonstrate how these declarative rules are encoded, tested, and
+              applied
+              in practice, and how they interact with other Freon modules such as typing and validation. Although
+              scoping
+              is a fundamental aspect of virtually every DSL, it has often been treated as a secondary concern in
+              language
+              workbenches—receiving less attention than syntax or type systems. This presentation puts scoping center
+              stage, showing how Freon’s meta-language turns what is usually an overlooked, intricate problem into a
+              clear, concise, and highly maintainable specification.
+            </p>
+            <strong>Short program version</strong>
+            <p>
+              Scoping is essential to every domain-specific language, yet often receives little attention in language
+              workbenches. This talk presents Freon’s new scoping meta-language—a declarative, extensible way to define
+              name-binding rules that makes scope management both simpler and more powerful. Through a live DSL example,
+              we’ll show how this approach streamlines language design while reducing implementation effort.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="46">Meta-Generators in JetBrains MPS realized with the MPS Generator Language
+            </a>
+          </div>
+          <div class="author">
+            Torsten Görg
+
+          </div>
+          <div class="abstract">
+            <p>
+              In JetBrains MPS all models are instances of MPS languages, including the models that specify an MPS
+              language itself. This allows to programmatically generate models for all aspects of an MPS language.
+              As a proof of concept, we have set up a generator to create the generator aspect of an MPS language. We
+              show that this is even possible on a high level of abstraction with generator templates using the MPS
+              generator language. In the end, it is an MPS meta-generator that we created: an MPS generator that
+              generates MPS generators.
+            </p>
+            <p>
+              An interesting question in the context of meta-generators is how to control the evaluation time of macros
+              in the generator templates. Furthermore, we introduced a mechanism to weave the generated generator code
+              with hand-crafted code parts for tailoring the generated generators. We also identified limitations where
+              MPS seems to not allow for perfectly nice solutions for some meta-generator details.
+              As an application example, we use our meta-generator approach to export arbitrary MPS model data in XML
+              format. A meta-generator takes the structure aspect of an MPS language as input and generates a respective
+              MPS generator which transforms models of this language into models of the standard MPS XML language. The
+              output format can easily be changed by switching to another meta-generator.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="47">CoCoCoLa — Taste the Filtering
+            </a>
+          </div>
+          <div class="author">Nhat Bui
+          </div>
+          <div class="abstract">
+            <p>
+              With great power comes great complexity. Modern code completion systems have evolved to offer increasingly
+              sophisticated suggestions. At the same time, as they grow more capable, their results also become busier
+              and noisier. Avalanches of suggestions can overwhelm rather than assist, leading to cognitive fatigue and
+              reduced productivity.
+            </p>
+            <p>
+              In this talk, we will introduce CoCoCoLa (Code Completion Control Language) — an alternative approach that
+              puts the users back in control by enabling them to specify and filter for desired properties in the
+              presented suggestions. Instead of relying solely on implicit context and heuristics, CoCoCoLa allows
+              developers to articulate their needs explicitly. In addition, we will share the design choices behind
+              CoCoCoLa and explore a working proof-of-concept prototype for the IntelliJ platform. Through this talk, we
+              aim to offer a first taste of a more controllable and transparent code completion experience.
+            </p>
+          </div>
+        </div>
+        <div class="session">
+          <div class="title">
+            <a name="48">Nelumbo Logic Meta Language</a>
+          </div>
+          <div class="author">Wim Bast
+
+          </div>
+          <div class="abstract">
+            <p>Nelumbo is a new language designed for DSL development and logic programming. With Nelumbo, you can
+              define the syntax and semantics of your language, and immediately parse, test, and execute your
+              definitions. Nelumbo offers fully declarative semantics. Nelumbo is open source and you are invited to
+              participate in its development. Wim will give a live demo and discuss the rationale behind Nelumbo's
+              creation.
+              <a href="https://github.com/ModelingValueGroup/nelumbo">https://github.com/ModelingValueGroup/nelumbo</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        <strong>LangDev'25</strong> is organized by
+        <a href="https://www.f1re.nl/">F1RE</a>,
+        <a href="https://www.uva.nl/">University of Amsterdam</a> &amp;
+        <a href="https://www.cwi.nl/">CWI</a>
+      </p>
+      <div class="flex bottom-line">
+        <a href="https://www.f1re.nl/" alt="F1RE"><img class="logo" alt="F1RE"
+            src="../assets/2025/sponsors/f1re-logo.png" /></a>
+        <a href="https://www.uva.nl/" alt="University of Amsterdam"><img class="logo" alt="Uva"
+            src="../assets/2025/sponsors/uva-logo.png" /></a>
+        <a href="https://www.cwi.nl/"><img class="logo2" alt="CWI" src="../assets/2025/sponsors/cwi-logo.svg" /></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
