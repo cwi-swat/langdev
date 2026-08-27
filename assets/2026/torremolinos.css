@@ -733,34 +733,15 @@ table.schedule {
   width: 100%;
 }
 
-table.schedule.day1 td:nth-child(1) {
+table.schedule.day2 tr td:nth-child(1) {
   text-align: right;
   width: 50px;
 }
 
-table.schedule.day1 tr.tl td:nth-child(1) {
-  text-align: left;
+table.schedule.day2 tr.tl td {
+  text-align: center;
 }
 
-table.schedule.day1 td:nth-child(2) {
-  width: 30%;
-}
-
-table.schedule.day1 td:nth-child(3) {
-  width: 15%;
-}
-table.schedule.day1 td:nth-child(4) {
-  width: 30%;
-}
-
-table.schedule.day1 td:nth-child(5) {
-  width: 15%;
-}
-
-table.schedule td:nth-child(1) {
-  text-align: right;
-  width: 50px;
-}
 table.schedule td:nth-child(2) {
   width: 60%;
 }
